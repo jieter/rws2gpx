@@ -5,7 +5,15 @@
 # https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh
 
 import csv
+import os
 import sys
+
+areas = {
+    'IJsselmeerS': [[52.2, 4.55], [52.9, 6.1]],
+    'IJselmeerN_WaddenzeeW': [[53.1, 5.2], [53.5, 5.75]],
+    'WaddenzeeE': [[53.1, 5.2], [53.6, 7.2]],
+    'alles': [[49, 1], [57, 9]]
+}
 
 gpx_format = '''<?xml version="1.0"?>
 <gpx version="1.0" creator="rws2gpx.py">
@@ -90,6 +98,7 @@ def convert_row(row):
 
         # 'raw': row
     }
+
 def convert_file(filename):
     data = []
     with open(filename) as csvfile:
@@ -102,23 +111,37 @@ def convert_file(filename):
                 print('Failed parsing: %s' % str(e))
                 for item in row.items():
                     print('%20s: %s' % item)
-
-
     return data
 
 def gpx_waypoint(x):
     return gpx_waypoint_format.format(**x)
 
-def gpx(rows):
-    waypoints = map(gpx_waypoint, rows)
+def bounds_contain(bounds):
+    def contains(data):
+        return (
+            bounds[0][1] < data['lon'] < bounds[1][1] and
+            bounds[0][0] < data['lat'] < bounds[1][0]
+        )
+    return contains
+
+def gpx(data):
+    waypoints = map(gpx_waypoint, data)
     return gpx_format.format('\n'.join(waypoints))
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
         data = convert_file(sys.argv[1])
 
-        with open('output.gpx', 'w') as outfile:
-            outfile.write(gpx(data))
+        if not os.path.exists('output'):
+            os.mkdir('output')
+
+        print('%6s | %10s' % ('aantal', 'bestandsnaam'))
+        for filename, bounds in areas.items():
+            file_data = filter(bounds_contain(bounds), data)
+            with open(os.path.join('output', filename + '.gpx'), 'w') as outfile:
+                outfile.write(gpx(data))
+            print('%6d | %s.gpx' % (len(file_data), filename))
+
 
     else:
         print('''Usage:
