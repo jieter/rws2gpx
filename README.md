@@ -10,6 +10,7 @@ Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen da
 # TODO:
  - [ ] Toptekens
  - [ ] Lichten
+ - [ ] Beschrijving (`<desc></desc>`) [@nohals's version](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx.sh#L46)
 
 # UserIcons:
 
