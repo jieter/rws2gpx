@@ -2,7 +2,7 @@
 
 Rijkswaterstaat drijvende markeringen naar CSV converteren
 
-1. Download `yymmdd_DNZ_002a_markeringen_drijvend.csv`
+1. Download `yymmdd_DNZ_002a_markeringen_drijvend.csv` van http://www.vaarweginformatie.nl/fdd/main/infra/downloads
 2. Converteer: `python rws2gpx.py <bestandsnaam.csv>`
 
 Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen dan vervolgens in OpenCPN worden ingeladen.
