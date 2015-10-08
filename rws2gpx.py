@@ -16,33 +16,6 @@ areas = {
     'alles': [[50, 1.5], [55, 9]]
 }
 
-def debug_bounds():
-    import json
-
-    features = []
-    for name, bounds in areas.items():
-        features.append({
-            'type': 'Feature',
-            'properties': {'name': name},
-            'geometry': {
-                'type': 'Polygon',
-                'coordinates': [[
-                    bounds[0][::-1],
-                    [bounds[1][1], bounds[0][0]],
-                    bounds[1][::-1],
-                    [bounds[0][1], bounds[1][0]],
-                    bounds[0][::-1]
-                ]]
-            }
-        })
-
-    return json.dumps({
-        'type': 'FeatureCollection',
-        'features': features
-    })
-
-
-
 gpx_format = '''<?xml version="1.0"?>
 <gpx version="1.0" creator="rws2gpx.py">
 {}
@@ -96,6 +69,32 @@ lights = {
 #     'liggend_kruis':
 # }
 
+def debug_bounds():
+    'Returns a GeoJSON string to inspect the bounds (for example in geojson.io)'
+    import json
+
+    features = []
+    for name, bounds in areas.items():
+        features.append({
+            'type': 'Feature',
+            'properties': {'name': name},
+            'geometry': {
+                'type': 'Polygon',
+                'coordinates': [[
+                    bounds[0][::-1],
+                    [bounds[1][1], bounds[0][0]],
+                    bounds[1][::-1],
+                    [bounds[0][1], bounds[1][0]],
+                    bounds[0][::-1]
+                ]]
+            }
+        })
+
+    return json.dumps({
+        'type': 'FeatureCollection',
+        'features': features
+    })
+
 class NoCoordsException(Exception):
     pass
 
@@ -121,9 +120,8 @@ def convert_row(row):
         'vaarwater': row['VAARWATER'],
         'symbol': symbol(row),
         'name': row['BENAMING'],
-        # 'topmark': symbol(row, keys=('TT_TOPTEK', 'TT_KLEUR')),
+        # 'topmark': topmark(row),
         # ''
-
         # 'raw': row
     }
 
