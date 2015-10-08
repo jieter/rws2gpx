@@ -69,26 +69,37 @@ lights = {
 #     'liggend_kruis':
 # }
 
+def geojson_feature(feature_type, coordinates, properties=None, **kwargs):
+    properties = properties or {}
+    properties.update(kwargs)
+    return {
+        'type': 'Feature',
+        'properties': properties,
+        'geometry': {
+            'type': feature_type,
+            'coordinates': coordinates
+        }
+    }
+
+def geojson_polygon(coords, properties=None, **kwargs):
+    return geojson_feature('Polygon', coords, properties, **kwargs)
+
+def geojson_point(coord, properties=None, **kwargs):
+    return geojson_feature('Point', coord, properties, **kwargs)
+
 def debug_bounds():
     'Returns a GeoJSON string to inspect the bounds (for example in geojson.io)'
     import json
 
     features = []
     for name, bounds in areas.items():
-        features.append({
-            'type': 'Feature',
-            'properties': {'name': name},
-            'geometry': {
-                'type': 'Polygon',
-                'coordinates': [[
-                    bounds[0][::-1],
-                    [bounds[1][1], bounds[0][0]],
-                    bounds[1][::-1],
-                    [bounds[0][1], bounds[1][0]],
-                    bounds[0][::-1]
-                ]]
-            }
-        })
+        features.append(geojson_polygon([[
+            bounds[0][::-1],
+            [bounds[1][1], bounds[0][0]],
+            bounds[1][::-1],
+            [bounds[0][1], bounds[1][0]],
+            bounds[0][::-1]
+        ]], name=name))
 
     return json.dumps({
         'type': 'FeatureCollection',
