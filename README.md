@@ -7,6 +7,10 @@ Rijkswaterstaat drijvende markeringen naar CSV converteren
 
 Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen dan vervolgens in OpenCPN worden ingeladen.
 
+# TODO:
+ - [ ] Toptekens
+ - [ ] Lichten
+
 # UserIcons:
 
 Zie ook [OpenCPN manual over user icons](http://opencpn.org/ocpn/user_icons)
@@ -16,6 +20,6 @@ Pak het zip-bestand uit in de configuratiedirectory van OpenCPN. De locatie van 
 
 # Attribution:
 
-nohal, rooiedirk
+[@nohal](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh), rooiedirk
 
 shell script version: https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh
