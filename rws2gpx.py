@@ -10,10 +10,38 @@ import sys
 
 areas = {
     'IJsselmeerS': [[52.2, 4.55], [52.9, 6.1]],
-    'IJselmeerN_WaddenzeeW': [[53.1, 5.2], [53.5, 5.75]],
+    'IJselmeerN_WaddenzeeW': [[52.9, 4.55], [53.5, 5.75]],
     'WaddenzeeE': [[53.1, 5.2], [53.6, 7.2]],
-    'alles': [[49, 1], [57, 9]]
+    'Zeeland': [[51.2, 3.15], [52.14, 4.9]],
+    'alles': [[50, 1.5], [55, 9]]
 }
+
+def debug_bounds():
+    import json
+
+    features = []
+    for name, bounds in areas.items():
+        features.append({
+            'type': 'Feature',
+            'properties': {'name': name},
+            'geometry': {
+                'type': 'Polygon',
+                'coordinates': [[
+                    bounds[0][::-1],
+                    [bounds[1][1], bounds[0][0]],
+                    bounds[1][::-1],
+                    [bounds[0][1], bounds[1][0]],
+                    bounds[0][::-1]
+                ]]
+            }
+        })
+
+    return json.dumps({
+        'type': 'FeatureCollection',
+        'features': features
+    })
+
+
 
 gpx_format = '''<?xml version="1.0"?>
 <gpx version="1.0" creator="rws2gpx.py">
@@ -128,19 +156,24 @@ def gpx(data):
     waypoints = map(gpx_waypoint, data)
     return gpx_format.format('\n'.join(waypoints))
 
+
 if __name__ == '__main__':
     if len(sys.argv) == 2:
+        if sys.argv[1] == 'bounds':
+            print(debug_bounds())
+            sys.exit()
+
         data = convert_file(sys.argv[1])
 
         if not os.path.exists('output'):
             os.mkdir('output')
-
+        print('Write ')
         print('%6s | %10s' % ('aantal', 'bestandsnaam'))
         for filename, bounds in areas.items():
-            file_data = filter(bounds_contain(bounds), data)
+            filtered_data = filter(bounds_contain(bounds), data)
             with open(os.path.join('output', filename + '.gpx'), 'w') as outfile:
-                outfile.write(gpx(data))
-            print('%6d | %s.gpx' % (len(file_data), filename))
+                outfile.write(gpx(filtered_data))
+            print('%6d | %s.gpx' % (len(filtered_data), filename))
 
 
     else:
