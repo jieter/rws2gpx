@@ -31,7 +31,7 @@ shapes = {
     'spits': 'Cone',
     'stomp': 'Can',
     # er zijn nu (2015-10-08) twee objecten met OBJ_VORM 'ton'
-    'ton': 'Beacon',
+    'ton': 'Can',
     'vast': 'Tower'
 }
 colors = {
@@ -67,7 +67,7 @@ light_colors = {
 }
 
 topmarks = {
-    'bol': 'Sphere',
+    'bol': 'Sphere_Beacon',
     'cilinder': 'Can_Beacon',
     'cilinder boven bol': 'TODO',
     'kruis': 'Cross_Yellow_Beacon',
@@ -76,7 +76,7 @@ topmarks = {
     'kegel, punt naar boven': 'Cone_Beacon',
     'kegel boven bol': 'TODO',
 
-    '2 bollen': 'Isol',
+    '2 bollen': 'Isol_Beacon',
     '2 kegels, punten naar beneden': 'South_Beacon',
     '2 kegels punten van elkaar af': 'East_Beacon',
     '2 kegels, punten naar elkaar': 'West_Beacon',
@@ -163,6 +163,8 @@ def convert_file(filename):
 
 # GPX export functions
 def gpx_waypoint(data=None, type='WPT', **kwargs):
+    if data['name'] == 'R 19':
+        print data['lon'], data['lat']
     data = data.copy() or {}
     data.update(kwargs)
     body = []
@@ -170,6 +172,14 @@ def gpx_waypoint(data=None, type='WPT', **kwargs):
         body.append('\t<type>{}</type>'.format(type))
         body.append('\t<name>{}</name>'.format(data['name']))
 
+    description = []
+    raw = data['raw']
+    description.append('Vaarwater: %s' % raw['VAARWATER'])
+    if raw['SIGN_KAR'] != 'Niet toegewezen':
+        description.append('Lichtkarakter: %s' % raw['SIGN_KAR'])
+        description.append('Lichtkleur: %s' % raw['LICHT_KLR'])
+
+    body.append('\t<desc>{}</desc>'.format('\n'.join(description)))
     body.append('\t<sym>{}</sym>'.format(data['symbol']))
 
     return '<wpt lat="{lat}" lon="{lon}">\n{body}\n</wpt>'.format(
