@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import glob
 import os
 import sys
 import zipfile
@@ -26,7 +27,7 @@ def debug_bounds():
     })
 
 
-html_format = '''
+html_header = '''
 <html>
 <head>
     <title>User icon debug page</title>
@@ -53,29 +54,31 @@ html_format = '''
         left: 0;
         width: 100px;
         text-align: center;
+        display: block;
         bottom: 0;
         font-size: 10px;
+    }
+    h2 {
+        clear: both;
     }
     </style>
 </head>
 <body>
-<h2>UserIcons debug page</h2>
-%s
-</body>
-</html>
 '''
 
-icon_format = '''<i>
+buoy_fmt = '''<i>
     <img src="UserIcons/{shape}.png" />
     <img src="UserIcons/{topmark}.png" />
     <span>{topmark}<br />{shape}</span>
 </i>'''
+icon_fmt = '<i><img src="UserIcons/{}" /><span>{}</span></i>'
 
 colors = [
     'Green',
     'Red',
     'Yellow',
 ]
+
 
 def debug_icons():
     with zipfile.ZipFile('UserIcons.zip', 'r') as z:
@@ -87,13 +90,25 @@ def debug_icons():
             if 'TODO' in t:
                 continue
 
-            icons.append(icon_format.format(**{
+            icons.append(buoy_fmt.format(**{
                 'shape': '%s_%s' % (s, colors[i % len(colors)]),
                 'topmark': 'Top_' + t
             }))
+    all_icons = []
+    for i in glob.glob('debug/UserIcons/*.png'):
+        if 'Notice' in i:
+            continue
+        i = i.split('/')[-1]
+        all_icons.append(icon_fmt.format(i, i))
 
     with open(os.path.join('debug', 'index.html'), 'w') as h:
-        h.write(html_format % '\n'.join(icons))
+        h.write(html_header)
+        h.write('<h2>Combined icons</h2>')
+        h.write('\n'.join(icons))
+        h.write('<h2>All icons:</h2>')
+        h.write('\n'.join(all_icons))
+        h.write('</body></html>')
+
 
 def unique_icons(data):
     unique = set()

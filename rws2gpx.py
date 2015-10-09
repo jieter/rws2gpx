@@ -187,17 +187,18 @@ def gpx_waypoint(data=None, type='WPT', **kwargs):
         **data
     )
 
+
 def gpx_topmark_waypoint(data):
-    if 'topmark' in data:
-        return gpx_waypoint(data, type=None, symbol=data['topmark'])
-    else:
+    if 'topmark' not in data:
         return None
+
+    return gpx_waypoint(data, type=None, symbol=data['topmark'])
+
 
 def gpx(data):
     waypoints = map(gpx_waypoint, data)
-    topmarks = map(gpx_topmark_waypoint, data)
-
-#    waypoints.extend(filter(lambda x: x is not None, topmarks))
+    # topmarks = map(gpx_topmark_waypoint, data)
+    # waypoints.extend(filter(lambda x: x is not None, topmarks))
     return gpx_format.format('\n'.join(waypoints))
 
 
