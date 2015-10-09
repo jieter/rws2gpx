@@ -10,7 +10,8 @@ Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen da
 # TODO:
  - [ ] Toptekens
  - [ ] Lichten
- - [ ] Beschrijving (`<desc></desc>`) [@nohals's version](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx.sh#L46)
+ - [ ] Beschrijving (`<desc></desc>`) [see @nohals's version](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx.sh#L46)
+ - [ ] Export to GeoJSON
 
 # UserIcons:
 
@@ -21,6 +22,5 @@ Pak het zip-bestand uit in de configuratiedirectory van OpenCPN. De locatie van 
 
 # Attribution:
 
-[@nohal](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh), rooiedirk
-
-shell script version: https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh
+- [@nohal](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh), rooiedirk for the [shell script version](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh).
+- OpenSeaMap for `UserIcons.zip`

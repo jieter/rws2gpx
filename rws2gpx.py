@@ -7,6 +7,7 @@
 import csv
 import os
 import sys
+from collections import defaultdict
 
 areas = {
     'IJsselmeerS': [[52.2, 4.55], [52.9, 6.1]],
@@ -28,11 +29,11 @@ gpx_waypoint_format = '''<wpt lat="{lat}" lon="{lon}">
 </wpt>'''
 
 shapes = {
-    'stomp': 'Can',
-    'spits': 'Cone',
-    'spar': 'Beacon',
     'bol': 'Sphere',
     'pilaar': 'Pillar',
+    'spar': 'Beacon',
+    'spits': 'Cone',
+    'stomp': 'Can',
     # er zijn nu (2015-10-08) twee objecten met OBJ_VORM 'ton'
     'ton': 'Beacon',
     'vast': 'Tower'
@@ -41,15 +42,17 @@ colors = {
     'rood': 'Red',
     'rood/groen': 'Sphere_Red_Green_Red',
     'rood/groen repeterend': 'Red_Green_Red_Green',
+    'rood/groen/rood': 'Red_Green_Red',
     'rood/wit': 'Sphere_Red_White',
     'rood/wit repeterend': 'Red_White_Red_White',
-    'rood/groen/rood': 'Red_Green_Red',
+    'rood/wit/rood': 'Red_White_Red',
 
     'geel': 'Yellow',
     'geel/zwart': 'Yellow_Black',
     'geel/zwart/geel': 'Yellow_Black_Yellow',
     'geel/zwart/geel': 'Beacon_Yellow_Black_Yellow',
 
+    'zwart': 'Black',
     'zwart/geel': 'Black_Yellow',
     'zwart/geel/zwart': 'Black_Yellow_Black',
     'zwart/rood/zwart': 'Beacon_Black_Red_Black',
@@ -59,16 +62,121 @@ colors = {
     'groen/rood': 'Green_Red',
     'groen/rood/groen': 'Green_Red_Green'
 }
-lights = {
-    'wit': 'Light_White_120',
-    'groen': 'Light_Green_120',
-    'Rood': 'Light_Red_120',
-    'Geel': 'Light_White_120',
-}
-# topmarks = {
-#     'liggend_kruis':
-# }
 
+light_colors = {
+    'geel': 'White',
+    'groen': 'Green',
+    'rood': 'Red',
+    'wit': 'White'
+}
+
+topmarks = {
+    'bol': 'Sphere',
+    'cilinder': 'Can',
+    'cilinder boven bol': 'TODO',
+    'kruis': 'Cross',
+    'liggend kruis': 'Cross',
+    'staand kruis': 'Cross',
+    'kegel, punt naar boven': 'Beacon',
+    'kegel boven bol': 'TODO',
+
+    '2 bollen': 'Isol',
+    '2 kegels, punten naar beneden': 'South',
+    '2 kegels punten van elkaar af': 'East',
+    '2 kegels, punten naar elkaar': 'West',
+    '2 kegels, punten naar boven': 'North'
+}
+
+
+class NoCoordsException(Exception):
+    pass
+
+
+def coord(x):
+    if x == '#WAARDE!':
+        raise NoCoordsException
+    return float(x.replace(',', '.'))
+
+
+def symbol(x):
+    return '{}_{}'.format(
+        shapes[x['OBJ_VORM'].lower()],
+        colors[x['OBJ_KLEUR'].lower()]
+    )
+
+
+def topmark(x):
+    # TODO: insert size here.
+    return 'Top_{}_{}'.format(
+        topmarks[x['TT_TOPTEK'].lower()],
+        colors[x['TT_KLEUR'].lower()]
+    )
+
+
+def light(x):
+    return 'Light_{}_120'.format(
+        light_colors[x['LICHT_KLR'].lower()]
+    )
+
+
+def convert_row(row):
+    ret = {
+        'lon': coord(row['X_WGS84']),
+        'lat': coord(row['Y_WGS84']),
+        'vaarwater': row['VAARWATER'],
+        'symbol': symbol(row),
+        'name': row['BENAMING'],
+    }
+
+    if row['TT_TOPTEK'] != 'Niet toegewezen':
+        ret.update(topmark=topmark(row))
+    if row['LICHT_KLR'] != 'Niet toegewezen':
+        ret.update(light=light(row))
+
+    return ret
+
+
+def convert_file(filename):
+    data = []
+    errors = defaultdict(list)
+
+    with open(filename) as csvfile:
+        for row in csv.DictReader(csvfile, delimiter=';'):
+            if len(row['OBJ_VORM']) == 0:
+                continue
+            try:
+                data.append(convert_row(row))
+            except NoCoordsException:
+                errors['coords'].append(row['BENAMING'])
+            except Exception as e:
+                print('Failed parsing: %s' % str(e))
+                for item in row.items():
+                    print('%20s: %s' % item)
+
+    print('Geen coordinaten voor: {}'.format(','.join(errors['coords'])))
+    return data
+
+
+# GPX export functions
+def gpx_waypoint(x):
+    return gpx_waypoint_format.format(**x)
+
+
+def bounds_contain(bounds):
+    def contains(data):
+        return (
+            bounds[0][1] < data['lon'] < bounds[1][1] and
+            bounds[0][0] < data['lat'] < bounds[1][0]
+        )
+    return contains
+
+
+def gpx(data):
+    waypoints = map(gpx_waypoint, data)
+    return gpx_format.format('\n'.join(waypoints))
+
+
+# GeoJSON export functions
 def geojson_feature(feature_type, coordinates, properties=None, **kwargs):
     properties = properties or {}
     properties.update(kwargs)
@@ -81,11 +189,14 @@ def geojson_feature(feature_type, coordinates, properties=None, **kwargs):
         }
     }
 
+
 def geojson_polygon(coords, properties=None, **kwargs):
     return geojson_feature('Polygon', coords, properties, **kwargs)
 
+
 def geojson_point(coord, properties=None, **kwargs):
     return geojson_feature('Point', coord, properties, **kwargs)
+
 
 def debug_bounds():
     'Returns a GeoJSON string to inspect the bounds (for example in geojson.io)'
@@ -106,66 +217,6 @@ def debug_bounds():
         'features': features
     })
 
-class NoCoordsException(Exception):
-    pass
-
-
-def coord(x):
-    if x == '#WAARDE!':
-        raise NoCoordsException
-    return float(x.replace(',', '.'))
-
-def symbol(x):
-    return '{}_{}'.format(
-        shapes[x['OBJ_VORM'].lower()],
-        colors[x['OBJ_KLEUR'].lower()]
-    )
-
-def topmark(x):
-    return 'Top_{}_{}'.format(1, 2)
-
-def convert_row(row):
-    return {
-        'lon': coord(row['X_WGS84']),
-        'lat': coord(row['Y_WGS84']),
-        'vaarwater': row['VAARWATER'],
-        'symbol': symbol(row),
-        'name': row['BENAMING'],
-        # 'topmark': topmark(row),
-        # ''
-        # 'raw': row
-    }
-
-def convert_file(filename):
-    data = []
-    with open(filename) as csvfile:
-        for row in csv.DictReader(csvfile, delimiter=';'):
-            try:
-                data.append(convert_row(row))
-            except NoCoordsException:
-                print('Geen coordinaten: %s' % row['BENAMING'])
-            except Exception as e:
-                print('Failed parsing: %s' % str(e))
-                for item in row.items():
-                    print('%20s: %s' % item)
-    return data
-
-def gpx_waypoint(x):
-    return gpx_waypoint_format.format(**x)
-
-def bounds_contain(bounds):
-    def contains(data):
-        return (
-            bounds[0][1] < data['lon'] < bounds[1][1] and
-            bounds[0][0] < data['lat'] < bounds[1][0]
-        )
-    return contains
-
-def gpx(data):
-    waypoints = map(gpx_waypoint, data)
-    return gpx_format.format('\n'.join(waypoints))
-
-
 if __name__ == '__main__':
     if len(sys.argv) == 2:
         if sys.argv[1] == 'bounds':
@@ -176,14 +227,14 @@ if __name__ == '__main__':
 
         if not os.path.exists('output'):
             os.mkdir('output')
-        print('Write ')
-        print('%6s | %10s' % ('aantal', 'bestandsnaam'))
+
+        print('\nWrite output to GPX files:')
+        print('%7s | %s' % ('#marks', 'filename'))
         for filename, bounds in areas.items():
             filtered_data = filter(bounds_contain(bounds), data)
             with open(os.path.join('output', filename + '.gpx'), 'w') as outfile:
                 outfile.write(gpx(filtered_data))
-            print('%6d | %s.gpx' % (len(filtered_data), filename))
-
+            print('%7d | %s.gpx' % (len(filtered_data), filename))
 
     else:
         print('''Usage:
