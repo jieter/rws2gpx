@@ -95,8 +95,17 @@ def debug_icons():
                 'topmark': 'Top_' + t
             }))
     all_icons = []
+    ignore_icons = (
+        'Notice', 'Signal', 'Pilot', 'Chandler', 'Crane', 'Bollard',
+        'Top_Isol.png', 'Top_Sphere.png', 'Top_West.png', 'Top_East.png', 'Top_South.png', 'Top_North.png',
+        'Turning_Point.png', 'harbour_master', 'Top_Can.png', 'Top_Square.png', 'Rescue', 'Top_X',
+        'Triangle_Right.png', 'Triangle_Left.png', 'Triangle_Bottom.png', 'Triangle.png',
+        'Tidal_Scale', 'Boatyard', 'Triangle.png', 'Harbour.png', 'Post.png', 'Top_Cone_Inv', 'Board_Bottom.png',
+        'Board_Top.png', 'DistanceI', 'DistanceU', 'Top_Cone.png', 'Top_Cross.png', 'Top_Mooring.png',
+        'Radar_Reflector', 'Top_Diamond.png'
+    )
     for i in glob.glob('debug/UserIcons/*.png'):
-        if 'Notice' in i:
+        if any(x in i for x in ignore_icons):
             continue
         i = i.split('/')[-1]
         all_icons.append(icon_fmt.format(i, i))
