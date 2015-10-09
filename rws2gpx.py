@@ -149,11 +149,13 @@ def convert_file(filename):
             except NoCoordsException:
                 errors['coords'].append(row['BENAMING'])
             except Exception as e:
+                errors['failed'].append(row['BENAMING'])
                 print('Failed parsing: %s' % str(e))
                 for item in row.items():
                     print('%20s: %s' % item)
 
-    print('Geen coordinaten voor: {}'.format(','.join(errors['coords'])))
+    print('Geen coordinaten voor: {}'.format(', '.join(errors['coords'])))
+    print('Niet kunnen parsen: {}'.format(', '.join(errors['failed'])))
     return data
 
 
@@ -231,7 +233,7 @@ if __name__ == '__main__':
         print('\nWrite output to GPX files:')
         print('%7s | %s' % ('#marks', 'filename'))
         for filename, bounds in areas.items():
-            filtered_data = filter(bounds_contain(bounds), data)
+            filtered_data = list(filter(bounds_contain(bounds), data))
             with open(os.path.join('output', filename + '.gpx'), 'w') as outfile:
                 outfile.write(gpx(filtered_data))
             print('%7d | %s.gpx' % (len(filtered_data), filename))
