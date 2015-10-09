@@ -68,12 +68,12 @@ light_colors = {
 
 topmarks = {
     'bol': 'Sphere',
-    'cilinder': 'Can',
+    'cilinder': 'Can_Beacon',
     'cilinder boven bol': 'TODO',
-    'kruis': 'Cross_Beacon',
+    'kruis': 'Cross_Yellow_Beacon',
     'liggend kruis': 'Cross_Beacon',
     'staand kruis': 'Cross_Beacon',
-    'kegel, punt naar boven': 'Beacon',
+    'kegel, punt naar boven': 'Cone_Beacon',
     'kegel boven bol': 'TODO',
 
     '2 bollen': 'Isol',
@@ -185,8 +185,9 @@ def gpx_topmark_waypoint(data):
 
 def gpx(data):
     waypoints = map(gpx_waypoint, data)
-    print len(waypoints)
-    waypoints.extend(filter(lambda x: x is not None, map(gpx_topmark_waypoint, data)))
+    topmarks = map(gpx_topmark_waypoint, data)
+
+#    waypoints.extend(filter(lambda x: x is not None, topmarks))
     return gpx_format.format('\n'.join(waypoints))
 
 
