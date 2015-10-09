@@ -213,26 +213,6 @@ def geojson_point(coord, properties=None, **kwargs):
     return geojson_feature('Point', coord, properties, **kwargs)
 
 
-def debug_bounds():
-    'Returns a GeoJSON string to inspect the bounds (for example in geojson.io)'
-    import json
-
-    features = []
-    for name, bounds in areas.items():
-        features.append(geojson_polygon([[
-            bounds[0][::-1],
-            [bounds[1][1], bounds[0][0]],
-            bounds[1][::-1],
-            [bounds[0][1], bounds[1][0]],
-            bounds[0][::-1]
-        ]], name=name))
-
-    return json.dumps({
-        'type': 'FeatureCollection',
-        'features': features
-    })
-
-
 def bounds_contain(bounds):
     def contains(data):
         return (
@@ -244,10 +224,6 @@ def bounds_contain(bounds):
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
-        if sys.argv[1] == 'bounds':
-            print(debug_bounds())
-            sys.exit()
-
         data = convert_file(sys.argv[1])
 
         if not os.path.exists('output'):

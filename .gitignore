@@ -1,7 +1,7 @@
 # project-specific
 
+debug/
 output/
-UserIcons
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
