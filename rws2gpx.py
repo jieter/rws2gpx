@@ -10,11 +10,12 @@ import sys
 from collections import defaultdict
 
 areas = {
+    'Lauwersmeer': [[53.33, 6.054], [53.5, 6.26]],
     'IJsselmeerS': [[52.2, 4.55], [52.9, 6.1]],
     'IJselmeerN_WaddenzeeW': [[52.9, 4.55], [53.5, 5.75]],
     'WaddenzeeE': [[53.1, 5.2], [53.6, 7.2]],
     'Zeeland': [[51.2, 3.15], [52.14, 4.9]],
-    'alles': [[50, 1.5], [55, 9]]
+    'alles': [[50, 1.5], [55, 9]],
 }
 
 gpx_format = '''<?xml version="1.0"?>
@@ -22,11 +23,6 @@ gpx_format = '''<?xml version="1.0"?>
 {}
 </gpx>'''
 
-gpx_waypoint_format = '''<wpt lat="{lat}" lon="{lon}">
-    <type>WPT</type>
-    <name>{name}</name>
-    <sym>{symbol}</sym>
-</wpt>'''
 
 shapes = {
     'bol': 'Sphere',
@@ -74,17 +70,17 @@ topmarks = {
     'bol': 'Sphere',
     'cilinder': 'Can',
     'cilinder boven bol': 'TODO',
-    'kruis': 'Cross',
-    'liggend kruis': 'Cross',
-    'staand kruis': 'Cross',
+    'kruis': 'Cross_Beacon',
+    'liggend kruis': 'Cross_Beacon',
+    'staand kruis': 'Cross_Beacon',
     'kegel, punt naar boven': 'Beacon',
     'kegel boven bol': 'TODO',
 
     '2 bollen': 'Isol',
-    '2 kegels, punten naar beneden': 'South',
-    '2 kegels punten van elkaar af': 'East',
-    '2 kegels, punten naar elkaar': 'West',
-    '2 kegels, punten naar boven': 'North'
+    '2 kegels, punten naar beneden': 'South_Beacon',
+    '2 kegels punten van elkaar af': 'East_Beacon',
+    '2 kegels, punten naar elkaar': 'West_Beacon',
+    '2 kegels, punten naar boven': 'North_Beacon'
 }
 
 
@@ -106,10 +102,15 @@ def symbol(x):
 
 
 def topmark(x):
-    # TODO: insert size here.
-    return 'Top_{}_{}'.format(
+    # TODO: insert topmark size here.
+
+    ext = ''
+    if x['TT_TOPTEK'] == 'Cilinder':
+        ext = '_' + colors[x['TT_KLEUR'].lower()]
+
+    return 'Top_{}{}'.format(
         topmarks[x['TT_TOPTEK'].lower()],
-        colors[x['TT_KLEUR'].lower()]
+        ext
     )
 
 
@@ -126,6 +127,7 @@ def convert_row(row):
         'vaarwater': row['VAARWATER'],
         'symbol': symbol(row),
         'name': row['BENAMING'],
+        'raw': row
     }
 
     if row['TT_TOPTEK'] != 'Niet toegewezen':
@@ -160,21 +162,31 @@ def convert_file(filename):
 
 
 # GPX export functions
-def gpx_waypoint(x):
-    return gpx_waypoint_format.format(**x)
+def gpx_waypoint(data=None, type='WPT', **kwargs):
+    data = data.copy() or {}
+    data.update(kwargs)
+    body = []
+    if type is not None:
+        body.append('\t<type>{}</type>'.format(type))
+        body.append('\t<name>{}</name>'.format(data['name']))
 
+    body.append('\t<sym>{}</sym>'.format(data['symbol']))
 
-def bounds_contain(bounds):
-    def contains(data):
-        return (
-            bounds[0][1] < data['lon'] < bounds[1][1] and
-            bounds[0][0] < data['lat'] < bounds[1][0]
-        )
-    return contains
+    return '<wpt lat="{lat}" lon="{lon}">\n{body}\n</wpt>'.format(
+        body='\n'.join(body),
+        **data
+    )
 
+def gpx_topmark_waypoint(data):
+    if 'topmark' in data:
+        return gpx_waypoint(data, type=None, symbol=data['topmark'])
+    else:
+        return None
 
 def gpx(data):
     waypoints = map(gpx_waypoint, data)
+    print len(waypoints)
+    waypoints.extend(filter(lambda x: x is not None, map(gpx_topmark_waypoint, data)))
     return gpx_format.format('\n'.join(waypoints))
 
 
@@ -218,6 +230,16 @@ def debug_bounds():
         'type': 'FeatureCollection',
         'features': features
     })
+
+
+def bounds_contain(bounds):
+    def contains(data):
+        return (
+            bounds[0][1] < data['lon'] < bounds[1][1] and
+            bounds[0][0] < data['lat'] < bounds[1][0]
+        )
+    return contains
+
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
