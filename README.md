@@ -32,3 +32,6 @@ Zie ook [OpenCPN manual over user icons](http://opencpn.org/ocpn/user_icons)
 
 - [@nohal](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh), rooiedirk for the [shell script version](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh).
 - OpenSeaMap for `UserIcons.zip`
+
+# links
+- [GPX schema documentation](http://www.topografix.com/GPX/1/1/)
