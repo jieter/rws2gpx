@@ -1,19 +1,18 @@
 #!/usr/bin/env python
 
-# Some methods to debug/test aspects of converting Rijkswaterstaat's CSV file to
-# GPX format
+# Some methods to debug/test aspects of converting Rijkswaterstaat's CSV file
+# to GPX format
 from __future__ import print_function
 
-import glob
 import os
 import sys
 import zipfile
 
-from rws2gpx import areas, convert_file, geojson_polygon, shapes, topmarks
+from rws2gpx import areas, convert_file, geojson_polygon
 
 
 def debug_bounds():
-    'Returns a GeoJSON string to inspect the bounds (for example in geojson.io)'
+    'Returns a GeoJSON string to check the bounds (for example in geojson.io)'
     import json
 
     features = []
@@ -49,6 +48,12 @@ buoy_fmt = '''<i>
 
 icon_fmt = '<i><img src="UserIcons/{}" /><span>{}</span></i>'
 
+
+def extract_icons(output_path):
+    with zipfile.ZipFile('UserIcons.zip', 'r') as z:
+        z.extractall(os.path.join(output_path, 'UserIcons'))
+
+
 def unique_icons(data):
     unique = set()
     # these are the keys we're interested in to map to user icons
@@ -60,7 +65,7 @@ def unique_icons(data):
         item = tuple(raw[key] for key in keys)
         unique.add(item)
 
-    print 'Unieke vorm/kleur/topteken-combinaties: ', len(unique)
+    print('Unieke vorm/kleur/topteken-combinaties: {}'.format(len(unique)))
 
     # transform to a list of dicts again for easy parsing
     return ({key: item[key] for key in keys} for item in unique)
@@ -76,12 +81,14 @@ if __name__ == '__main__':
         print('Wrote bounds .geojson to debug/bounds.geojson')
 
     if len(sys.argv) == 2:
-        data = convert_file(sys.argv[1])
+        extract_icons()
 
-        unique = unique_icons(data)
+        unique = unique_icons(convert_file(sys.argv[1]))
+
+        buoys = []
 
         with open(os.path.join('debug', 'index.html'), 'w') as h:
             h.write(html_header)
             h.write('<h2>Icon combinations</h2>')
-            h.write('\n'.join(icons))
+            h.write('\n'.join(buoys))
             h.write('</body></html>')

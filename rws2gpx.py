@@ -11,7 +11,9 @@ import sys
 from datetime import datetime
 from collections import defaultdict
 
+
 def error(*args, **kwargs):
+    'Print to stderr'
     print(file=sys.stderr, *args, **kwargs)
 
 # geo bounds for different output files
@@ -248,14 +250,15 @@ if __name__ == '__main__':
         if not os.path.exists('output'):
             os.mkdir('output')
 
-        create_timestamp = datetime.now().replace(microsecond=0).isoformat()
-        metadata = 'Created from filename: {} on {}'.format(csv_file, create_timestamp)
+        created = datetime.now().replace(microsecond=0).isoformat()
+        metadata = 'Created from filename: {} on {}'.format(csv_file, created)
 
         print('\nWrite output to GPX files:')
         print('%7s | %s' % ('#marks', 'filename'))
         for filename, bounds in areas.items():
             filtered_data = list(filter(bounds_contain(bounds), data))
-            with open(os.path.join('output', filename + '.gpx'), 'w') as outfile:
+            out_filename = os.path.join('output', filename + '.gpx')
+            with open(out_filename, 'w') as outfile:
                 outfile.write(gpx(filtered_data, metadata=metadata))
             print('%7d | %s.gpx' % (len(filtered_data), filename))
 
