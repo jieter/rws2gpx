@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+
+# Some methods to debug/test aspects of converting Rijkswaterstaat's CSV file to
+# GPX format
+from __future__ import print_function
+
 import glob
 import os
 import sys
@@ -31,37 +36,7 @@ html_header = '''
 <html>
 <head>
     <title>User icon debug page</title>
-    <style>
-    i {
-        border: 1px solid #aaa;
-        position: relative;
-        display: block;
-        width: 100px;
-        height: 96px;
-        padding: 0;
-        margin-left: 4px;
-        margin-bottom: 4px;
-        float: left;
-    }
-    i * {
-        position: absolute;
-    }
-    i img {
-        top: 0;
-        left: 14px;
-    }
-    i span {
-        left: 0;
-        width: 100px;
-        text-align: center;
-        display: block;
-        bottom: 0;
-        font-size: 10px;
-    }
-    h2 {
-        clear: both;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 '''
@@ -71,61 +46,24 @@ buoy_fmt = '''<i>
     <img src="UserIcons/{topmark}.png" />
     <span>{topmark}<br />{shape}</span>
 </i>'''
+
 icon_fmt = '<i><img src="UserIcons/{}" /><span>{}</span></i>'
-
-colors = [
-    'Green',
-    'Red',
-    'Yellow',
-]
-
-
-def debug_icons():
-    with zipfile.ZipFile('UserIcons.zip', 'r') as z:
-        z.extractall(os.path.join('debug', 'UserIcons'))
-
-    icons = []
-    for s in shapes.values():
-        for i, t in enumerate(topmarks.values()):
-            if 'TODO' in t:
-                continue
-
-            icons.append(buoy_fmt.format(**{
-                'shape': '%s_%s' % (s, colors[i % len(colors)]),
-                'topmark': 'Top_' + t
-            }))
-    all_icons = []
-    ignore_icons = (
-        'Notice', 'Signal', 'Pilot', 'Chandler', 'Crane', 'Bollard',
-        'Top_Isol.png', 'Top_Sphere.png', 'Top_West.png', 'Top_East.png', 'Top_South.png', 'Top_North.png',
-        'Turning_Point.png', 'harbour_master', 'Top_Can.png', 'Top_Square.png', 'Rescue', 'Top_X',
-        'Triangle_Right.png', 'Triangle_Left.png', 'Triangle_Bottom.png', 'Triangle.png',
-        'Tidal_Scale', 'Boatyard', 'Triangle.png', 'Harbour.png', 'Post.png', 'Top_Cone_Inv', 'Board_Bottom.png',
-        'Board_Top.png', 'DistanceI', 'DistanceU', 'Top_Cone.png', 'Top_Cross.png', 'Top_Mooring.png',
-        'Radar_Reflector', 'Top_Diamond.png'
-    )
-    for i in glob.glob('debug/UserIcons/*.png'):
-        if any(x in i for x in ignore_icons):
-            continue
-        i = i.split('/')[-1]
-        all_icons.append(icon_fmt.format(i, i))
-
-    with open(os.path.join('debug', 'index.html'), 'w') as h:
-        h.write(html_header)
-        h.write('<h2>Combined icons</h2>')
-        h.write('\n'.join(icons))
-        h.write('<h2>All icons:</h2>')
-        h.write('\n'.join(all_icons))
-        h.write('</body></html>')
-
 
 def unique_icons(data):
     unique = set()
+    # these are the keys we're interested in to map to user icons
+    keys = ['OBJ_VORM', 'OBJ_KLEUR', 'TT_TOPTEK', 'TT_KLEUR', 'LICHT_KLR']
+
     for row in data:
         raw = row['raw']
-        unique.add((raw['OBJ_VORM'], raw['OBJ_KLEUR'], raw['TT_TOPTEK'], raw['TT_KLEUR']))
+
+        item = tuple(raw[key] for key in keys)
+        unique.add(item)
 
     print 'Unieke vorm/kleur/topteken-combinaties: ', len(unique)
+
+    # transform to a list of dicts again for easy parsing
+    return ({key: item[key] for key in keys} for item in unique)
 
 
 if __name__ == '__main__':
@@ -137,9 +75,13 @@ if __name__ == '__main__':
 
         print('Wrote bounds .geojson to debug/bounds.geojson')
 
-    debug_icons()
-
     if len(sys.argv) == 2:
         data = convert_file(sys.argv[1])
 
-        unique_icons(data)
+        unique = unique_icons(data)
+
+        with open(os.path.join('debug', 'index.html'), 'w') as h:
+            h.write(html_header)
+            h.write('<h2>Icon combinations</h2>')
+            h.write('\n'.join(icons))
+            h.write('</body></html>')

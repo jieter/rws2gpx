@@ -1,14 +1,20 @@
 #!/usr/bin/env python
 
-
-# dirived from
+# This code is derived from/inspired by:
 # https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh
+
+from __future__ import print_function
 
 import csv
 import os
 import sys
+from datetime import datetime
 from collections import defaultdict
 
+def error(*args, **kwargs):
+    print(file=sys.stderr, *args, **kwargs)
+
+# geo bounds for different output files
 areas = {
     'Lauwersmeer': [[53.33, 6.054], [53.5, 6.26]],
     'IJsselmeerS': [[52.2, 4.55], [52.9, 6.1]],
@@ -20,9 +26,9 @@ areas = {
 
 gpx_format = '''<?xml version="1.0"?>
 <gpx version="1.0" creator="rws2gpx.py">
-{}
-</gpx>'''
-
+<metadata>{metadata}</metadata>
+{waypoints}
+<gpx>'''
 
 shapes = {
     'bol': 'Sphere',
@@ -34,6 +40,8 @@ shapes = {
     'ton': 'Can',
     'vast': 'Tower'
 }
+
+# map dutch color combinations to a color from the UserIcons
 colors = {
     'rood': 'Red',
     'rood/groen': 'Sphere_Red_Green_Red',
@@ -59,6 +67,7 @@ colors = {
     'groen/rood/groen': 'Green_Red_Green'
 }
 
+# map dutch light colors to
 light_colors = {
     'geel': 'White',
     'groen': 'Green',
@@ -152,19 +161,17 @@ def convert_file(filename):
                 errors['coords'].append(row['BENAMING'])
             except Exception as e:
                 errors['failed'].append(row['BENAMING'])
-                print('Failed parsing: %s' % str(e))
+                error('Failed parsing: %s' % str(e))
                 for item in row.items():
-                    print('%20s: %s' % item)
+                    error('%20s: %s' % item)
 
-    print('Geen coordinaten voor: {}'.format(', '.join(errors['coords'])))
-    print('Niet kunnen parsen: {}'.format(', '.join(errors['failed'])))
+    error('Geen coordinaten voor: {}'.format(', '.join(errors['coords'])))
+    error('Niet kunnen parsen: {}'.format(', '.join(errors['failed'])))
     return data
 
 
 # GPX export functions
 def gpx_waypoint(data=None, type='WPT', **kwargs):
-    if data['name'] == 'R 19':
-        print data['lon'], data['lat']
     data = data.copy() or {}
     data.update(kwargs)
     body = []
@@ -195,11 +202,11 @@ def gpx_topmark_waypoint(data):
     return gpx_waypoint(data, type=None, symbol=data['topmark'])
 
 
-def gpx(data):
+def gpx(data, metadata=''):
     waypoints = map(gpx_waypoint, data)
     # topmarks = map(gpx_topmark_waypoint, data)
     # waypoints.extend(filter(lambda x: x is not None, topmarks))
-    return gpx_format.format('\n'.join(waypoints))
+    return gpx_format.format(metadata=metadata, waypoints='\n'.join(waypoints))
 
 
 # GeoJSON export functions
@@ -235,17 +242,21 @@ def bounds_contain(bounds):
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
-        data = convert_file(sys.argv[1])
+        csv_file = sys.argv[1]
+        data = convert_file(csv_file)
 
         if not os.path.exists('output'):
             os.mkdir('output')
+
+        create_timestamp = datetime.now().replace(microsecond=0).isoformat()
+        metadata = 'Created from filename: {} on {}'.format(csv_file, create_timestamp)
 
         print('\nWrite output to GPX files:')
         print('%7s | %s' % ('#marks', 'filename'))
         for filename, bounds in areas.items():
             filtered_data = list(filter(bounds_contain(bounds), data))
             with open(os.path.join('output', filename + '.gpx'), 'w') as outfile:
-                outfile.write(gpx(filtered_data))
+                outfile.write(gpx(filtered_data, metadata=metadata))
             print('%7d | %s.gpx' % (len(filtered_data), filename))
 
     else:
