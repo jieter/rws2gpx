@@ -1,5 +1,6 @@
 # GeoJSON export functions
 
+
 def feature(feature_type, coordinates, properties=None, **kwargs):
     properties = properties or {}
     properties.update(kwargs)

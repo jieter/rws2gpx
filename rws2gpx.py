@@ -69,7 +69,7 @@ colors = {
     'groen/rood/groen': 'Green_Red_Green'
 }
 
-# map dutch light colors to
+# map dutch light colors to User icons
 light_colors = {
     'geel': 'White',
     'groen': 'Green',
@@ -77,6 +77,7 @@ light_colors = {
     'wit': 'White'
 }
 
+# map dutch top mark names to User icons
 topmarks = {
     'bol': 'Sphere',
     'cilinder': 'Can',

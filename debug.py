@@ -48,12 +48,21 @@ icon_fmt = '<img src="UserIcons/{}.png" />'
 buoy_fmt = '''<i>
 {icons}
 <table>
-    <tr><td></td><th>RWS CSV</th><th>User icon</th></tr>
-    <tr><td>Vorm:</td><td>{OBJ_VORM}, {OBJ_KLEUR}</td><td>{shape}</td></tr>
-    <tr><td>Topteken:</td><td>{TT_TOPTEK}, {TT_KLEUR}</td><td>{topmark}</td></tr>
-    <tr><td>Licht:</td><td>{LICHT_KLR}</td><td>{light}</td></tr>
+    <tr>
+        <td></td><th>RWS CSV</th><th>User icon</th>
+    </tr>
+    <tr>
+        <td>Vorm:</td><td>{OBJ_VORM}, {OBJ_KLEUR}</td><td>{shape}</td>
+    </tr>
+    <tr>
+        <td>Topteken:</td><td>{TT_TOPTEK}, {TT_KLEUR}</td><td>{topmark}</td>
+    </tr>
+    <tr>
+        <td>Licht:</td><td>{LICHT_KLR}</td><td>{light}</td>
+    </tr>
 </table>
 </i>'''
+
 
 def render_buoy(shape, topmark=None, light=None, **kwargs):
     icons = icon_fmt.format(shape)
@@ -62,7 +71,11 @@ def render_buoy(shape, topmark=None, light=None, **kwargs):
     if light:
         icons += icon_fmt.format(light)
 
-    return buoy_fmt.format(icons=icons, shape=shape, topmark=topmark, light=light, **kwargs)
+    return buoy_fmt.format(
+        icons=icons,
+        shape=shape, topmark=topmark, light=light,
+        **kwargs
+    )
 
 
 def extract_icons():
@@ -82,6 +95,7 @@ def icon_exists(icon):
 
     return os.path.isfile(icon_filename)
 
+
 def is_complete(buoy):
     if not icon_exists(buoy['shape']):
         return False
@@ -98,6 +112,7 @@ def is_complete(buoy):
         return False
 
     return True
+
 
 def unique_icons(data):
     unique = set()
@@ -144,7 +159,9 @@ if __name__ == '__main__':
             else:
                 buoys_incomplete.append(render_buoy(**buoy))
 
-        print('Incompleet: %d, compleet: %d' % (len(buoys_incomplete), len(buoys_complete)))
+        print('Incompleet: %d, compleet: %d' % (
+            len(buoys_incomplete), len(buoys_complete)
+        ))
         with open(os.path.join(DEBUG_PATH, 'index.html'), 'w') as h:
             h.write(html_header)
             h.write('<h2>Incomplete boeien:</h2>')
