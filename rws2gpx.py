@@ -120,7 +120,9 @@ def topmark(x):
     if top in ('cilinder', 'bol') or top.startswith('kegel'):
         ext += '_' + colors[x['TT_KLEUR'].lower()]
 
-    if shape in ('spits', 'stomp'):
+    if 'kruis' in top:
+        ext += '_Beacon'
+    elif shape in ('spits', 'stomp', 'bol'):
         ext += '_Buoy_Small'
     elif shape == 'pilaar':
         ext += '_Buoy'
