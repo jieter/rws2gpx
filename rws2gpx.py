@@ -216,10 +216,19 @@ def gpx_topmark_waypoint(data):
     return gpx_waypoint(data, type=None, symbol=data['topmark'])
 
 
+def gpx_light_waypoint(data):
+    if 'light' not in data:
+        return None
+
+    return gpx_waypoint(data, type=None, symbol=data['light'])
+
+
 def gpx(data, metadata=''):
     waypoints = map(gpx_waypoint, data)
-    # topmarks = map(gpx_topmark_waypoint, data)
-    # waypoints.extend(filter(lambda x: x is not None, topmarks))
+    # waypoints.extend(map(gpx_topmark_waypoint, data))
+    # waypoints.extend(map(gpx_light_waypoint, data))
+
+    waypoints = filter(lambda x: x is not None, waypoints)
     return gpx_format.format(metadata=metadata, waypoints='\n'.join(waypoints))
 
 
@@ -234,11 +243,13 @@ def bounds_contain(bounds):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print('''Usage:
-rws2gpx.py <filename>''')
+        print('Usage:\nrws2gpx.py <filename>')
         sys.exit()
 
     csv_file = sys.argv[1]
+    if not os.path.isfile(csv_file):
+        error('Input file %s does not exist' % csv_file)
+        sys.exit(1)
     data = convert_file(csv_file)
 
     if not os.path.exists('output'):
