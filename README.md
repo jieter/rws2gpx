@@ -15,6 +15,7 @@ Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen da
  - [ ] Fix/maak tonnen (is nu geen User Icon voor wat klopt):
     - [ ] Spar Rood/wit
     - [ ] Spar Rood/groen
+    - [ ] Spar Groen/rood
     - [ ] Bol Rood/wit
     - [ ] Bol Rood/groen
  - [ ] Missende topmarks:
@@ -25,7 +26,7 @@ Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen da
  - [ ] Maak output van lichten/toptekens/descriptions configureerbaar
  - [ ] Export to GeoJSON
  - [ ] Composed images with buoy, top mark and light
- - [ ] Add bounds to gpx.
+ - [ ] Add (calculated) bounds to gpx.
 
 ## Toevoegen aan OpenCPN
 

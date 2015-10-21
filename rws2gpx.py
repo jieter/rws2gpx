@@ -18,12 +18,13 @@ def error(*args, **kwargs):
 
 # geo bounds for different output files
 areas = {
+    'alles': [[50, 1.5], [55, 9]],
+
     'Lauwersmeer': [[53.33, 6.054], [53.5, 6.26]],
     'IJsselmeerS': [[52.2, 4.55], [52.9, 6.1]],
     'IJselmeerN_WaddenzeeW': [[52.9, 4.55], [53.5, 5.75]],
     'WaddenzeeE': [[53.1, 5.2], [53.6, 7.2]],
     'Zeeland': [[51.2, 3.15], [52.14, 4.9]],
-    'alles': [[50, 1.5], [55, 9]],
 }
 
 gpx_format = '''<?xml version="1.0"?>
