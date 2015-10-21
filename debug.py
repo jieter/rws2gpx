@@ -29,7 +29,7 @@ def debug_bounds():
     return json.dumps({
         'type': 'FeatureCollection',
         'features': features
-    })
+    }, indent=2)
 
 
 html_header = '''<html>
