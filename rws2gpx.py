@@ -56,12 +56,11 @@ colors = {
     'geel': 'Yellow',
     'geel/zwart': 'Yellow_Black',
     'geel/zwart/geel': 'Yellow_Black_Yellow',
-    'geel/zwart/geel': 'Beacon_Yellow_Black_Yellow',
 
     'zwart': 'Black',
     'zwart/geel': 'Black_Yellow',
     'zwart/geel/zwart': 'Black_Yellow_Black',
-    'zwart/rood/zwart': 'Beacon_Black_Red_Black',
+    'zwart/rood/zwart': 'Black_Red_Black',
 
     'groen': 'Green',
     'groen/wit repeterend': 'Green_White_Green_White',
@@ -78,20 +77,20 @@ light_colors = {
 }
 
 topmarks = {
-    'bol': 'Sphere_Beacon',
-    'cilinder': 'Can_Beacon',
+    'bol': 'Sphere',
+    'cilinder': 'Can',
     'cilinder boven bol': 'TODO',
-    'kruis': 'Cross_Yellow_Beacon',
-    'liggend kruis': 'Cross_Beacon',
-    'staand kruis': 'Cross_Beacon',
-    'kegel, punt naar boven': 'Cone_Beacon',
+    'kruis': 'Cross_Yellow',
+    'liggend kruis': 'Cross_Yellow',
+    'staand kruis': 'Cross_Yellow',
+    'kegel, punt naar boven': 'Cone',
     'kegel boven bol': 'TODO',
 
-    '2 bollen': 'Isol_Beacon',
-    '2 kegels, punten naar beneden': 'South_Beacon',
-    '2 kegels punten van elkaar af': 'East_Beacon',
-    '2 kegels, punten naar elkaar': 'West_Beacon',
-    '2 kegels, punten naar boven': 'North_Beacon'
+    '2 bollen': 'Isol',
+    '2 kegels, punten naar beneden': 'South',
+    '2 kegels punten van elkaar af': 'East',
+    '2 kegels, punten naar elkaar': 'West',
+    '2 kegels, punten naar boven': 'North'
 }
 
 
@@ -105,7 +104,7 @@ def coord(x):
     return float(x.replace(',', '.'))
 
 
-def symbol(x):
+def shape(x):
     return '{}_{}'.format(
         shapes[x['OBJ_VORM'].lower()],
         colors[x['OBJ_KLEUR'].lower()]
@@ -113,11 +112,17 @@ def symbol(x):
 
 
 def topmark(x):
-    # TODO: insert topmark size here.
-
     ext = ''
     if x['TT_TOPTEK'] == 'Cilinder':
         ext = '_' + colors[x['TT_KLEUR'].lower()]
+
+    shape = x['OBJ_VORM'].lower()
+    if shape == 'stomp':
+        ext += '_Buoy_Small'
+    elif shape == 'pilaar':
+        ext += '_Buoy'
+    else:
+        ext += '_Beacon'
 
     return 'Top_{}{}'.format(
         topmarks[x['TT_TOPTEK'].lower()],
@@ -136,7 +141,7 @@ def convert_row(row):
         'lon': coord(row['X_WGS84']),
         'lat': coord(row['Y_WGS84']),
         'vaarwater': row['VAARWATER'],
-        'symbol': symbol(row),
+        'symbol': shape(row),
         'name': row['BENAMING'],
         'raw': row
     }
@@ -209,28 +214,6 @@ def gpx(data, metadata=''):
     # topmarks = map(gpx_topmark_waypoint, data)
     # waypoints.extend(filter(lambda x: x is not None, topmarks))
     return gpx_format.format(metadata=metadata, waypoints='\n'.join(waypoints))
-
-
-# GeoJSON export functions
-def geojson_feature(feature_type, coordinates, properties=None, **kwargs):
-    properties = properties or {}
-    properties.update(kwargs)
-    return {
-        'type': 'Feature',
-        'properties': properties,
-        'geometry': {
-            'type': feature_type,
-            'coordinates': coordinates
-        }
-    }
-
-
-def geojson_polygon(coords, properties=None, **kwargs):
-    return geojson_feature('Polygon', coords, properties, **kwargs)
-
-
-def geojson_point(coord, properties=None, **kwargs):
-    return geojson_feature('Point', coord, properties, **kwargs)
 
 
 def bounds_contain(bounds):

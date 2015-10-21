@@ -8,7 +8,8 @@ import os
 import sys
 import zipfile
 
-from rws2gpx import areas, convert_file, geojson_polygon
+import geojson
+from rws2gpx import areas, convert_file, shape, topmark, light
 
 
 def debug_bounds():
@@ -17,7 +18,7 @@ def debug_bounds():
 
     features = []
     for name, bounds in areas.items():
-        features.append(geojson_polygon([[
+        features.append(geojson.polygon([[
             bounds[0][::-1],
             [bounds[1][1], bounds[0][0]],
             bounds[1][::-1],
@@ -31,23 +32,33 @@ def debug_bounds():
     })
 
 
-html_header = '''
-<html>
+html_header = '''<html>
 <head>
     <title>User icon debug page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 '''
+html_footer = '</body></html>'
 
+icon_fmt = '<img src="UserIcons/{}.png" />'
 buoy_fmt = '''<i>
-    <img src="UserIcons/{shape}.png" />
-    <img src="UserIcons/{topmark}.png" />
-    <span>{topmark}<br />{shape}</span>
+{icons}
+<span>
+    Shape: {shape} <br />
+    Topmark: {topmark}<br />
+    Light: {light}
+</span>
 </i>'''
 
-icon_fmt = '<i><img src="UserIcons/{}" /><span>{}</span></i>'
+def render_buoy(shape, topmark=None, light=None, **kwargs):
+    icons = icon_fmt.format(shape)
+    if topmark:
+        icons += icon_fmt.format(topmark)
+    if light:
+        icons += icon_fmt.format(light)
 
+    return buoy_fmt.format(**locals())
 
 def extract_icons(output_path):
     with zipfile.ZipFile('UserIcons.zip', 'r') as z:
@@ -62,33 +73,42 @@ def unique_icons(data):
     for row in data:
         raw = row['raw']
 
-        item = tuple(raw[key] for key in keys)
-        unique.add(item)
+        unique.add(tuple(raw[key] for key in keys))
 
     print('Unieke vorm/kleur/topteken-combinaties: {}'.format(len(unique)))
 
+    for i in unique:
+        print(i)
     # transform to a list of dicts again for easy parsing
-    return ({key: item[key] for key in keys} for item in unique)
+    return ({key: item[i] for i, key in enumerate(keys)} for item in unique)
 
 
 if __name__ == '__main__':
-    if not os.path.exists('debug'):
-        os.mkdir('debug')
+    DEBUG_PATH = 'debug'
+    if not os.path.exists(DEBUG_PATH):
+        os.mkdir(DEBUG_PATH)
 
-    with open(os.path.join('debug', 'bounds.geojson'), 'w') as outfile:
+    with open(os.path.join(DEBUG_PATH, 'bounds.geojson'), 'w') as outfile:
         outfile.write(debug_bounds())
 
         print('Wrote bounds .geojson to debug/bounds.geojson')
 
     if len(sys.argv) == 2:
-        extract_icons()
-
-        unique = unique_icons(convert_file(sys.argv[1]))
+        extract_icons(DEBUG_PATH)
+        unique_buoys = unique_icons(convert_file(sys.argv[1]))
 
         buoys = []
+        for buoy in unique_buoys:
+            buoy['shape'] = shape(buoy)
+            if buoy['TT_TOPTEK'] != 'Niet toegewezen':
+                buoy.update(topmark=topmark(buoy))
+            if buoy['LICHT_KLR'] != 'Niet toegewezen':
+                buoy.update(light=light(buoy))
+            buoys.append(render_buoy(**buoy))
 
-        with open(os.path.join('debug', 'index.html'), 'w') as h:
+
+        with open(os.path.join(DEBUG_PATH, 'index.html'), 'w') as h:
             h.write(html_header)
             h.write('<h2>Icon combinations</h2>')
             h.write('\n'.join(buoys))
-            h.write('</body></html>')
+            h.write(html_footer)
