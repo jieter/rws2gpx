@@ -33,6 +33,8 @@ gpx_format = '''<?xml version="1.0"?>
 {waypoints}
 <gpx>'''
 
+NOT_ASSIGNED = 'Niet toegewezen'
+
 shapes = {
     'bol': 'Sphere',
     'pilaar': 'Pillar',
@@ -137,9 +139,7 @@ def topmark(x):
 
 
 def light(x):
-    return 'Light_{}_120'.format(
-        light_colors[x['LICHT_KLR'].lower()]
-    )
+    return 'Light_{}_120'.format(light_colors[x['LICHT_KLR'].lower()])
 
 
 def convert_row(row):
@@ -152,9 +152,9 @@ def convert_row(row):
         'raw': row
     }
 
-    if row['TT_TOPTEK'] != 'Niet toegewezen':
+    if row['TT_TOPTEK'] != NOT_ASSIGNED:
         ret.update(topmark=topmark(row))
-    if row['LICHT_KLR'] != 'Niet toegewezen':
+    if row['LICHT_KLR'] != NOT_ASSIGNED:
         ret.update(light=light(row))
 
     return ret
@@ -166,7 +166,8 @@ def convert_file(filename):
 
     with open(filename) as csvfile:
         for row in csv.DictReader(csvfile, delimiter=';'):
-            if len(row['OBJ_VORM']) == 0:
+            if len(row['OBJ_VORM']) == 0 or row['OBJ_VORM'] == NOT_ASSIGNED:
+                errors['failed'].append(row['BENAMING'])
                 continue
             try:
                 data.append(convert_row(row))
@@ -195,7 +196,7 @@ def gpx_waypoint(data=None, type='WPT', **kwargs):
     description = []
     raw = data['raw']
     description.append('Vaarwater: %s' % raw['VAARWATER'])
-    if raw['SIGN_KAR'] != 'Niet toegewezen':
+    if raw['SIGN_KAR'] != NOT_ASSIGNED:
         description.append('Lichtkarakter: %s' % raw['SIGN_KAR'])
         description.append('Lichtkleur: %s' % raw['LICHT_KLR'])
 

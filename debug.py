@@ -145,8 +145,10 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         unique_buoys = unique_icons(convert_file(sys.argv[1]))
 
-        buoys_complete = []
-        buoys_incomplete = []
+        buoys = {
+            'complete': [],
+            'incomplete': []
+        }
         for buoy in unique_buoys:
             buoy['shape'] = shape(buoy)
             if buoy['TT_TOPTEK'] != 'Niet toegewezen':
@@ -154,19 +156,20 @@ if __name__ == '__main__':
             if buoy['LICHT_KLR'] != 'Niet toegewezen':
                 buoy.update(light=light(buoy))
 
-            if is_complete(buoy):
-                buoys_complete.append(render_buoy(**buoy))
-            else:
-                buoys_incomplete.append(render_buoy(**buoy))
+            key = 'complete' if is_complete(buoy) else 'incomplete'
 
-        print('Incompleet: %d, compleet: %d' % (
-            len(buoys_incomplete), len(buoys_complete)
-        ))
+            buoys[key].append(render_buoy(**buoy))
+
+        incomplete_cnt = len(buoys['incomplete'])
+        complete_cnt = len(buoys['complete'])
+        print('Incompleet: %d, compleet: %d' % (incomplete_cnt, complete_cnt))
+
         with open(os.path.join(DEBUG_PATH, 'index.html'), 'w') as h:
             h.write(html_header)
-            h.write('<h2>Incomplete boeien:</h2>')
-            h.write('\n'.join(buoys_incomplete))
+            if incomplete_cnt > 0:
+                h.write('<h2>Incomplete boeien (%d):</h2>' % incomplete_cnt)
+                h.write('\n'.join(buoys['incomplete']))
 
-            h.write('<h2>Complete boeien:</h2>')
-            h.write('\n'.join(buoys_complete))
+            h.write('<h2>Complete boeien (%d):</h2>' % complete_cnt)
+            h.write('\n'.join(buoys['complete']))
             h.write(html_footer)
