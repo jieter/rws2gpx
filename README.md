@@ -9,8 +9,18 @@ Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen da
 
 # TODO:
  - [*] debug html-pagina om gebruikte ton/topteken combinaties te laten zien [Pagina hier](http://jieter.github.io/rws2gpx/debug/).
- - [ ] Toptekens
- - [ ] Lichten
+ - [ ] Check of icons bestaan en sorteer boeien met missende icons in de debug pagina.
+ - [*] Toptekens
+ - [*] Lichten
+ - [ ] Fix/maak tonnen (is nu geen User Icon voor wat klopt):
+    - [ ] Spar Rood/wit
+    - [ ] Spar Rood/groen
+    - [ ] Bol Rood/wit
+    - [ ] Bol Rood/groen
+ - [ ] Missende topmarks:
+    - [ ] Bol, rood/groen
+    - [ ] Cilinder boven bol, rood
+
  - [ ] Beschrijving (`<desc></desc>`) [see @nohals's version](https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx.sh#L46)
  - [ ] Maak output van lichten/toptekens/descriptions configureerbaar
  - [ ] Export to GeoJSON
