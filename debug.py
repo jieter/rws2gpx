@@ -44,11 +44,12 @@ html_footer = '</body></html>'
 icon_fmt = '<img src="UserIcons/{}.png" />'
 buoy_fmt = '''<i>
 {icons}
-<span>
-    Shape: {shape} <br />
-    Topmark: {topmark}<br />
-    Light: {light}
-</span>
+<table>
+    <tr><td></td><th>Origineel</th><th>User icon</th></tr>
+    <tr><td>Shape:</td><td>{OBJ_VORM}, {OBJ_KLEUR}</td><td>{shape}</td></tr>
+    <tr><td>Topmark:</td><td>{TT_TOPTEK}, {TT_KLEUR}</td><td>{topmark}</td></tr>
+    <tr><td>Light:</td><td>{LICHT_KLR}</td><td>{light}</td></tr>
+</table>
 </i>'''
 
 def render_buoy(shape, topmark=None, light=None, **kwargs):
@@ -58,11 +59,17 @@ def render_buoy(shape, topmark=None, light=None, **kwargs):
     if light:
         icons += icon_fmt.format(light)
 
-    return buoy_fmt.format(**locals())
+    return buoy_fmt.format(icons=icons, shape=shape, topmark=topmark, light=light, **kwargs)
 
 def extract_icons(output_path):
+    icons_path = os.path.join(output_path, 'UserIcons')
+    if os.path.exists(icons_path):
+        return
+
     with zipfile.ZipFile('UserIcons.zip', 'r') as z:
-        z.extractall(os.path.join(output_path, 'UserIcons'))
+        z.extractall(icons_path)
+
+    print('Extracted UserIcons to %s' % icons_path)
 
 
 def unique_icons(data):
@@ -77,8 +84,8 @@ def unique_icons(data):
 
     print('Unieke vorm/kleur/topteken-combinaties: {}'.format(len(unique)))
 
-    for i in unique:
-        print(i)
+    # for i in unique:
+    #     print(i)
     # transform to a list of dicts again for easy parsing
     return ({key: item[i] for i, key in enumerate(keys)} for item in unique)
 
@@ -87,6 +94,7 @@ if __name__ == '__main__':
     DEBUG_PATH = 'debug'
     if not os.path.exists(DEBUG_PATH):
         os.mkdir(DEBUG_PATH)
+    extract_icons(DEBUG_PATH)
 
     with open(os.path.join(DEBUG_PATH, 'bounds.geojson'), 'w') as outfile:
         outfile.write(debug_bounds())
@@ -94,7 +102,6 @@ if __name__ == '__main__':
         print('Wrote bounds .geojson to debug/bounds.geojson')
 
     if len(sys.argv) == 2:
-        extract_icons(DEBUG_PATH)
         unique_buoys = unique_icons(convert_file(sys.argv[1]))
 
         buoys = []

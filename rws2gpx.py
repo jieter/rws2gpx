@@ -117,6 +117,7 @@ def topmark(x):
         ext = '_' + colors[x['TT_KLEUR'].lower()]
 
     shape = x['OBJ_VORM'].lower()
+
     if shape == 'stomp':
         ext += '_Buoy_Small'
     elif shape == 'pilaar':
