@@ -233,25 +233,25 @@ def bounds_contain(bounds):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        csv_file = sys.argv[1]
-        data = convert_file(csv_file)
-
-        if not os.path.exists('output'):
-            os.mkdir('output')
-
-        created = datetime.now().replace(microsecond=0).isoformat()
-        metadata = 'Created from filename: {} on {}'.format(csv_file, created)
-
-        print('\nWrite output to GPX files:')
-        print('%7s | %s' % ('#marks', 'filename'))
-        for filename, bounds in areas.items():
-            filtered_data = list(filter(bounds_contain(bounds), data))
-            out_filename = os.path.join('output', filename + '.gpx')
-            with open(out_filename, 'w') as outfile:
-                outfile.write(gpx(filtered_data, metadata=metadata))
-            print('%7d | %s.gpx' % (len(filtered_data), filename))
-
-    else:
+    if len(sys.argv) != 2:
         print('''Usage:
 rws2gpx.py <filename>''')
+        sys.exit()
+
+    csv_file = sys.argv[1]
+    data = convert_file(csv_file)
+
+    if not os.path.exists('output'):
+        os.mkdir('output')
+
+    created = datetime.now().replace(microsecond=0).isoformat()
+    metadata = 'Created from filename: {} on {}'.format(csv_file, created)
+
+    print('\nWrite output to GPX files:')
+    print('%7s | %s' % ('# buoys', 'filename'))
+    for filename, bounds in areas.items():
+        filtered_data = list(filter(bounds_contain(bounds), data))
+        out_filename = os.path.join('output', filename + '.gpx')
+        with open(out_filename, 'w') as outfile:
+            outfile.write(gpx(filtered_data, metadata=metadata))
+        print('%7d | %s.gpx' % (len(filtered_data), filename))
