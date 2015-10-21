@@ -112,13 +112,14 @@ def shape(x):
 
 
 def topmark(x):
-    ext = ''
-    if x['TT_TOPTEK'] == 'Cilinder':
-        ext = '_' + colors[x['TT_KLEUR'].lower()]
-
+    top = x['TT_TOPTEK'].lower()
     shape = x['OBJ_VORM'].lower()
 
-    if shape == 'stomp':
+    ext = ''
+    if top in ('cilinder', 'bol') or top.startswith('kegel'):
+        ext += '_' + colors[x['TT_KLEUR'].lower()]
+
+    if shape in ('spits', 'stomp'):
         ext += '_Buoy_Small'
     elif shape == 'pilaar':
         ext += '_Buoy'
@@ -126,7 +127,7 @@ def topmark(x):
         ext += '_Beacon'
 
     return 'Top_{}{}'.format(
-        topmarks[x['TT_TOPTEK'].lower()],
+        topmarks[top],
         ext
     )
 

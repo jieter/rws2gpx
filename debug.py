@@ -45,7 +45,7 @@ icon_fmt = '<img src="UserIcons/{}.png" />'
 buoy_fmt = '''<i>
 {icons}
 <table>
-    <tr><td></td><th>Origineel</th><th>User icon</th></tr>
+    <tr><td></td><th>RWS CSV</th><th>User icon</th></tr>
     <tr><td>Shape:</td><td>{OBJ_VORM}, {OBJ_KLEUR}</td><td>{shape}</td></tr>
     <tr><td>Topmark:</td><td>{TT_TOPTEK}, {TT_KLEUR}</td><td>{topmark}</td></tr>
     <tr><td>Light:</td><td>{LICHT_KLR}</td><td>{light}</td></tr>
