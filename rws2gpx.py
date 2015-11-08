@@ -250,19 +250,26 @@ if __name__ == '__main__':
     if not os.path.isfile(csv_file):
         error('Input file %s does not exist' % csv_file)
         sys.exit(1)
-    data = convert_file(csv_file)
 
     if not os.path.exists('output'):
         os.mkdir('output')
 
     created = datetime.now().replace(microsecond=0).isoformat()
     metadata = 'Created from filename: {} on {}'.format(csv_file, created)
+    data = convert_file(csv_file)
 
-    print('\nWrite output to GPX files:')
+    basename = (csv_file.split('/')[-1]).split('.')[0]
+
+    print('\nWriting output to GPX files:')
     print('%7s | %s' % ('# buoys', 'filename'))
+
     for filename, bounds in areas.items():
         filtered_data = list(filter(bounds_contain(bounds), data))
-        out_filename = os.path.join('output', filename + '.gpx')
+        out_path = os.path.join('output', basename)
+        if not os.path.exists(out_path):
+            os.mkdir(out_path)
+        out_filename = os.path.join(out_path, filename + '.gpx')
+
         with open(out_filename, 'w') as outfile:
             outfile.write(gpx(filtered_data, metadata=metadata))
         print('%7d | %s.gpx' % (len(filtered_data), filename))

@@ -9,7 +9,7 @@ Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen da
 
 # TODO:
  - [*] debug html-pagina om gebruikte ton/topteken combinaties te laten zien [Pagina hier](http://jieter.github.io/rws2gpx/debug/).
- - [ ] Check of icons bestaan en sorteer boeien met missende icons in de debug pagina.
+ - [*] Check of icons bestaan en sorteer boeien met missende icons in de debug pagina.
  - [*] Toptekens
  - [*] Lichten
  - [ ] Fix/maak tonnen (is nu geen User Icon voor wat klopt):
