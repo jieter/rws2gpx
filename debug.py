@@ -60,6 +60,10 @@ buoy_fmt = '''<i>
     <tr>
         <td>Licht:</td><td>{LICHT_KLR}</td><td>{light}</td>
     </tr>
+    <tr>
+        <td>Locaties:</td>
+        <td colspan="2">{locaties}</td>
+    </tr>
 </table>
 </i>'''
 

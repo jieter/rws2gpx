@@ -8,10 +8,10 @@ Rijkswaterstaat drijvende markeringen naar CSV converteren
 Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen dan vervolgens in OpenCPN worden ingeladen.
 
 # TODO:
- - [*] debug html-pagina om gebruikte ton/topteken combinaties te laten zien [Pagina hier](http://jieter.github.io/rws2gpx/debug/).
- - [*] Check of icons bestaan en sorteer boeien met missende icons in de debug pagina.
- - [*] Toptekens
- - [*] Lichten
+ - [x] debug html-pagina om gebruikte ton/topteken combinaties te laten zien [Pagina hier](http://jieter.github.io/rws2gpx/debug/).
+ - [x] Check of icons bestaan en sorteer boeien met missende icons in de debug pagina.
+ - [x] Toptekens
+ - [x] Lichten
  - [ ] Fix/maak tonnen (is nu geen User Icon voor wat klopt):
     - [ ] Spar Rood/wit
     - [ ] Spar Rood/groen
