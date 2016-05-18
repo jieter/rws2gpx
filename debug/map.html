@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>rws2gpx</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet-src.js"></script>
+
+    <style type="text/css">
+        html, body { width: 100%; height: 100%; margin: 0; }
+        #map { width: 100%; height: 100%; }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+    <script type="text/javascript">
+        var map = L.map('map').setView([52.5, 4], 8);
+
+        L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
+        }).addTo(map);
+
+        var markers = L.geoJson(null, {
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                    radius: 2
+                }).bindPopup(L.Util.template('<h2>{name}</h2><p>{desc}</p>', feature.properties));
+            }
+        }).addTo(map);
+        omnivore.gpx('../output/160428/alles.gpx', null, markers);
+
+    </script>
+</body>
+</html>
