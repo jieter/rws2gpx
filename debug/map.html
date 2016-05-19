@@ -17,6 +17,8 @@
     <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js"></script>
 
     <script type="text/javascript">
+        var basepath = '../output/160428/';
+
         var map = L.map('map').setView([52.5, 4], 8);
 
         L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
@@ -31,23 +33,38 @@
                 fill: false
             }
         }).addTo(map);
-        omnivore.geojson('../output/160428/bounds.geojson', null, boundsLayer)
+        var gpxLayer = function () {
+            return L.geoJson(null, {
+                pointToLayer: function (feature, latlng) {
+                    feature.properties.desc = feature.properties.desc.replace(/\n/g, '<br />');
 
-        var gpxLayer = L.geoJson(null, {
-            pointToLayer: function (feature, latlng) {
-                feature.properties.desc = feature.properties.desc.replace(/\n/g, '<br />');
+                    var circle = L.circleMarker(latlng, {
+                        radius: 2
+                    }).bindPopup(L.Util.template('<h2>{name}</h2><p>{desc}</p>', feature.properties));
 
-                var circle = L.circleMarker(latlng, {
-                    radius: 2
-                }).bindPopup(L.Util.template('<h2>{name}</h2><p>{desc}</p>', feature.properties));
+                    return circle;
+                }
+            });
+        };
 
-                return circle;
-            }
+        var layers = L.control.layers({}, {
+            'Bounds': boundsLayer,
+            'OpenSeaMap': L.tileLayer('http://tiles.openseamap.org/seamark/{z}/{x}/{y}.png', {
+                attribution: 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors'
+            })
+        }, {
+            collapsed: false
+        }).addTo(map);
+
+        omnivore.geojson(basepath + 'bounds.geojson', null, boundsLayer).on('ready', function () {
+            boundsLayer.eachLayer(function (layer) {
+                var name = layer.feature.properties.name;
+
+                var layer = gpxLayer();
+                omnivore.gpx(basepath + name + '.gpx', null, layer);
+                layers.addOverlay(layer, name);
+            });
         });
-        omnivore.gpx('../output/160428/Waterweg_haringvliet.gpx', null, gpxLayer);
-        omnivore.gpx('../output/160428/Randmeren.gpx', null, gpxLayer);
-        omnivore.gpx('../output/160428/Lauwersmeer.gpx', null, gpxLayer);
-        gpxLayer.addTo(map);
     </script>
 </body>
 </html>
