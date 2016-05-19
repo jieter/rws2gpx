@@ -33,6 +33,8 @@
                 fill: false
             }
         }).addTo(map);
+
+        // generator for the floating marks layer
         var gpxLayer = function () {
             return L.geoJson(null, {
                 pointToLayer: function (feature, latlng) {

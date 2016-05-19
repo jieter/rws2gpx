@@ -25,6 +25,7 @@ BOUNDS_PATH = 'bounds.geojson'
 
 
 def point_in_poly(x, y, poly):
+    # function from http://geospatialpython.com/2011/01/point-in-polygon.html
     n = len(poly)
     inside = False
 
@@ -44,6 +45,11 @@ def point_in_poly(x, y, poly):
 
 
 def areas():
+    '''
+    yield (name, test)-tuples for the area's. The test function expects a
+    dict-like object with keys 'lat' and 'lon' to test if the object falls
+    within the polygon.
+    '''
     with open(BOUNDS_PATH) as gj:
         bounds = json.load(gj)
 
@@ -54,7 +60,7 @@ def areas():
 
         def test(data):
             '''
-            Test wether the point represented by data is within the current polygon
+            Test whether the point represented by data is within the current polygon
             '''
             return point_in_poly(
                 data['lon'],
