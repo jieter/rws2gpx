@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <gpx version="1.0" creator="rws2gpx.py">
-<metadata>Created from filename: input/160428.csv on 2016-05-19T10:02:01</metadata>
+<metadata>
+<desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
+source filename: input/160428.csv</desc>
+<time>2016-05-19T10:13:33</desc>'
+</metadata>
 <wpt lat="52.373" lon="4.95495">
 	<type>WPT</type>
 	<name>AK 1-EH 2</name>

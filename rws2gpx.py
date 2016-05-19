@@ -68,6 +68,12 @@ gpx_format = '''<?xml version="1.0"?>
 {waypoints}
 <gpx>'''
 
+gpx_metadata_fmt = '''
+<desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
+source filename: {csv_file}</desc>
+<time>{created}</desc>'
+'''
+
 NOT_ASSIGNED = 'Niet toegewezen'
 
 shapes = {
@@ -280,8 +286,11 @@ if __name__ == '__main__':
     if not os.path.exists('output'):
         os.mkdir('output')
 
-    created = datetime.now().replace(microsecond=0).isoformat()
-    metadata = 'Created from filename: {} on {}'.format(csv_file, created)
+    metadata = gpx_metadata_fmt.format(
+        csv_file=csv_file,
+        created=datetime.now().replace(microsecond=0).isoformat()
+    )
+
     data = convert_file(csv_file)
 
     out_path = os.path.join('output', os.path.basename(csv_file).split('.')[0])
