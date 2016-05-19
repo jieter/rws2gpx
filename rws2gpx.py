@@ -74,7 +74,7 @@ gpx_format = '''<?xml version="1.0"?>
 <gpx version="1.0" creator="rws2gpx.py">
 <metadata>{metadata}</metadata>
 {waypoints}
-<gpx>'''
+</gpx>'''
 
 gpx_metadata_fmt = '''
 <desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,

@@ -3,7 +3,7 @@
 <metadata>
 <desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
 source filename: input/160513.csv</desc>
-<time>2016-05-19T10:06:23Z</time>'
+<time>2016-05-19T11:49:23Z</time>'
 </metadata>
 <wpt lat="51.776419" lon="4.190083">
 	<type>WPT</type>
@@ -13001,4 +13001,4 @@ Kleur: Rood</desc>
 Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
-<gpx>
+</gpx>
