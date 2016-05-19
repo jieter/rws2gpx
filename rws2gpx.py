@@ -288,7 +288,7 @@ if __name__ == '__main__':
 
     metadata = gpx_metadata_fmt.format(
         csv_file=csv_file,
-        created=datetime.now().replace(microsecond=0).isoformat()
+        created='{}Z'.format(datetime.utcnow().replace(microsecond=0).isoformat())
     )
 
     data = convert_file(csv_file)
