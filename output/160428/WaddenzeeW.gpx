@@ -3,7 +3,7 @@
 <metadata>
 <desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
 source filename: input/160428.csv</desc>
-<time>2016-05-19T08:18:05Z</desc>'
+<time>2016-05-19T08:39:29Z</desc>'
 </metadata>
 <wpt lat="53.433567" lon="5.725533">
 	<type>WPT</type>
@@ -676,12 +676,6 @@ Lichtkleur: Groen</desc>
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
-</wpt>
-<wpt lat="53.407869" lon="5.118108">
-	<type>WPT</type>
-	<name>WK WEST ALETHA</name>
-	<desc>Vaarwater: BOOMKENSDIEP</desc>
-	<sym>Beacon_Black_Yellow_Black</sym>
 </wpt>
 <wpt lat="53.082072" lon="5.316319">
 	<type>WPT</type>
@@ -1641,88 +1635,6 @@ Lichtkleur: Groen</desc>
 	<desc>Vaarwater: GRIENDERWAARD</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
-<wpt lat="52.950206" lon="5.398856">
-	<type>WPT</type>
-	<name>H 1</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="52.946825" lon="5.401236">
-	<type>WPT</type>
-	<name>H 3</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.955383" lon="5.394367">
-	<type>WPT</type>
-	<name>H 4</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.952367" lon="5.397517">
-	<type>WPT</type>
-	<name>H 6</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.949367" lon="5.40065">
-	<type>WPT</type>
-	<name>H 8</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.94735" lon="5.401567">
-	<type>WPT</type>
-	<name>H 10</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.958383" lon="5.391217">
-	<type>WPT</type>
-	<name>H 2-W 1</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Wit</desc>
-	<sym>Sphere_Red_Green_Red_Green</sym>
-</wpt>
-<wpt lat="52.936331" lon="5.385928">
-	<type>WPT</type>
-	<name>KITE 10</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.938639" lon="5.400297">
-	<type>WPT</type>
-	<name>KITE 11</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.934911" lon="5.401947">
-	<type>WPT</type>
-	<name>KITE 12</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.934369" lon="5.402169">
-	<type>WPT</type>
-	<name>KITE 13</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.92765" lon="5.389736">
-	<type>WPT</type>
-	<name>KITE 14</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.929947" lon="5.404117">
-	<type>WPT</type>
-	<name>KITE 15</name>
-	<desc>Vaarwater: HINDERLOPEN (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
 <wpt lat="53.162367" lon="5.192781">
 	<type>WPT</type>
 	<name>IN-KL 1</name>
@@ -1900,6 +1812,12 @@ Lichtkleur: Wit</desc>
 <wpt lat="53.425292" lon="5.748006">
 	<type>WPT</type>
 	<name>KG 10</name>
+	<desc>Vaarwater: KIKKERTGAT</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.427931" lon="5.751639">
+	<type>WPT</type>
+	<name>KG 12</name>
 	<desc>Vaarwater: KIKKERTGAT</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
@@ -2209,79 +2127,9 @@ Lichtkleur: Wit</desc>
 	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
-<wpt lat="53.060119" lon="5.355481">
-	<type>WPT</type>
-	<name>MA 4</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.056842" lon="5.365611">
-	<type>WPT</type>
-	<name>MA 6</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.055931" lon="5.370056">
-	<type>WPT</type>
-	<name>MA 8</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.055528" lon="5.375356">
-	<type>WPT</type>
-	<name>MA 10</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.055469" lon="5.379956">
-	<type>WPT</type>
-	<name>MA 12</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.059392" lon="5.3549">
-	<type>WPT</type>
-	<name>MA 3</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Green_Red</sym>
-</wpt>
-<wpt lat="53.055414" lon="5.370161">
-	<type>WPT</type>
-	<name>MA 7</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.055172" lon="5.375067">
-	<type>WPT</type>
-	<name>MA 9</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.055156" lon="5.378228">
-	<type>WPT</type>
-	<name>MA 11</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.056347" lon="5.365242">
-	<type>WPT</type>
-	<name>MA 5</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
 <wpt lat="53.074703" lon="5.346919">
 	<type>WPT</type>
 	<name>KITE 1</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="53.058611" lon="5.363522">
-	<type>WPT</type>
-	<name>KITE 2</name>
 	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
@@ -2290,212 +2138,6 @@ Lichtkleur: Groen</desc>
 	<name>KITE 3</name>
 	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)</desc>
 	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="53.056064" lon="5.367678">
-	<type>WPT</type>
-	<name>MA 5A</name>
-	<desc>Vaarwater: MAKKUMERDIEP (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.054839" lon="5.355944">
-	<type>WPT</type>
-	<name>MW 4</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.050433" lon="5.357111">
-	<type>WPT</type>
-	<name>MW 6</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.045964" lon="5.358594">
-	<type>WPT</type>
-	<name>MW 8</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.042269" lon="5.359544">
-	<type>WPT</type>
-	<name>MW 10</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.037808" lon="5.360567">
-	<type>WPT</type>
-	<name>MW 12</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.033278" lon="5.3617">
-	<type>WPT</type>
-	<name>MW 14</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.028881" lon="5.362956">
-	<type>WPT</type>
-	<name>MW 16</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.024419" lon="5.363978">
-	<type>WPT</type>
-	<name>MW 18</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.020019" lon="5.365578">
-	<type>WPT</type>
-	<name>MW 20</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.015497" lon="5.366136">
-	<type>WPT</type>
-	<name>MW 22</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.011092" lon="5.36785">
-	<type>WPT</type>
-	<name>MW 24</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.006631" lon="5.368986">
-	<type>WPT</type>
-	<name>MW 26</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.002167" lon="5.370119">
-	<type>WPT</type>
-	<name>MW 28</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.997778" lon="5.371144">
-	<type>WPT</type>
-	<name>MW 30</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.993314" lon="5.372281">
-	<type>WPT</type>
-	<name>MW 32</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.999417" lon="5.38095">
-	<type>WPT</type>
-	<name>MW-NBW 2</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.995517" lon="5.3832">
-	<type>WPT</type>
-	<name>MW-NBW 4</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.991617" lon="5.385467">
-	<type>WPT</type>
-	<name>MW-NBW 6</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.987717" lon="5.387717">
-	<type>WPT</type>
-	<name>MW-NBW 8</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.983817" lon="5.389983">
-	<type>WPT</type>
-	<name>MW-NBW 10</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.979917" lon="5.392217">
-	<type>WPT</type>
-	<name>MW-NBW 12</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.976017" lon="5.394483">
-	<type>WPT</type>
-	<name>MW-NBW 14</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.9721" lon="5.396733">
-	<type>WPT</type>
-	<name>MW-NBW 16</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.989292" lon="5.375622">
-	<type>WPT</type>
-	<name>MW 34</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.966717" lon="5.39755">
-	<type>WPT</type>
-	<name>KITE 4A</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.964017" lon="5.397967">
-	<type>WPT</type>
-	<name>KITE 9A</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.985075" lon="5.378381">
-	<type>WPT</type>
-	<name>MW 36</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.980922" lon="5.381256">
-	<type>WPT</type>
-	<name>MW 38</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.976767" lon="5.384475">
-	<type>WPT</type>
-	<name>MW 40</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.972614" lon="5.38735">
-	<type>WPT</type>
-	<name>MW 42</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.968461" lon="5.390339">
-	<type>WPT</type>
-	<name>MW 44</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.964331" lon="5.393333">
-	<type>WPT</type>
-	<name>MW 46</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.960981" lon="5.396003">
-	<type>WPT</type>
-	<name>MW 48</name>
-	<desc>Vaarwater: MAKKUM RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
 </wpt>
 <wpt lat="52.942583" lon="4.793406">
 	<type>WPT</type>
@@ -2765,15 +2407,39 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
+<wpt lat="53.429581" lon="5.755119">
+	<type>WPT</type>
+	<name>MG 15-KG 14</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
 <wpt lat="53.427442" lon="5.731639">
 	<type>WPT</type>
 	<name>MG 5</name>
 	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
+<wpt lat="53.429603" lon="5.759619">
+	<type>WPT</type>
+	<name>MG 18</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
 <wpt lat="53.422433" lon="5.726547">
 	<type>WPT</type>
 	<name>MG 3</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432694" lon="5.750853">
+	<type>WPT</type>
+	<name>MG 16</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.4315" lon="5.750578">
+	<type>WPT</type>
+	<name>MG 13</name>
 	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
@@ -3035,189 +2701,9 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: MOSSELGAATJE</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
-<wpt lat="52.9101" lon="5.395833">
-	<type>WPT</type>
-	<name>60</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.912344" lon="5.395828">
-	<type>WPT</type>
-	<name>58</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.914589" lon="5.395828">
-	<type>WPT</type>
-	<name>56</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.916839" lon="5.395831">
-	<type>WPT</type>
-	<name>VF-NBW 54</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.919086" lon="5.395831">
-	<type>WPT</type>
-	<name>VF-NBW 52</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.919803" lon="5.399247">
-	<type>WPT</type>
-	<name>VF-NBW 50</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.947006" lon="5.402503">
-	<type>WPT</type>
-	<name>VF-NBW 48</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.0035" lon="5.38095">
-	<type>WPT</type>
-	<name>VF-NBW 36</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.949403" lon="5.402572">
-	<type>WPT</type>
-	<name>VF-NBW 46</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.952097" lon="5.402739">
-	<type>WPT</type>
-	<name>VF-NBW 44</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.954786" lon="5.402889">
-	<type>WPT</type>
-	<name>VF-NBW 42</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.957483" lon="5.403056">
-	<type>WPT</type>
-	<name>VF-NBW 40</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.0246" lon="5.3806">
-	<type>WPT</type>
-	<name>VF-NBW 26A</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.007556" lon="5.38095">
-	<type>WPT</type>
-	<name>VF-NBW 34</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.011628" lon="5.38095">
-	<type>WPT</type>
-	<name>VF-NBW 32</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.015689" lon="5.380947">
-	<type>WPT</type>
-	<name>VF-NBW 30</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.022767" lon="5.380783">
-	<type>WPT</type>
-	<name>VF-NBW 28</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.026133" lon="5.380483">
-	<type>WPT</type>
-	<name>VF-NBW 26</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.029467" lon="5.380133">
-	<type>WPT</type>
-	<name>VF-NBW 24</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.032817" lon="5.379783">
-	<type>WPT</type>
-	<name>VF-NBW 22</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.03615" lon="5.379467">
-	<type>WPT</type>
-	<name>VF-NBW 20</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.0278" lon="5.380317">
-	<type>WPT</type>
-	<name>VF-NBW 24A</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.031233" lon="5.37995">
-	<type>WPT</type>
-	<name>VF-NBW 22A</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.0346" lon="5.3796">
-	<type>WPT</type>
-	<name>VF-NBW 20A</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.055856" lon="5.370817">
-	<type>WPT</type>
-	<name>VF-NBW 12</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.056231" lon="5.369114">
-	<type>WPT</type>
-	<name>VF-NBW 10</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.059664" lon="5.365861">
-	<type>WPT</type>
-	<name>VF-NBW 8</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.063294" lon="5.3624">
-	<type>WPT</type>
-	<name>VF-NBW 6</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.066922" lon="5.358953">
-	<type>WPT</type>
-	<name>VF-NBW 4</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
 <wpt lat="53.070553" lon="5.355489">
 	<type>WPT</type>
 	<name>VF-NBW 2</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.909236" lon="5.400289">
-	<type>WPT</type>
-	<name>62</name>
 	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
@@ -3226,114 +2712,6 @@ Lichtkleur: Rood</desc>
 	<name>VF-NBW 2A</name>
 	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
 	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.065156" lon="5.360794">
-	<type>WPT</type>
-	<name>VF-NBW 4A</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.061556" lon="5.364114">
-	<type>WPT</type>
-	<name>VF-NBW 6A</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.057889" lon="5.367486">
-	<type>WPT</type>
-	<name>VF-NBW 8A</name>
-	<desc>Vaarwater: NATUURGEBIED LANGS FRIESE KUST(IJSSELM.)</desc>
-	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.911489" lon="5.071825">
-	<type>WPT</type>
-	<name>VN 2</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.913492" lon="5.074308">
-	<type>WPT</type>
-	<name>VN 4</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.915503" lon="5.076792">
-	<type>WPT</type>
-	<name>VN 6</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.917503" lon="5.079275">
-	<type>WPT</type>
-	<name>VN 8</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.919514" lon="5.081772">
-	<type>WPT</type>
-	<name>VN 10</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.921514" lon="5.084258">
-	<type>WPT</type>
-	<name>VN 12</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.923525" lon="5.086742">
-	<type>WPT</type>
-	<name>VN 14</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.925528" lon="5.089242">
-	<type>WPT</type>
-	<name>VN 16</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.927536" lon="5.091725">
-	<type>WPT</type>
-	<name>VN 18</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.929536" lon="5.094211">
-	<type>WPT</type>
-	<name>VN 20</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.931547" lon="5.096694">
-	<type>WPT</type>
-	<name>VN 22</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.933547" lon="5.099197">
-	<type>WPT</type>
-	<name>VN 24</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.935633" lon="5.101783">
-	<type>WPT</type>
-	<name>VN 26</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.938117" lon="5.100583">
-	<type>WPT</type>
-	<name>VN 28</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.94065" lon="5.099383">
-	<type>WPT</type>
-	<name>VN 30</name>
-	<desc>Vaarwater: NIEUWE ZEUG RECREATIE BET. (IJSSELMEER)</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
 </wpt>
 <wpt lat="52.943167" lon="5.098167">
 	<type>WPT</type>
@@ -3579,107 +2957,11 @@ Lichtkleur: Wit</desc>
 	<desc>Vaarwater: NOORD OOST MEEP</desc>
 	<sym>Beacon_Yellow_Black</sym>
 </wpt>
-<wpt lat="52.910792" lon="4.578528">
-	<type>WPT</type>
-	<name>ZH</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: very quick-flash plus long- fl
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Yellow_Black</sym>
-</wpt>
-<wpt lat="52.946181" lon="4.563389">
-	<type>WPT</type>
-	<name>MR</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: Q (quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Yellow_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.003822" lon="4.589414">
-	<type>WPT</type>
-	<name>NH</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: VQ (very quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Black_Yellow</sym>
-</wpt>
 <wpt lat="53.197025" lon="4.796831">
 	<type>WPT</type>
 	<name>WK EG</name>
 	<desc>Vaarwater: NOORDZEE</desc>
 	<sym>Can_Yellow_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.222636" lon="4.784803">
-	<type>WPT</type>
-	<name>EG</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: VQ (very quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Yellow_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.225886" lon="4.690994">
-	<type>WPT</type>
-	<name>WK BADEN</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: Q (quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Yellow_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.309003" lon="4.867028">
-	<type>WPT</type>
-	<name>NAM 8</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: LFl (long-flashing)
-Lichtkleur: Geel</desc>
-	<sym>Sphere_Yellow</sym>
-</wpt>
-<wpt lat="53.327422" lon="4.890558">
-	<type>WPT</type>
-	<name>NAM 25</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: LFl (long-flashing)
-Lichtkleur: Geel</desc>
-	<sym>Sphere_Yellow</sym>
-</wpt>
-<wpt lat="53.360072" lon="4.856178">
-	<type>WPT</type>
-	<name>NAM 15</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: Fl (flashing)
-Lichtkleur: Geel</desc>
-	<sym>Sphere_Yellow</sym>
-</wpt>
-<wpt lat="53.402197" lon="5.038725">
-	<type>WPT</type>
-	<name>TG</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: Q (quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Yellow_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.410622" lon="5.105353">
-	<type>WPT</type>
-	<name>WK OTTO</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: VQ (very quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.436203" lon="5.161719">
-	<type>WPT</type>
-	<name>WK S'FELS</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: VQ (very quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Yellow_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.469222" lon="5.358539">
-	<type>WPT</type>
-	<name>TS</name>
-	<desc>Vaarwater: NOORDZEE
-Lichtkarakter: VQ (very quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Black_Yellow</sym>
 </wpt>
 <wpt lat="53.183769" lon="4.835019">
 	<type>WPT</type>
@@ -4263,488 +3545,6 @@ Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
-<wpt lat="52.93415" lon="5.689575">
-	<type>WPT</type>
-	<name>PM 33</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.93695" lon="5.688133">
-	<type>WPT</type>
-	<name>PM 34</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.934331" lon="5.689525">
-	<type>WPT</type>
-	<name>PM 35-IH 2</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_Red</sym>
-</wpt>
-<wpt lat="52.93975" lon="5.688317">
-	<type>WPT</type>
-	<name>PM 36</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.941681" lon="5.688506">
-	<type>WPT</type>
-	<name>PM 38</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.936933" lon="5.689217">
-	<type>WPT</type>
-	<name>PM 39</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.941919" lon="5.688558">
-	<type>WPT</type>
-	<name>PM 40-WE 1</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Sphere_Red_Green_Red</sym>
-</wpt>
-<wpt lat="52.93975" lon="5.689433">
-	<type>WPT</type>
-	<name>PM 41</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.946911" lon="5.688992">
-	<type>WPT</type>
-	<name>PM 44</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.946911" lon="5.690025">
-	<type>WPT</type>
-	<name>PM 45</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.949619" lon="5.689206">
-	<type>WPT</type>
-	<name>PM 46</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.949631" lon="5.690275">
-	<type>WPT</type>
-	<name>PM 47</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.9554" lon="5.689639">
-	<type>WPT</type>
-	<name>PM 50</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.955361" lon="5.690772">
-	<type>WPT</type>
-	<name>PM 51</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.957969" lon="5.689856">
-	<type>WPT</type>
-	<name>PM 52</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.957981" lon="5.690972">
-	<type>WPT</type>
-	<name>PM 53</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.987961" lon="5.690056">
-	<type>WPT</type>
-	<name>PM 56</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.963483" lon="5.691983">
-	<type>WPT</type>
-	<name>PM 57</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.989639" lon="5.692061">
-	<type>WPT</type>
-	<name>PM 58</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.963883" lon="5.691867">
-	<type>WPT</type>
-	<name>PM 59-JA 2</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_Red</sym>
-</wpt>
-<wpt lat="52.990039" lon="5.692406">
-	<type>WPT</type>
-	<name>PM 60-WB 1</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Sphere_Red_Green_Red</sym>
-</wpt>
-<wpt lat="52.968481" lon="5.691339">
-	<type>WPT</type>
-	<name>PM 61</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.987581" lon="5.690906">
-	<type>WPT</type>
-	<name>PM 63</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.019281" lon="5.723686">
-	<type>WPT</type>
-	<name>PM 64</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.989172" lon="5.692669">
-	<type>WPT</type>
-	<name>PM 65</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.989506" lon="5.693006">
-	<type>WPT</type>
-	<name>PM 67-LV 2</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_Red</sym>
-</wpt>
-<wpt lat="53.023261" lon="5.727006">
-	<type>WPT</type>
-	<name>PM 68</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.019681" lon="5.725222">
-	<type>WPT</type>
-	<name>PM 69</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.029889" lon="5.735056">
-	<type>WPT</type>
-	<name>PM 72</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.022831" lon="5.727922">
-	<type>WPT</type>
-	<name>PM 73</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.031661" lon="5.737189">
-	<type>WPT</type>
-	<name>PM 74</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.029433" lon="5.73605">
-	<type>WPT</type>
-	<name>PM 77</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.034869" lon="5.743556">
-	<type>WPT</type>
-	<name>PM 78</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.0312" lon="5.738306">
-	<type>WPT</type>
-	<name>PM 79</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.036689" lon="5.748119">
-	<type>WPT</type>
-	<name>PM 80</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.0326" lon="5.740442">
-	<type>WPT</type>
-	<name>PM 81</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.0342" lon="5.744239">
-	<type>WPT</type>
-	<name>PM 83</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.0361" lon="5.748972">
-	<type>WPT</type>
-	<name>PM 85</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.933883" lon="5.68835">
-	<type>WPT</type>
-	<name>RPM 44</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.934867" lon="5.6879">
-	<type>WPT</type>
-	<name>RPM 46</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.935017" lon="5.689317">
-	<type>WPT</type>
-	<name>RPM 49</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.935683" lon="5.689317">
-	<type>WPT</type>
-	<name>RPM 51</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.936067" lon="5.687833">
-	<type>WPT</type>
-	<name>RPM 48</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.936917" lon="5.6894">
-	<type>WPT</type>
-	<name>RPM 53</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.936933" lon="5.687867">
-	<type>WPT</type>
-	<name>RPM 50</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.938417" lon="5.68955">
-	<type>WPT</type>
-	<name>RPM 55</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.938483" lon="5.688033">
-	<type>WPT</type>
-	<name>RPM 52</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.939717" lon="5.689667">
-	<type>WPT</type>
-	<name>RPM 57</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.939783" lon="5.6881">
-	<type>WPT</type>
-	<name>RPM 54</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.94155" lon="5.68985">
-	<type>WPT</type>
-	<name>RPM 59</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.941883" lon="5.6883">
-	<type>WPT</type>
-	<name>RPM 56</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.943767" lon="5.69">
-	<type>WPT</type>
-	<name>RPM 61</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.943883" lon="5.68845">
-	<type>WPT</type>
-	<name>RPM 58</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.945483" lon="5.690167">
-	<type>WPT</type>
-	<name>RPM 63</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.94565" lon="5.6886">
-	<type>WPT</type>
-	<name>RPM 60</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.946967" lon="5.690283">
-	<type>WPT</type>
-	<name>RPM 65</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.94695" lon="5.688717">
-	<type>WPT</type>
-	<name>RPM 62</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.94825" lon="5.690383">
-	<type>WPT</type>
-	<name>RPM 67</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.948317" lon="5.688817">
-	<type>WPT</type>
-	<name>RPM 64</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.949733" lon="5.690517">
-	<type>WPT</type>
-	<name>RPM 69</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.9497" lon="5.688933">
-	<type>WPT</type>
-	<name>RPM 66</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.951283" lon="5.690667">
-	<type>WPT</type>
-	<name>RPM 71</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.951117" lon="5.689083">
-	<type>WPT</type>
-	<name>RPM 68</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.952733" lon="5.690767">
-	<type>WPT</type>
-	<name>RPM 73</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.952736" lon="5.689197">
-	<type>WPT</type>
-	<name>RPM 70</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.9539" lon="5.690867">
-	<type>WPT</type>
-	<name>RPM 75</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.954017" lon="5.689333">
-	<type>WPT</type>
-	<name>RPM 72</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.955367" lon="5.691033">
-	<type>WPT</type>
-	<name>RPM 77</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.95545" lon="5.689467">
-	<type>WPT</type>
-	<name>RPM 74</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.9568" lon="5.691133">
-	<type>WPT</type>
-	<name>RPM 79</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.95675" lon="5.689567">
-	<type>WPT</type>
-	<name>RPM 76</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.957967" lon="5.6912">
-	<type>WPT</type>
-	<name>RPM 81</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.957983" lon="5.689667">
-	<type>WPT</type>
-	<name>RPM 78</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.959317" lon="5.691333">
-	<type>WPT</type>
-	<name>RPM 83</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.959267" lon="5.689783">
-	<type>WPT</type>
-	<name>RPM 80</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.960717" lon="5.691483">
-	<type>WPT</type>
-	<name>RPM 85</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.9607" lon="5.6899">
-	<type>WPT</type>
-	<name>RPM 82</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="52.961633" lon="5.691583">
-	<type>WPT</type>
-	<name>RPM 87</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Green_White_Green_White</sym>
-</wpt>
-<wpt lat="52.962033" lon="5.690083">
-	<type>WPT</type>
-	<name>RPM 84</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red_White_Red_White</sym>
-</wpt>
-<wpt lat="53.0216" lon="5.725517">
-	<type>WPT</type>
-	<name>PM 66A</name>
-	<desc>Vaarwater: PRINSES MARGRIET KANAAL</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
 <wpt lat="53.188847" lon="5.328128">
 	<type>WPT</type>
 	<name>A</name>
@@ -4859,6 +3659,110 @@ Lichtkleur: Groen</desc>
 	<desc>Vaarwater: REDE VAN HARLINGEN</desc>
 	<sym>Beacon_Yellow_Black_Yellow</sym>
 </wpt>
+<wpt lat="53.429867" lon="5.7658">
+	<type>WPT</type>
+	<name>R 3</name>
+	<desc>Vaarwater: REEGEUL
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431147" lon="5.767167">
+	<type>WPT</type>
+	<name>R 5</name>
+	<desc>Vaarwater: REEGEUL
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431678" lon="5.769858">
+	<type>WPT</type>
+	<name>R 7</name>
+	<desc>Vaarwater: REEGEUL
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432494" lon="5.771614">
+	<type>WPT</type>
+	<name>R 8</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432281" lon="5.768603">
+	<type>WPT</type>
+	<name>R 6</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431883" lon="5.7668">
+	<type>WPT</type>
+	<name>R 4</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431656" lon="5.773167">
+	<type>WPT</type>
+	<name>RG-SB 1</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.432156" lon="5.776986">
+	<type>WPT</type>
+	<name>RG-SB 3</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.434017" lon="5.777153">
+	<type>WPT</type>
+	<name>RG-SB 5</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.432839" lon="5.759444">
+	<type>WPT</type>
+	<name>KITE-AML</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.440278" lon="5.759511">
+	<type>WPT</type>
+	<name>KITE-AML1</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.436136" lon="5.773739">
+	<type>WPT</type>
+	<name>KITE-AML2</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.438789" lon="5.773747">
+	<type>WPT</type>
+	<name>KITE-AML3</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.429817" lon="5.764217">
+	<type>WPT</type>
+	<name>R 2</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.430714" lon="5.766256">
+	<type>WPT</type>
+	<name>R 3A</name>
+	<desc>Vaarwater: REEGEUL
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431033" lon="5.764983">
+	<type>WPT</type>
+	<name>R 2A</name>
+	<desc>Vaarwater: REEGEUL</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
 <wpt lat="53.345178" lon="5.320239">
 	<type>WPT</type>
 	<name>R 6</name>
@@ -4961,9 +3865,51 @@ Lichtkleur: Groen</desc>
 	<desc>Vaarwater: SCHEEPSGAT</desc>
 	<sym>Beacon_Yellow_Black</sym>
 </wpt>
+<wpt lat="53.409689" lon="5.751711">
+	<type>WPT</type>
+	<name>SCH 3</name>
+	<desc>Vaarwater: SCHEEPSGAT</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
 <wpt lat="53.411403" lon="5.749919">
 	<type>WPT</type>
 	<name>SCH 4</name>
+	<desc>Vaarwater: SCHEEPSGAT</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.419175" lon="5.76465">
+	<type>WPT</type>
+	<name>SCH 5</name>
+	<desc>Vaarwater: SCHEEPSGAT</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.419897" lon="5.763528">
+	<type>WPT</type>
+	<name>SCH 6</name>
+	<desc>Vaarwater: SCHEEPSGAT</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.420878" lon="5.770606">
+	<type>WPT</type>
+	<name>SCH 7</name>
+	<desc>Vaarwater: SCHEEPSGAT</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421944" lon="5.769714">
+	<type>WPT</type>
+	<name>SCH 8</name>
+	<desc>Vaarwater: SCHEEPSGAT</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.421764" lon="5.778503">
+	<type>WPT</type>
+	<name>SCH 9</name>
+	<desc>Vaarwater: SCHEEPSGAT</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.413453" lon="5.755803">
+	<type>WPT</type>
+	<name>SCH 4A</name>
 	<desc>Vaarwater: SCHEEPSGAT</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
@@ -5431,44 +4377,6 @@ Lichtkleur: Groen</desc>
 	<desc>Vaarwater: SCHUITENGAT</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
-<wpt lat="52.907292" lon="4.658947">
-	<type>WPT</type>
-	<name>S 3</name>
-	<desc>Vaarwater: SCHULPENGAT
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="52.910486" lon="4.646586">
-	<type>WPT</type>
-	<name>S 4</name>
-	<desc>Vaarwater: SCHULPENGAT
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
-</wpt>
-<wpt lat="52.912847" lon="4.687836">
-	<type>WPT</type>
-	<name>S PARANAGUA</name>
-	<desc>Vaarwater: SCHULPENGAT</desc>
-	<sym>Can_Black_Yellow_Black</sym>
-</wpt>
-<wpt lat="52.922294" lon="4.670614">
-	<type>WPT</type>
-	<name>S 5</name>
-	<desc>Vaarwater: SCHULPENGAT
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="52.925072" lon="4.661447">
-	<type>WPT</type>
-	<name>S 6</name>
-	<desc>Vaarwater: SCHULPENGAT
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
-</wpt>
 <wpt lat="52.937572" lon="4.682003">
 	<type>WPT</type>
 	<name>S 7</name>
@@ -5760,22 +4668,6 @@ Lichtkleur: Rood</desc>
 	<name>SM-KB 2</name>
 	<desc>Vaarwater: STORTEMELK</desc>
 	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="53.493333" lon="5.188333">
-	<type>WPT</type>
-	<name>TE 1</name>
-	<desc>Vaarwater: TERSCHELLING STELSEL (NZ)
-Lichtkarakter: Fl (flashing)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.113489" lon="4.686447">
-	<type>WPT</type>
-	<name>TX</name>
-	<desc>Vaarwater: TEXEL STELSEL (NZ)
-Lichtkarakter: Q (quick-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Pillar_Yellow_Black_Yellow</sym>
 </wpt>
 <wpt lat="52.966489" lon="4.743725">
 	<type>WPT</type>
@@ -6277,105 +5169,17 @@ Lichtkleur: Wit</desc>
 	<desc>Vaarwater: VAARWATER LANGS DE AFSLUITDIJK</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
-<wpt lat="53.025378" lon="5.341361">
-	<type>WPT</type>
-	<name>VF 10</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.036483" lon="5.350833">
-	<type>WPT</type>
-	<name>VF 8</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
-</wpt>
-<wpt lat="53.047294" lon="5.347319">
-	<type>WPT</type>
-	<name>VF 6</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
 <wpt lat="53.062678" lon="5.344456">
 	<type>WPT</type>
 	<name>VF 2-MA 1</name>
 	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
 	<sym>Beacon_Sphere_Red_Green_Red</sym>
 </wpt>
-<wpt lat="53.057472" lon="5.341731">
-	<type>WPT</type>
-	<name>VF 3</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.047061" lon="5.345275">
-	<type>WPT</type>
-	<name>VF 5</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
 <wpt lat="53.06185" lon="5.340847">
 	<type>WPT</type>
 	<name>VF 1</name>
 	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
 	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.026047" lon="5.339253">
-	<type>WPT</type>
-	<name>VF 9</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.9051" lon="5.313833">
-	<type>WPT</type>
-	<name>VF B</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)
-Lichtkarakter: OC (occulting)
-Lichtkleur: Wit</desc>
-	<sym>Sphere_Sphere_Red_White</sym>
-</wpt>
-<wpt lat="52.954547" lon="5.317217">
-	<type>WPT</type>
-	<name>VF A</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)
-Lichtkarakter: LFl (long-flashing)
-Lichtkleur: Wit</desc>
-	<sym>Sphere_Sphere_Red_White</sym>
-</wpt>
-<wpt lat="53.014519" lon="5.331864">
-	<type>WPT</type>
-	<name>VF 12</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="53.015189" lon="5.329756">
-	<type>WPT</type>
-	<name>VF 11</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.036656" lon="5.348953">
-	<type>WPT</type>
-	<name>VF 7</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.057708" lon="5.343772">
-	<type>WPT</type>
-	<name>VF 4</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.966667" lon="5.166667">
-	<type>WPT</type>
-	<name>SPORT A</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)
-Lichtkarakter: Fl (flashing)
-Lichtkleur: Geel</desc>
-	<sym>Sphere_Yellow</sym>
 </wpt>
 <wpt lat="53.008333" lon="5.233333">
 	<type>WPT</type>
@@ -6384,22 +5188,6 @@ Lichtkleur: Geel</desc>
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Sphere_Yellow</sym>
-</wpt>
-<wpt lat="53.004331" lon="5.320264">
-	<type>WPT</type>
-	<name>VF 13</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.003661" lon="5.322372">
-	<type>WPT</type>
-	<name>VF 14</name>
-	<desc>Vaarwater: VAARWATER LANGS FRIESE KUST (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
 </wpt>
 <wpt lat="53.107739" lon="4.932664">
 	<type>WPT</type>
@@ -6903,6 +5691,62 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>VH 18A</name>
 	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.429097" lon="5.766394">
+	<type>WPT</type>
+	<name>VA 2-R 1</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Lichtkarakter: quick-flash plus long- flash
+Lichtkleur: Wit</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.427892" lon="5.76435">
+	<type>WPT</type>
+	<name>VA 1</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.426067" lon="5.7711">
+	<type>WPT</type>
+	<name>VA 3</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.421083" lon="5.78625">
+	<type>WPT</type>
+	<name>VA 7</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.42525" lon="5.775536">
+	<type>WPT</type>
+	<name>VA 4</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.423811" lon="5.776272">
+	<type>WPT</type>
+	<name>VA 5-SCH 10</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.423533" lon="5.7792">
+	<type>WPT</type>
+	<name>VA 6</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="53.090694" lon="5.303322">
@@ -7498,46 +6342,6 @@ Lichtkleur: Groen</desc>
 	<name>VB-NBW</name>
 	<desc>Vaarwater: VLIELANDER BALG</desc>
 	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="53.44" lon="4.96">
-	<type>WPT</type>
-	<name>VL 7</name>
-	<desc>Vaarwater: VLIELAND STELSEL (NZ)
-Lichtkarakter: LFl (long-flashing)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.182578" lon="4.588492">
-	<type>WPT</type>
-	<name>VL 1</name>
-	<desc>Vaarwater: VLIELAND STELSEL (NZ)
-Lichtkarakter: Fl (flashing)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.28225" lon="4.659992">
-	<type>WPT</type>
-	<name>VL 3</name>
-	<desc>Vaarwater: VLIELAND STELSEL (NZ)
-Lichtkarakter: Fl (flashing)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.380922" lon="4.731992">
-	<type>WPT</type>
-	<name>VL 5</name>
-	<desc>Vaarwater: VLIELAND STELSEL (NZ)
-Lichtkarakter: Q (quick-flashing)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.449253" lon="4.665319">
-	<type>WPT</type>
-	<name>VL-C</name>
-	<desc>Vaarwater: VLIELAND STELSEL (NZ)
-Lichtkarakter: Fl (flashing)
-Lichtkleur: Wit</desc>
-	<sym>Sphere_Sphere_Red_White</sym>
 </wpt>
 <wpt lat="53.265639" lon="5.067892">
 	<type>WPT</type>
@@ -8201,33 +7005,9 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: WESTGAT (AMELAND)</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
-<wpt lat="53.469328" lon="5.481397">
-	<type>WPT</type>
-	<name>WA-NOORD</name>
-	<desc>Vaarwater: WESTGAT (AMELAND)</desc>
-	<sym>Cone_Black_Yellow</sym>
-</wpt>
-<wpt lat="53.463281" lon="5.507956">
-	<type>WPT</type>
-	<name>WA 3</name>
-	<desc>Vaarwater: WESTGAT (AMELAND)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
 <wpt lat="53.452678" lon="5.580103">
 	<type>WPT</type>
 	<name>WA 13</name>
-	<desc>Vaarwater: WESTGAT (AMELAND)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="53.472564" lon="5.477564">
-	<type>WPT</type>
-	<name>WA</name>
-	<desc>Vaarwater: WESTGAT (AMELAND)</desc>
-	<sym>Sphere_Sphere_Red_White</sym>
-</wpt>
-<wpt lat="53.468061" lon="5.491858">
-	<type>WPT</type>
-	<name>WA 1</name>
 	<desc>Vaarwater: WESTGAT (AMELAND)</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
@@ -8457,68 +7237,6 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: WIERBALG</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
-<wpt lat="52.919997" lon="5.053906">
-	<type>WPT</type>
-	<name>WV 1</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.915514" lon="5.058178">
-	<type>WPT</type>
-	<name>WV 3</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="52.909767" lon="5.069339">
-	<type>WPT</type>
-	<name>WV 5</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="52.904436" lon="5.082192">
-	<type>WPT</type>
-	<name>WV 7</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.920647" lon="5.055569">
-	<type>WPT</type>
-	<name>WV 2</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.916239" lon="5.059736">
-	<type>WPT</type>
-	<name>WV 4</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
-</wpt>
-<wpt lat="52.905489" lon="5.083372">
-	<type>WPT</type>
-	<name>WV 8</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.900133" lon="5.096217">
-	<type>WPT</type>
-	<name>WV 10</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.910533" lon="5.070689">
-	<type>WPT</type>
-	<name>WV 6</name>
-	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
 <wpt lat="52.930411" lon="5.050258">
 	<type>WPT</type>
 	<name>SPUIKAN 2</name>
@@ -8554,84 +7272,6 @@ Lichtkleur: Rood</desc>
 	<name>SPUIKAN 12</name>
 	<desc>Vaarwater: WIERINGER VLAAK (IJSSELMEER)</desc>
 	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="52.960183" lon="5.40245">
-	<type>WPT</type>
-	<name>W 2</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.958783" lon="5.395133">
-	<type>WPT</type>
-	<name>W 3</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.960317" lon="5.4045">
-	<type>WPT</type>
-	<name>W 4</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.9592" lon="5.39905">
-	<type>WPT</type>
-	<name>W 5</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
-</wpt>
-<wpt lat="52.9602" lon="5.406422">
-	<type>WPT</type>
-	<name>W 6</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.960617" lon="5.40925">
-	<type>WPT</type>
-	<name>W 8</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Beacon_Red</sym>
-</wpt>
-<wpt lat="52.969961" lon="5.397094">
-	<type>WPT</type>
-	<name>KITE 4</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.968694" lon="5.40925">
-	<type>WPT</type>
-	<name>KITE 5</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.966683" lon="5.410133">
-	<type>WPT</type>
-	<name>KITE 6</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.964586" lon="5.410864">
-	<type>WPT</type>
-	<name>KITE 7</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.962431" lon="5.411508">
-	<type>WPT</type>
-	<name>KITE 8</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.960717" lon="5.398442">
-	<type>WPT</type>
-	<name>KITE 9</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Can_Yellow</sym>
-</wpt>
-<wpt lat="52.959667" lon="5.401867">
-	<type>WPT</type>
-	<name>W 5A</name>
-	<desc>Vaarwater: WORKUM (IJSSELMEER)</desc>
-	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="53.2893" lon="4.983667">
 	<type>WPT</type>
@@ -8697,14 +7337,6 @@ Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
 </wpt>
-<wpt lat="53.309839" lon="4.959192">
-	<type>WPT</type>
-	<name>ZS 1</name>
-	<desc>Vaarwater: ZUIDER STORTEMELK
-Lichtkarakter: VQ (very quick-flashing)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
 <wpt lat="53.316458" lon="5.082767">
 	<type>WPT</type>
 	<name>ZS 12</name>
@@ -8727,22 +7359,6 @@ Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
 </wpt>
-<wpt lat="53.3254" lon="4.990556">
-	<type>WPT</type>
-	<name>ZS 4</name>
-	<desc>Vaarwater: ZUIDER STORTEMELK
-Lichtkarakter: Fl (flashing)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
-</wpt>
-<wpt lat="53.304636" lon="4.937194">
-	<type>WPT</type>
-	<name>ZS</name>
-	<desc>Vaarwater: ZUIDER STORTEMELK
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Wit</desc>
-	<sym>Sphere_Sphere_Red_White</sym>
-</wpt>
 <wpt lat="53.313758" lon="5.099286">
 	<type>WPT</type>
 	<name>ZS 14</name>
@@ -8751,41 +7367,11 @@ Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
 </wpt>
-<wpt lat="53.313678" lon="4.952103">
-	<type>WPT</type>
-	<name>ZS 2</name>
-	<desc>Vaarwater: ZUIDER STORTEMELK
-Lichtkarakter: VQ (very quick-flashing)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
-</wpt>
-<wpt lat="53.349978" lon="5.031514">
-	<type>WPT</type>
-	<name>WK ECUADOR</name>
-	<desc>Vaarwater: ZUIDER STORTEMELK</desc>
-	<sym>Beacon_Yellow_Black</sym>
-</wpt>
 <wpt lat="53.31" lon="5.08">
 	<type>WPT</type>
 	<name>ZS-KB 1</name>
 	<desc>Vaarwater: ZUIDER STORTEMELK</desc>
 	<sym>Beacon_Yellow</sym>
-</wpt>
-<wpt lat="53.320222" lon="4.973644">
-	<type>WPT</type>
-	<name>ZS 1A</name>
-	<desc>Vaarwater: ZUIDER STORTEMELK
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Groen</desc>
-	<sym>Cone_Green</sym>
-</wpt>
-<wpt lat="53.325333" lon="4.970444">
-	<type>WPT</type>
-	<name>ZS 2A</name>
-	<desc>Vaarwater: ZUIDER STORTEMELK
-Lichtkarakter: Iso (isophased)
-Lichtkleur: Rood</desc>
-	<sym>Can_Red</sym>
 </wpt>
 <wpt lat="53.316681" lon="5.309183">
 	<type>WPT</type>
