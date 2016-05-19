@@ -9,7 +9,7 @@ import sys
 import zipfile
 
 import geojson
-from rws2gpx import areas, convert_file, shape, topmark, light
+from rws2gpx import areas, convert_file, light, shape, topmark
 
 DEBUG_PATH = 'debug'
 ICON_PATH = os.path.join(DEBUG_PATH, 'UserIcons')
@@ -141,10 +141,10 @@ if __name__ == '__main__':
         os.mkdir(DEBUG_PATH)
     extract_icons()
 
-    with open(os.path.join(DEBUG_PATH, 'bounds.geojson'), 'w') as outfile:
+    with open('bounds.geojson', 'w') as outfile:
         outfile.write(debug_bounds())
 
-        print('Wrote bounds .geojson to debug/bounds.geojson')
+        print('Wrote bounds .geojson to bounds.geojson')
 
     if len(sys.argv) == 2:
         unique_buoys = unique_icons(convert_file(sys.argv[1]))

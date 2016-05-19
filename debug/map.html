@@ -14,7 +14,7 @@
 
 <body>
     <div id="map"></div>
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js"></script>
 
     <script type="text/javascript">
         var map = L.map('map').setView([52.5, 4], 8);
@@ -24,15 +24,6 @@
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
         }).addTo(map);
 
-        var gpxLayer = L.geoJson(null, {
-            pointToLayer: function (feature, latlng) {
-                feature.properties.desc = feature.properties.desc.replace(/\n/g, '<br />');
-
-                return L.circleMarker(latlng, {
-                    radius: 2
-                }).bindPopup(L.Util.template('<h2>{name}</h2><p>{desc}</p>', feature.properties));
-            }
-        }).addTo(map);
 
         var boundsLayer = L.geoJson(null, {
             style: {
@@ -40,10 +31,22 @@
                 weight: 2,
                 fill: false
             }
-        })
+        }).addTo(map);
+        omnivore.geojson('../output/160428/bounds.geojson', null, boundsLayer)
 
-        omnivore.geojson('bounds.geojson', null, boundsLayer).addTo(map);
-        omnivore.gpx('../output/160428/alles.gpx', null, gpxLayer);
+        var gpxLayer = L.geoJson(null, {
+            pointToLayer: function (feature, latlng) {
+                feature.properties.desc = feature.properties.desc.replace(/\n/g, '<br />');
+
+                var circle = L.circleMarker(latlng, {
+                    radius: 2
+                }).bindPopup(L.Util.template('<h2>{name}</h2><p>{desc}</p>', feature.properties));
+
+                return circle;
+            }
+        });
+        omnivore.gpx('../output/160428/Waterweg_haringvliet.gpx', null, gpxLayer);
+        gpxLayer.addTo(map);
     </script>
 </body>
 </html>

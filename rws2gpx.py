@@ -3,29 +3,64 @@
 # This code is derived from/inspired by:
 # https://github.com/nohal/OpenCPNScripts/blob/master/rws_buoys2gpx-osmicons.sh
 
-from __future__ import print_function
+from __future__ import division, print_function
 
 import csv
+import json
 import os
 import sys
-from datetime import datetime
 from collections import defaultdict
+from datetime import datetime
+from shutil import copyfile
 
 
 def error(*args, **kwargs):
     'Print to stderr'
     print(file=sys.stderr, *args, **kwargs)
 
-# geo bounds for different output files
-areas = {
-    'alles': [[50, 1.5], [55, 9]],
 
-    'Lauwersmeer': [[53.33, 6.054], [53.5, 6.26]],
-    'IJsselmeerS': [[52.2, 4.55], [52.9, 6.1]],
-    'IJselmeerN_WaddenzeeW': [[52.9, 4.55], [53.5, 5.75]],
-    'WaddenzeeE': [[53.1, 5.2], [53.6, 7.2]],
-    'Zeeland': [[51.2, 3.15], [52.14, 4.9]],
-}
+BOUNDS_PATH = 'bounds.geojson'
+
+
+def point_in_poly(x, y, poly):
+    n = len(poly)
+    inside = False
+
+    p1x, p1y = poly[0]
+    for i in range(n + 1):
+        p2x, p2y = poly[i % n]
+        if y > min(p1y, p2y):
+            if y <= max(p1y, p2y):
+                if x <= max(p1x, p2x):
+                    if p1y != p2y:
+                        xints = (y - p1y) * (p2x - p1x) / (p2y - p1y) + p1x
+                    if p1x == p2x or x <= xints:
+                        inside = not inside
+        p1x, p1y = p2x, p2y
+
+    return inside
+
+
+def areas():
+    with open(BOUNDS_PATH) as gj:
+        bounds = json.load(gj)
+
+    for feature in bounds['features']:
+        if feature['geometry']['type'] != 'Polygon':
+            # skip non-polygon geometries
+            continue
+
+        def test(data):
+            '''
+            Test wether the point represented by data is within the current polygon
+            '''
+            return point_in_poly(
+                data['lon'],
+                data['lat'],
+                feature['geometry']['coordinates'][0]
+            )
+        yield (feature['properties']['name'], test)
+
 
 gpx_format = '''<?xml version="1.0"?>
 <gpx version="1.0" creator="rws2gpx.py">
@@ -232,15 +267,6 @@ def gpx(data, metadata=''):
     return gpx_format.format(metadata=metadata, waypoints='\n'.join(waypoints))
 
 
-def bounds_contain(bounds):
-    def contains(data):
-        return (
-            bounds[0][1] < data['lon'] < bounds[1][1] and
-            bounds[0][0] < data['lat'] < bounds[1][0]
-        )
-    return contains
-
-
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         print('Usage:\nrws2gpx.py <filename>')
@@ -258,18 +284,19 @@ if __name__ == '__main__':
     metadata = 'Created from filename: {} on {}'.format(csv_file, created)
     data = convert_file(csv_file)
 
-    basename = (csv_file.split('/')[-1]).split('.')[0]
+    out_path = os.path.join('output', os.path.basename(csv_file).split('.')[0])
+    if not os.path.exists(out_path):
+        os.mkdir(out_path)
 
     print('\nWriting output to GPX files:')
     print('%7s | %s' % ('# buoys', 'filename'))
 
-    for filename, bounds in areas.items():
-        filtered_data = list(filter(bounds_contain(bounds), data))
-        out_path = os.path.join('output', basename)
-        if not os.path.exists(out_path):
-            os.mkdir(out_path)
-        out_filename = os.path.join(out_path, filename + '.gpx')
+    for bounds_name, bounds_test in areas():
+        filtered_data = list(filter(bounds_test, data))
+        out_filename = os.path.join(out_path, bounds_name + '.gpx')
 
         with open(out_filename, 'w') as outfile:
             outfile.write(gpx(filtered_data, metadata=metadata))
-        print('%7d | %s.gpx' % (len(filtered_data), filename))
+        print('%7d | %s.gpx' % (len(filtered_data), bounds_name))
+
+    copyfile(BOUNDS_PATH, os.path.join(out_path, 'bounds.geojson'))
