@@ -3,7 +3,7 @@
 <metadata>
 <desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
 source filename: input/160513.csv</desc>
-<time>2016-05-19T09:24:36Z</time>'
+<time>2016-05-19T09:27:02Z</time>'
 </metadata>
 <wpt lat="51.723319" lon="4.726189">
 	<type>WPT</type>
@@ -1449,6 +1449,12 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
+<wpt lat="52.140567" lon="6.189633">
+	<type>WPT</type>
+	<name>GIJ 69A</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
 <wpt lat="52.192933" lon="6.1572">
 	<type>WPT</type>
 	<name>GIJ 56A</name>
@@ -1473,9 +1479,33 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
+<wpt lat="52.1896" lon="6.165817">
+	<type>WPT</type>
+	<name>GIJ 65B</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.091017" lon="6.181683">
+	<type>WPT</type>
+	<name>GIJ 60A</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.090883" lon="6.182933">
+	<type>WPT</type>
+	<name>GIJ 60</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
 <wpt lat="52.189467" lon="6.16445">
 	<type>WPT</type>
 	<name>GIJ 65A</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.18935" lon="6.16755">
+	<type>WPT</type>
+	<name>GIJ 67</name>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
@@ -1494,6 +1524,18 @@ Lichtkleur: Rood</desc>
 <wpt lat="52.189261" lon="6.163294">
 	<type>WPT</type>
 	<name>GIJ 65</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.202217" lon="6.173967">
+	<type>WPT</type>
+	<name>GIJ 63</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.2033" lon="6.176783">
+	<type>WPT</type>
+	<name>GIJ 61</name>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
@@ -1881,17 +1923,53 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
+<wpt lat="52.226958" lon="6.173175">
+	<type>WPT</type>
+	<name>GIJ 52A</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.226442" lon="6.174075">
+	<type>WPT</type>
+	<name>GIJ 52B</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.202917" lon="6.175683">
+	<type>WPT</type>
+	<name>GIJ 61A</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.202533" lon="6.174783">
+	<type>WPT</type>
+	<name>GIJ 61B</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
 <wpt lat="52.20055" lon="6.161333">
 	<type>WPT</type>
 	<name>GIJ 54B</name>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
+<wpt lat="52.143697" lon="6.187839">
+	<type>WPT</type>
+	<name>GIJ 69-S</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Can_Red_Green_Red_Green</sym>
+</wpt>
 <wpt lat="52.002483" lon="6.076961">
 	<type>WPT</type>
 	<name>TON Rode HL Valeplas</name>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="52.14105" lon="6.189467">
+	<type>WPT</type>
+	<name>GIJ 69B</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="51.979817" lon="6.001017">
 	<type>WPT</type>
@@ -7387,6 +7465,30 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>SP 6A</name>
 	<desc>Vaarwater: SPUI</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.1667" lon="6.191669">
+	<type>WPT</type>
+	<name>TK 1</name>
+	<desc>Vaarwater: Twentekanalen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.167969" lon="6.193103">
+	<type>WPT</type>
+	<name>TK 2</name>
+	<desc>Vaarwater: Twentekanalen</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.166422" lon="6.192822">
+	<type>WPT</type>
+	<name>TK 3</name>
+	<desc>Vaarwater: Twentekanalen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.167519" lon="6.193681">
+	<type>WPT</type>
+	<name>TK 4</name>
+	<desc>Vaarwater: Twentekanalen</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="51.901439" lon="4.546044">
