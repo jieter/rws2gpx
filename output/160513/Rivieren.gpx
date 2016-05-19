@@ -3,7 +3,7 @@
 <metadata>
 <desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
 source filename: input/160513.csv</desc>
-<time>2016-05-19T09:27:02Z</time>'
+<time>2016-05-19T09:29:32Z</time>'
 </metadata>
 <wpt lat="51.723319" lon="4.726189">
 	<type>WPT</type>
@@ -1833,6 +1833,36 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
+<wpt lat="52.581933" lon="5.854717">
+	<type>WPT</type>
+	<name>GIJ 11</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.581217" lon="5.850383">
+	<type>WPT</type>
+	<name>GIJ 9</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.581467" lon="5.852367">
+	<type>WPT</type>
+	<name>GIJ 7</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.58165" lon="5.840833">
+	<type>WPT</type>
+	<name>GIJ 5</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.5822" lon="5.83795">
+	<type>WPT</type>
+	<name>GIJ 3</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
 <wpt lat="52.200833" lon="6.1623">
 	<type>WPT</type>
 	<name>GIJ 54A</name>
@@ -1959,6 +1989,18 @@ Lichtkleur: Rood</desc>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Can_Red_Green_Red_Green</sym>
 </wpt>
+<wpt lat="52.582683" lon="5.829067">
+	<type>WPT</type>
+	<name>GIJ 1</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.582417" lon="5.834372">
+	<type>WPT</type>
+	<name>GIJ 1A</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
 <wpt lat="52.002483" lon="6.076961">
 	<type>WPT</type>
 	<name>TON Rode HL Valeplas</name>
@@ -1986,6 +2028,24 @@ Lichtkleur: Rood</desc>
 <wpt lat="51.978233" lon="5.999533">
 	<type>WPT</type>
 	<name>GIJ 71B</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.582567" lon="5.855067">
+	<type>WPT</type>
+	<name>GIJ 11A-MB</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Red_Green_Red_Green</sym>
+</wpt>
+<wpt lat="52.582672" lon="5.856933">
+	<type>WPT</type>
+	<name>GIJ 11B</name>
+	<desc>Vaarwater: Gelderse Ijssel</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.582808" lon="5.858003">
+	<type>WPT</type>
+	<name>GIJ 11C</name>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
@@ -2198,6 +2258,64 @@ Lichtkleur: Rood</desc>
 	<name>BK-I</name>
 	<desc>Vaarwater: Gelderse Ijssel</desc>
 	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.586017" lon="5.757919">
+	<type>WPT</type>
+	<name>HZR 16</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.583211" lon="5.769758">
+	<type>WPT</type>
+	<name>HZR 21</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.584317" lon="5.770492">
+	<type>WPT</type>
+	<name>HZR 20</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.583117" lon="5.773353">
+	<type>WPT</type>
+	<name>HZR 23</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.584011" lon="5.776594">
+	<type>WPT</type>
+	<name>HZR 22</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.583503" lon="5.764269">
+	<type>WPT</type>
+	<name>HZR 17</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.584556" lon="5.765058">
+	<type>WPT</type>
+	<name>HZR 18</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.583286" lon="5.766175">
+	<type>WPT</type>
+	<name>HZR 19-KH 2</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green_Red</sym>
+</wpt>
+<wpt lat="52.583106" lon="5.777372">
+	<type>WPT</type>
+	<name>HZR 25-VOM 2</name>
+	<desc>Vaarwater: HANZERAK-KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green_Red</sym>
 </wpt>
 <wpt lat="51.933231" lon="4.146742">
 	<type>WPT</type>
@@ -3138,6 +3256,1062 @@ Lichtkleur: Geel</desc>
 	<name>KSA 2</name>
 	<desc>Vaarwater: Kanaal van Sint Andries</desc>
 	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.582925" lon="5.762797">
+	<type>WPT</type>
+	<name>KH 1</name>
+	<desc>Vaarwater: KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.582575" lon="5.764006">
+	<type>WPT</type>
+	<name>KH 4-JK 1</name>
+	<desc>Vaarwater: KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Sphere_Red_Green_Red</sym>
+</wpt>
+<wpt lat="52.582064" lon="5.762519">
+	<type>WPT</type>
+	<name>KH 6</name>
+	<desc>Vaarwater: KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.592883" lon="5.768764">
+	<type>WPT</type>
+	<name>KM-N</name>
+	<desc>Vaarwater: KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="52.589356" lon="5.775006">
+	<type>WPT</type>
+	<name>KM-O</name>
+	<desc>Vaarwater: KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Black_Yellow_Black</sym>
+</wpt>
+<wpt lat="52.588139" lon="5.762378">
+	<type>WPT</type>
+	<name>KM-W</name>
+	<desc>Vaarwater: KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Yellow_Black_Yellow</sym>
+</wpt>
+<wpt lat="52.585158" lon="5.767189">
+	<type>WPT</type>
+	<name>KM-Z</name>
+	<desc>Vaarwater: KETELMEER (RANDMEREN)</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="52.611906" lon="5.842669">
+	<type>WPT</type>
+	<name>RAG 31</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610769" lon="5.801667">
+	<type>WPT</type>
+	<name>RAG 2</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.611731" lon="5.841675">
+	<type>WPT</type>
+	<name>RAG 29</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610653" lon="5.807922">
+	<type>WPT</type>
+	<name>RAG 4</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.611544" lon="5.840842">
+	<type>WPT</type>
+	<name>RAG 27</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610678" lon="5.811289">
+	<type>WPT</type>
+	<name>RAG 6</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.611289" lon="5.839703">
+	<type>WPT</type>
+	<name>RAG 25</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.6107" lon="5.814656">
+	<type>WPT</type>
+	<name>RAG 8</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.611028" lon="5.838147">
+	<type>WPT</type>
+	<name>RAG 23</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610733" lon="5.818022">
+	<type>WPT</type>
+	<name>RAG 10</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610772" lon="5.836494">
+	<type>WPT</type>
+	<name>RAG 21</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610756" lon="5.821389">
+	<type>WPT</type>
+	<name>RAG 12</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610228" lon="5.833181">
+	<type>WPT</type>
+	<name>RAG 19</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610789" lon="5.824756">
+	<type>WPT</type>
+	<name>RAG 14</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610194" lon="5.829814">
+	<type>WPT</type>
+	<name>RAG 17</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610811" lon="5.828122">
+	<type>WPT</type>
+	<name>RAG 16</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610172" lon="5.826447">
+	<type>WPT</type>
+	<name>RAG 15</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610836" lon="5.831489">
+	<type>WPT</type>
+	<name>RAG 18</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610139" lon="5.823081">
+	<type>WPT</type>
+	<name>RAG 13</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.611058" lon="5.834664">
+	<type>WPT</type>
+	<name>RAG 20</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610272" lon="5.819797">
+	<type>WPT</type>
+	<name>RAG 11</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.611575" lon="5.838006">
+	<type>WPT</type>
+	<name>RAG 22</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610092" lon="5.816347">
+	<type>WPT</type>
+	<name>RAG 9</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.611703" lon="5.839525">
+	<type>WPT</type>
+	<name>RAG 24</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610039" lon="5.813483">
+	<type>WPT</type>
+	<name>RAG 7</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.611928" lon="5.840667">
+	<type>WPT</type>
+	<name>RAG 26</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610036" lon="5.809631">
+	<type>WPT</type>
+	<name>RAG 5</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.612092" lon="5.841581">
+	<type>WPT</type>
+	<name>RAG 28</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610011" lon="5.806264">
+	<type>WPT</type>
+	<name>RAG 3</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.612283" lon="5.843064">
+	<type>WPT</type>
+	<name>RAG 30</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610725" lon="5.797408">
+	<type>WPT</type>
+	<name>KM 2-RAG 1</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Sphere_Red_Green_Red</sym>
+</wpt>
+<wpt lat="52.609664" lon="5.797194">
+	<type>WPT</type>
+	<name>KM 4</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.608103" lon="5.796744">
+	<type>WPT</type>
+	<name>KM 6</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.606589" lon="5.796411">
+	<type>WPT</type>
+	<name>KM 8</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.605078" lon="5.795964">
+	<type>WPT</type>
+	<name>KM 10</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.603633" lon="5.795597">
+	<type>WPT</type>
+	<name>KM 12</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.602119" lon="5.795267">
+	<type>WPT</type>
+	<name>KM 14</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.600703" lon="5.794864">
+	<type>WPT</type>
+	<name>KM 16</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.599283" lon="5.794422">
+	<type>WPT</type>
+	<name>KM 18-KATD 1</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Sphere_Red_Green_Red</sym>
+</wpt>
+<wpt lat="52.597839" lon="5.792142">
+	<type>WPT</type>
+	<name>KM 20</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.596464" lon="5.789828">
+	<type>WPT</type>
+	<name>KM 22</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.595069" lon="5.78755">
+	<type>WPT</type>
+	<name>KM 24</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.593694" lon="5.785236">
+	<type>WPT</type>
+	<name>KM 26</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.592369" lon="5.782886">
+	<type>WPT</type>
+	<name>KM 28</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.590925" lon="5.780567">
+	<type>WPT</type>
+	<name>KM 30</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.589508" lon="5.778253">
+	<type>WPT</type>
+	<name>KM 32-STRG 1</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Sphere_Red_Green_Red</sym>
+</wpt>
+<wpt lat="52.588281" lon="5.777664">
+	<type>WPT</type>
+	<name>KM 34</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.586553" lon="5.777739">
+	<type>WPT</type>
+	<name>KM 36</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.584297" lon="5.777719">
+	<type>WPT</type>
+	<name>KM 38</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.589819" lon="5.780472">
+	<type>WPT</type>
+	<name>STRG 2</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.587564" lon="5.782278">
+	<type>WPT</type>
+	<name>STRG 3</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.588481" lon="5.783211">
+	<type>WPT</type>
+	<name>STRG 4</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.586458" lon="5.785556">
+	<type>WPT</type>
+	<name>STRG 7</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.587439" lon="5.786292">
+	<type>WPT</type>
+	<name>STRG 6</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.585617" lon="5.789">
+	<type>WPT</type>
+	<name>STRG 9</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.586631" lon="5.789603">
+	<type>WPT</type>
+	<name>STRG 8</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.585014" lon="5.792597">
+	<type>WPT</type>
+	<name>STRG 11</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.586061" lon="5.793022">
+	<type>WPT</type>
+	<name>STRG 10</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.584925" lon="5.796483">
+	<type>WPT</type>
+	<name>STRG 13</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.586003" lon="5.796406">
+	<type>WPT</type>
+	<name>STRG 12</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.585078" lon="5.800175">
+	<type>WPT</type>
+	<name>STRG 15</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.58615" lon="5.799975">
+	<type>WPT</type>
+	<name>STRG 14</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.585408" lon="5.803831">
+	<type>WPT</type>
+	<name>STRG 17</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.586469" lon="5.803519">
+	<type>WPT</type>
+	<name>STRG 16</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.586225" lon="5.807422">
+	<type>WPT</type>
+	<name>STRG 19</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.587214" lon="5.806722">
+	<type>WPT</type>
+	<name>STRG 18</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.587508" lon="5.8106">
+	<type>WPT</type>
+	<name>STRG 21</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.588394" lon="5.809592">
+	<type>WPT</type>
+	<name>STRG 20</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.588736" lon="5.813586">
+	<type>WPT</type>
+	<name>STRG 23</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.589647" lon="5.812636">
+	<type>WPT</type>
+	<name>STRG 22</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.589569" lon="5.816628">
+	<type>WPT</type>
+	<name>STRG 25</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.590608" lon="5.816167">
+	<type>WPT</type>
+	<name>STRG 24</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.589872" lon="5.820667">
+	<type>WPT</type>
+	<name>STRG 27</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.590911" lon="5.819556">
+	<type>WPT</type>
+	<name>STRG 26</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.599786" lon="5.795494">
+	<type>WPT</type>
+	<name>KATD 2</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.598772" lon="5.797303">
+	<type>WPT</type>
+	<name>KATD 3</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.599383" lon="5.797647">
+	<type>WPT</type>
+	<name>KATD 4</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.598278" lon="5.800014">
+	<type>WPT</type>
+	<name>KATD 5</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.598906" lon="5.800003">
+	<type>WPT</type>
+	<name>KATD 6</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.597756" lon="5.803078">
+	<type>WPT</type>
+	<name>KATD 7</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.598419" lon="5.803231">
+	<type>WPT</type>
+	<name>KATD 8</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.597231" lon="5.806158">
+	<type>WPT</type>
+	<name>KATD 9</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.597922" lon="5.806222">
+	<type>WPT</type>
+	<name>KATD 10</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.596708" lon="5.809253">
+	<type>WPT</type>
+	<name>KATD 11</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.597419" lon="5.809244">
+	<type>WPT</type>
+	<name>KATD 12</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.595483" lon="5.812147">
+	<type>WPT</type>
+	<name>KATD 13</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.596717" lon="5.811997">
+	<type>WPT</type>
+	<name>KATD 14</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.594831" lon="5.813764">
+	<type>WPT</type>
+	<name>KATD 15</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.595458" lon="5.814744">
+	<type>WPT</type>
+	<name>KATD 16</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.593528" lon="5.816675">
+	<type>WPT</type>
+	<name>KATD 17</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.594261" lon="5.817522">
+	<type>WPT</type>
+	<name>KATD 18</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.592339" lon="5.819436">
+	<type>WPT</type>
+	<name>KATD 19</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.593336" lon="5.819786">
+	<type>WPT</type>
+	<name>KATD 20</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.591025" lon="5.82245">
+	<type>WPT</type>
+	<name>KATD 21-STRG 28</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_Red</sym>
+</wpt>
+<wpt lat="52.591878" lon="5.823064">
+	<type>WPT</type>
+	<name>KATD 22</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.590056" lon="5.824711">
+	<type>WPT</type>
+	<name>KATD 23</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.590681" lon="5.825825">
+	<type>WPT</type>
+	<name>KATD 24</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.589381" lon="5.829678">
+	<type>WPT</type>
+	<name>KATD 25</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.590056" lon="5.829256">
+	<type>WPT</type>
+	<name>KATD 26</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.588247" lon="5.832778">
+	<type>WPT</type>
+	<name>KATD 27</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.589067" lon="5.831797">
+	<type>WPT</type>
+	<name>KATD 28</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.586953" lon="5.834728">
+	<type>WPT</type>
+	<name>KATD 29</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.588156" lon="5.833828">
+	<type>WPT</type>
+	<name>KATD 30</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.584936" lon="5.837458">
+	<type>WPT</type>
+	<name>KATD 31</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.587069" lon="5.835186">
+	<type>WPT</type>
+	<name>KATD 32</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.583522" lon="5.839344">
+	<type>WPT</type>
+	<name>KATD 33</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.585214" lon="5.838506">
+	<type>WPT</type>
+	<name>KATD 34</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.583972" lon="5.839833">
+	<type>WPT</type>
+	<name>KATD 36</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.586692" lon="5.784706">
+	<type>WPT</type>
+	<name>STRG 5-AANL 2</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_Red</sym>
+</wpt>
+<wpt lat="52.586739" lon="5.784247">
+	<type>WPT</type>
+	<name>AANL 1</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.586272" lon="5.784008">
+	<type>WPT</type>
+	<name>AANL 3</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.586092" lon="5.784375">
+	<type>WPT</type>
+	<name>AANL 4</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.585761" lon="5.783694">
+	<type>WPT</type>
+	<name>AANL 5</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.585489" lon="5.784017">
+	<type>WPT</type>
+	<name>AANL 6</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.583103" lon="5.765981">
+	<type>WPT</type>
+	<name>JK 2</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.581906" lon="5.763947">
+	<type>WPT</type>
+	<name>JK 3</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.582036" lon="5.765706">
+	<type>WPT</type>
+	<name>JK 4</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.580967" lon="5.765475">
+	<type>WPT</type>
+	<name>JK 6</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.580772" lon="5.764692">
+	<type>WPT</type>
+	<name>JK 8</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.597172" lon="5.807514">
+	<type>WPT</type>
+	<name>KATD 9A</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.583069" lon="5.841133">
+	<type>WPT</type>
+	<name>KATD 38</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610906" lon="5.841122">
+	<type>WPT</type>
+	<name>BST 1</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.610772" lon="5.840422">
+	<type>WPT</type>
+	<name>BST 2</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.612939" lon="5.845572">
+	<type>WPT</type>
+	<name>RAG 32</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.612061" lon="5.845172">
+	<type>WPT</type>
+	<name>RAG 33</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.613339" lon="5.847339">
+	<type>WPT</type>
+	<name>RAG 34</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.612039" lon="5.846994">
+	<type>WPT</type>
+	<name>RAG 35</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.613681" lon="5.849136">
+	<type>WPT</type>
+	<name>RAG 36</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.612358" lon="5.848794">
+	<type>WPT</type>
+	<name>RAG 37</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.613992" lon="5.850939">
+	<type>WPT</type>
+	<name>RAG 38</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.612722" lon="5.850561">
+	<type>WPT</type>
+	<name>RAG 39</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.614342" lon="5.852731">
+	<type>WPT</type>
+	<name>RAG 40</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.613103" lon="5.852328">
+	<type>WPT</type>
+	<name>RAG 41</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.614681" lon="5.8545">
+	<type>WPT</type>
+	<name>RAG 42</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.613486" lon="5.854061">
+	<type>WPT</type>
+	<name>RAG 43</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.615114" lon="5.856258">
+	<type>WPT</type>
+	<name>RAG 44</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.613925" lon="5.855769">
+	<type>WPT</type>
+	<name>RAG 45</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.615628" lon="5.857906">
+	<type>WPT</type>
+	<name>RAG 46</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.614364" lon="5.857506">
+	<type>WPT</type>
+	<name>RAG 47</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.616075" lon="5.859531">
+	<type>WPT</type>
+	<name>RAG 48</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.614825" lon="5.859214">
+	<type>WPT</type>
+	<name>RAG 49</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.615306" lon="5.860894">
+	<type>WPT</type>
+	<name>RAG 51</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.615864" lon="5.862514">
+	<type>WPT</type>
+	<name>RAG 53</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.597447" lon="5.802972">
+	<type>WPT</type>
+	<name>M-A</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.597961" lon="5.801519">
+	<type>WPT</type>
+	<name>M-B</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.598481" lon="5.798642">
+	<type>WPT</type>
+	<name>M-C</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.597714" lon="5.798386">
+	<type>WPT</type>
+	<name>M-D</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.596831" lon="5.798094">
+	<type>WPT</type>
+	<name>M-E</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.595908" lon="5.797822">
+	<type>WPT</type>
+	<name>M-F</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.594975" lon="5.797528">
+	<type>WPT</type>
+	<name>M-G</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.594064" lon="5.797256">
+	<type>WPT</type>
+	<name>M-H</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.606967" lon="5.805672">
+	<type>WPT</type>
+	<name>N-A</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.606992" lon="5.804092">
+	<type>WPT</type>
+	<name>N-B</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.606972" lon="5.802411">
+	<type>WPT</type>
+	<name>N-C</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.606989" lon="5.800731">
+	<type>WPT</type>
+	<name>N-D</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.607019" lon="5.798936">
+	<type>WPT</type>
+	<name>N-E</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.606114" lon="5.798883">
+	<type>WPT</type>
+	<name>N-F</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.605153" lon="5.798839">
+	<type>WPT</type>
+	<name>N-G</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.604214" lon="5.7988">
+	<type>WPT</type>
+	<name>N-H</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.603228" lon="5.798778">
+	<type>WPT</type>
+	<name>N-I</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.602275" lon="5.798756">
+	<type>WPT</type>
+	<name>N-J</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.602217" lon="5.800706">
+	<type>WPT</type>
+	<name>N-K</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.602156" lon="5.802714">
+	<type>WPT</type>
+	<name>N-L</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.610631" lon="5.804464">
+	<type>WPT</type>
+	<name>RAG 2A</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.611067" lon="5.798953">
+	<type>WPT</type>
+	<name>RAG 2B</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.610444" lon="5.800169">
+	<type>WPT</type>
+	<name>RAG 1A</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.610128" lon="5.802881">
+	<type>WPT</type>
+	<name>RAG 1B</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.593108" lon="5.796978">
+	<type>WPT</type>
+	<name>M-I</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="52.592247" lon="5.796728">
+	<type>WPT</type>
+	<name>M-J</name>
+	<desc>Vaarwater: KETELMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="51.918214" lon="4.495636">
 	<type>WPT</type>
@@ -7221,6 +8395,212 @@ Lichtkleur: Geel</desc>
 	<desc>Vaarwater: OUDE MAASJE</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
+<wpt lat="52.617581" lon="5.8654">
+	<type>WPT</type>
+	<name>RD 1A</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.638447" lon="5.964964">
+	<type>WPT</type>
+	<name>RD 2</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.618856" lon="5.871794">
+	<type>WPT</type>
+	<name>RD 3</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.639372" lon="5.970189">
+	<type>WPT</type>
+	<name>RD 4</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.620028" lon="5.877669">
+	<type>WPT</type>
+	<name>RD 5</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.640422" lon="5.975608">
+	<type>WPT</type>
+	<name>RD 6</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.621189" lon="5.883544">
+	<type>WPT</type>
+	<name>RD 7</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.641406" lon="5.980853">
+	<type>WPT</type>
+	<name>RD 8</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.622361" lon="5.889419">
+	<type>WPT</type>
+	<name>RD 9</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.642517" lon="5.986747">
+	<type>WPT</type>
+	<name>RD 10</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.623575" lon="5.895314">
+	<type>WPT</type>
+	<name>RD 11</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.643656" lon="5.992347">
+	<type>WPT</type>
+	<name>RD 12</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.624683" lon="5.901144">
+	<type>WPT</type>
+	<name>RD 13</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.644225" lon="5.995164">
+	<type>WPT</type>
+	<name>RD 14</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.625844" lon="5.906992">
+	<type>WPT</type>
+	<name>RD 15</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.627006" lon="5.912839">
+	<type>WPT</type>
+	<name>RD 17</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.628164" lon="5.9187">
+	<type>WPT</type>
+	<name>RD 19</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.629317" lon="5.92455">
+	<type>WPT</type>
+	<name>RD 21</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.630531" lon="5.9303">
+	<type>WPT</type>
+	<name>RD 23</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.631681" lon="5.936203">
+	<type>WPT</type>
+	<name>RD 25</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.632875" lon="5.942008">
+	<type>WPT</type>
+	<name>RD 27</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.634117" lon="5.947983">
+	<type>WPT</type>
+	<name>RD 29</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="52.635236" lon="5.953722">
+	<type>WPT</type>
+	<name>RD 31</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.636394" lon="5.959572">
+	<type>WPT</type>
+	<name>RD 33</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.637536" lon="5.965378">
+	<type>WPT</type>
+	<name>RD 35</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.638597" lon="5.970694">
+	<type>WPT</type>
+	<name>RD 37</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.63965" lon="5.976044">
+	<type>WPT</type>
+	<name>RD 39</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.640747" lon="5.981361">
+	<type>WPT</type>
+	<name>RD 41</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="52.6418" lon="5.987053">
+	<type>WPT</type>
+	<name>RD 43</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.642914" lon="5.992778">
+	<type>WPT</type>
+	<name>RD 45</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.643244" lon="5.994244">
+	<type>WPT</type>
+	<name>RD 47</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.616928" lon="5.861514">
+	<type>WPT</type>
+	<name>RD 1-RAG 50</name>
+	<desc>Vaarwater: RAMSDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green_Red</sym>
+</wpt>
 <wpt lat="51.714869" lon="4.838281">
 	<type>WPT</type>
 	<name>SP 2</name>
@@ -7491,6 +8871,162 @@ Lichtkleur: Geel</desc>
 	<desc>Vaarwater: Twentekanalen</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
+<wpt lat="52.582558" lon="5.773692">
+	<type>WPT</type>
+	<name>VOM 1</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.58155" lon="5.774272">
+	<type>WPT</type>
+	<name>VOM 3</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.581664" lon="5.777578">
+	<type>WPT</type>
+	<name>VOM 4</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.580514" lon="5.774911">
+	<type>WPT</type>
+	<name>VOM 5</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.580314" lon="5.777847">
+	<type>WPT</type>
+	<name>VOM 6</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.580567" lon="5.785964">
+	<type>WPT</type>
+	<name>VOM 8</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.580447" lon="5.794453">
+	<type>WPT</type>
+	<name>VOM 10</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.580431" lon="5.803069">
+	<type>WPT</type>
+	<name>VOM 12</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.580169" lon="5.807575">
+	<type>WPT</type>
+	<name>VOM 14</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.579014" lon="5.811619">
+	<type>WPT</type>
+	<name>VOM 16</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.577247" lon="5.815114">
+	<type>WPT</type>
+	<name>VOM 18</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.573814" lon="5.820022">
+	<type>WPT</type>
+	<name>VOM 20</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.570372" lon="5.82515">
+	<type>WPT</type>
+	<name>VOM 22</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.566903" lon="5.830322">
+	<type>WPT</type>
+	<name>VOM 24</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.563475" lon="5.835422">
+	<type>WPT</type>
+	<name>VOM 26</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.560042" lon="5.840561">
+	<type>WPT</type>
+	<name>VOM 28</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.556606" lon="5.845658">
+	<type>WPT</type>
+	<name>VOM 30</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.553164" lon="5.850811">
+	<type>WPT</type>
+	<name>VOM 32</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.55085" lon="5.853619">
+	<type>WPT</type>
+	<name>VOM 34</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.548033" lon="5.85505">
+	<type>WPT</type>
+	<name>VOM 36</name>
+	<desc>Vaarwater: VOSSEMEER (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.582408" lon="5.777842">
+	<type>WPT</type>
+	<name>VOMR 2</name>
+	<desc>Vaarwater: VOSSEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.582194" lon="5.781281">
+	<type>WPT</type>
+	<name>VOMR 4</name>
+	<desc>Vaarwater: VOSSEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.581897" lon="5.784556">
+	<type>WPT</type>
+	<name>VOMR 6</name>
+	<desc>Vaarwater: VOSSEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.581542" lon="5.787625">
+	<type>WPT</type>
+	<name>VOMR 8</name>
+	<desc>Vaarwater: VOSSEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.581108" lon="5.790822">
+	<type>WPT</type>
+	<name>VOMR 10</name>
+	<desc>Vaarwater: VOSSEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.580683" lon="5.794036">
+	<type>WPT</type>
+	<name>VOMR 12</name>
+	<desc>Vaarwater: VOSSEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
 <wpt lat="51.901439" lon="4.546044">
 	<type>WPT</type>
 	<name>ZD 2</name>
@@ -7593,11 +9129,425 @@ Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
 </wpt>
+<wpt lat="52.645653" lon="5.994283">
+	<type>WPT</type>
+	<name>Z 2</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.64515" lon="5.99565">
+	<type>WPT</type>
+	<name>Z 3</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.647647" lon="5.992758">
+	<type>WPT</type>
+	<name>Z 4</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.645953" lon="5.994936">
+	<type>WPT</type>
+	<name>Z 5</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.649625" lon="5.991058">
+	<type>WPT</type>
+	<name>Z 6</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.64785" lon="5.993233">
+	<type>WPT</type>
+	<name>Z 7</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.651258" lon="5.989558">
+	<type>WPT</type>
+	<name>Z 8</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.649744" lon="5.991547">
+	<type>WPT</type>
+	<name>Z 9</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.653253" lon="5.987797">
+	<type>WPT</type>
+	<name>Z 10</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.651642" lon="5.989858">
+	<type>WPT</type>
+	<name>Z 11</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.65515" lon="5.985828">
+	<type>WPT</type>
+	<name>Z 12</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="52.653536" lon="5.988169">
+	<type>WPT</type>
+	<name>Z 13</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.655381" lon="5.986361">
+	<type>WPT</type>
+	<name>Z 15</name>
+	<desc>Vaarwater: ZWANENDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
 <wpt lat="52.638331" lon="6.011653">
 	<type>WPT</type>
 	<name>SG 1</name>
 	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
 	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.639397" lon="5.967269">
+	<type>WPT</type>
+	<name>ZM 2</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.641361" lon="5.969758">
+	<type>WPT</type>
+	<name>ZM 4</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.643242" lon="5.972767">
+	<type>WPT</type>
+	<name>ZM 6</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.644117" lon="5.981258">
+	<type>WPT</type>
+	<name>ZM 8</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.643864" lon="5.976306">
+	<type>WPT</type>
+	<name>ZM 10</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.644025" lon="5.9851">
+	<type>WPT</type>
+	<name>ZM 12</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.643647" lon="5.987222">
+	<type>WPT</type>
+	<name>ZM 14</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.643308" lon="5.988828">
+	<type>WPT</type>
+	<name>ZM 16</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Red_White_Red_White</sym>
+</wpt>
+<wpt lat="52.616244" lon="5.864633">
+	<type>WPT</type>
+	<name>ZM 1</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.618056" lon="5.874206">
+	<type>WPT</type>
+	<name>ZM 3</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.619589" lon="5.881711">
+	<type>WPT</type>
+	<name>ZM 5</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.620814" lon="5.887617">
+	<type>WPT</type>
+	<name>ZM 7</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.622217" lon="5.895489">
+	<type>WPT</type>
+	<name>ZM 9</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.623172" lon="5.899428">
+	<type>WPT</type>
+	<name>ZM 11</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.6241" lon="5.904858">
+	<type>WPT</type>
+	<name>ZM 13</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.624914" lon="5.910022">
+	<type>WPT</type>
+	<name>ZM 15</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.625967" lon="5.915706">
+	<type>WPT</type>
+	<name>ZM 17</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.627714" lon="5.925136">
+	<type>WPT</type>
+	<name>ZM 19</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.628864" lon="5.930836">
+	<type>WPT</type>
+	<name>ZM 21</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.630589" lon="5.938625">
+	<type>WPT</type>
+	<name>ZM 23</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.631978" lon="5.945586">
+	<type>WPT</type>
+	<name>ZM 25</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.633881" lon="5.951547">
+	<type>WPT</type>
+	<name>ZM 27</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.6352" lon="5.958347">
+	<type>WPT</type>
+	<name>ZM 29</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.637317" lon="5.965936">
+	<type>WPT</type>
+	<name>ZM 31</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.636481" lon="5.968008">
+	<type>WPT</type>
+	<name>ZM 33</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.6369" lon="5.970628">
+	<type>WPT</type>
+	<name>ZM 35</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.637736" lon="5.975722">
+	<type>WPT</type>
+	<name>ZM 37</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.638397" lon="5.978656">
+	<type>WPT</type>
+	<name>ZM 39</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.640417" lon="5.980558">
+	<type>WPT</type>
+	<name>ZM 41</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Beacon_Green_White_Green_White</sym>
+</wpt>
+<wpt lat="52.621317" lon="5.8954">
+	<type>WPT</type>
+	<name>ZMN 1</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.62165" lon="5.898567">
+	<type>WPT</type>
+	<name>ZMN 2</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.622433" lon="5.90475">
+	<type>WPT</type>
+	<name>ZMN 3</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.622967" lon="5.909467">
+	<type>WPT</type>
+	<name>ZMN 4</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.623567" lon="5.91425">
+	<type>WPT</type>
+	<name>ZMN 5</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.624317" lon="5.919533">
+	<type>WPT</type>
+	<name>ZMN 6</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.62495" lon="5.924283">
+	<type>WPT</type>
+	<name>ZMN 7</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.625683" lon="5.929317">
+	<type>WPT</type>
+	<name>ZMN 8</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.626333" lon="5.9338">
+	<type>WPT</type>
+	<name>ZMN 9</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.627033" lon="5.9388">
+	<type>WPT</type>
+	<name>ZMN 10</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.627783" lon="5.943267">
+	<type>WPT</type>
+	<name>ZMN 11</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.6284" lon="5.9474">
+	<type>WPT</type>
+	<name>ZMN 12</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.62915" lon="5.9519">
+	<type>WPT</type>
+	<name>ZMN 13</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.630117" lon="5.9571">
+	<type>WPT</type>
+	<name>ZMN 14</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.63065" lon="5.9598">
+	<type>WPT</type>
+	<name>ZMN 15</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.631417" lon="5.963433">
+	<type>WPT</type>
+	<name>ZMN 16</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.631878" lon="5.969686">
+	<type>WPT</type>
+	<name>ZMN 17</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.632733" lon="5.97205">
+	<type>WPT</type>
+	<name>ZMN 18</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.633467" lon="5.977467">
+	<type>WPT</type>
+	<name>ZMN 19</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.634283" lon="5.982933">
+	<type>WPT</type>
+	<name>ZMN 20</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.635" lon="5.98835">
+	<type>WPT</type>
+	<name>ZMN 21</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.645006" lon="5.996753">
+	<type>WPT</type>
+	<name>ZMN 22</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.647003" lon="5.996781">
+	<type>WPT</type>
+	<name>ZMN 23</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.6488" lon="5.996833">
+	<type>WPT</type>
+	<name>ZMN 24</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.650686" lon="5.996856">
+	<type>WPT</type>
+	<name>ZMN 25</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.652486" lon="5.996872">
+	<type>WPT</type>
+	<name>ZMN 26</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="52.654306" lon="5.996961">
+	<type>WPT</type>
+	<name>ZMN 27</name>
+	<desc>Vaarwater: ZWARTEMEER RECREATIE (RANDMEREN)</desc>
+	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="52.562811" lon="6.101561">
 	<type>WPT</type>
@@ -7682,6 +9632,32 @@ Lichtkleur: Groen</desc>
 	<name>ZW 9</name>
 	<desc>Vaarwater: Zwarte water</desc>
 	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.643064" lon="5.997572">
+	<type>WPT</type>
+	<name>ZD 1</name>
+	<desc>Vaarwater: ZWOLSCHEDIEP (RANDMEREN)
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="52.644436" lon="5.996569">
+	<type>WPT</type>
+	<name>ZD 2-Z 1</name>
+	<desc>Vaarwater: ZWOLSCHEDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Sphere_Red_Green_Red</sym>
+</wpt>
+<wpt lat="52.642444" lon="5.999497">
+	<type>WPT</type>
+	<name>ZD 3</name>
+	<desc>Vaarwater: ZWOLSCHEDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="52.643231" lon="6.000203">
+	<type>WPT</type>
+	<name>ZD 4</name>
+	<desc>Vaarwater: ZWOLSCHEDIEP (RANDMEREN)</desc>
+	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="52.641439" lon="6.002542">
 	<type>WPT</type>
