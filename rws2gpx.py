@@ -19,6 +19,8 @@ def error(*args, **kwargs):
     print(file=sys.stderr, *args, **kwargs)
 
 
+# a file in geojson format is expected with polygons having a 'name' property
+# which is used to name the output files.
 BOUNDS_PATH = 'bounds.geojson'
 
 
@@ -71,7 +73,7 @@ gpx_format = '''<?xml version="1.0"?>
 gpx_metadata_fmt = '''
 <desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
 source filename: {csv_file}</desc>
-<time>{created}</desc>'
+<time>{created}</time>'
 '''
 
 NOT_ASSIGNED = 'Niet toegewezen'
