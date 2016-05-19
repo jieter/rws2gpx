@@ -209,7 +209,7 @@ def convert_row(row):
     return ret
 
 
-def convert_file(filename):
+def convert_file(filename, verbose=False):
     data = []
     errors = defaultdict(list)
 
@@ -224,12 +224,15 @@ def convert_file(filename):
                 errors['coords'].append(row['BENAMING'])
             except Exception as e:
                 errors['failed'].append(row['BENAMING'])
-                error('Failed parsing: %s' % str(e))
-                for item in row.items():
-                    error('%20s: %s' % item)
+                if verbose:
+                    error('Failed parsing: %s' % str(e))
+                    for item in row.items():
+                        error('%20s: %s' % item)
 
-    error('Geen coordinaten voor: {}'.format(', '.join(errors['coords'])))
-    error('Niet kunnen parsen: {}'.format(', '.join(errors['failed'])))
+    if len(errors['coords']) > 0:
+        error('Geen coordinaten voor: {}'.format(', '.join(errors['coords'])))
+    if len(errors['failed']) > 0:
+        error('Niet kunnen parsen: {}'.format(', '.join(errors['failed'])))
     return data
 
 

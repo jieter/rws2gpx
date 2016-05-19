@@ -1,11 +1,23 @@
 # rws2gpx
 
-Rijkswaterstaat drijvende markeringen naar CSV converteren
+Rijkswaterstaat drijvende markeringen naar GPX converteren
 
 1. Download `yymmdd_DNZ_002a_markeringen_drijvend.csv` van http://www.vaarweginformatie.nl/fdd/main/infra/downloads
 2. Converteer: `python rws2gpx.py <bestandsnaam.csv>`
 
-Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen dan vervolgens in OpenCPN worden ingeladen.
+Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen dan vervolgens in OpenCPN worden ingeladen. De gebieden zijn aan te passen door het bestand bounds.geojson te bewerken op bijvoorbeeld http://geojson.io/. Het voor de output gebruikte bounds-bestand wordt naar de output-map gekopieerd.
+
+## Toevoegen aan OpenCPN
+
+De laag kan worden toegevoegd als 'Tijdelijke laag' (Temporary layer), of als een vast beschikbare laag. Kopieer de bestanden daarvoor naar een nieuw te maken submap van de configuratiedirectory met de naam `layers`. Op linux dus `mkdir -p ~/.opencpn/layers && cp output/* ~/.opencpn/layers/`.
+
+### UserIcons:
+
+Zonder icons wordt de `.gpx` weergegeven als ronde punten met een stip in het midden. Om mooie boeiplaatjes te krijgen zijn UserIcons nodig, meegeleverd in `UserIcons.zip`.
+
+Pak de zip uit in de configuratiedirectory van OpenCPN. De locatie van deze map staat in het 'about' venster in OpenCPN (icoon met vraagteken in taakbalk). Voor linux is dat: `~/.opencpn/`
+
+Zie ook [OpenCPN manual over user icons](http://opencpn.org/ocpn/user_icons)
 
 # TODO:
  - [x] debug html-pagina om gebruikte ton/topteken combinaties te laten zien [Pagina hier](http://jieter.github.io/rws2gpx/debug/).
@@ -27,18 +39,6 @@ Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen da
  - [ ] Export to GeoJSON
  - [ ] Composed images with buoy, top mark and light
  - [ ] Add (calculated) bounds to gpx.
-
-## Toevoegen aan OpenCPN
-
-De laag kan worden toegevoegd als 'Tijdelijke laag' (Temporary layer), of als een vast beschikbare laag. Kopieer de bestanden daarvoor naar een nieuw te maken submap van de configuratiedirectory met de naam `layers`. Op linux dus `mkdir -p ~/.opencpn/layers && cp output/* ~/.opencpn/layers/`.
-
-### UserIcons:
-
-Zonder icons wordt de `.gpx` weergegeven als ronde punten met een stip in het midden. Om mooie boeiplaatjes te krijgen zijn UserIcons nodig, meegeleverd in `UserIcons.zip`.
-
-Pak de zip uit in de configuratiedirectory van OpenCPN. De locatie van deze map staat in het 'about' venster in OpenCPN (icoon met vraagteken in taakbalk). Voor linux is dat: `~/.opencpn/`
-
-Zie ook [OpenCPN manual over user icons](http://opencpn.org/ocpn/user_icons)
 
 # Attribution:
 
