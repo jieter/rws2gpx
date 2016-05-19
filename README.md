@@ -5,7 +5,7 @@ Rijkswaterstaat drijvende markeringen naar GPX converteren
 1. Download `yymmdd_DNZ_002a_markeringen_drijvend.csv` van http://www.vaarweginformatie.nl/fdd/main/infra/downloads
 2. Converteer: `python rws2gpx.py <bestandsnaam.csv>`
 
-Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen dan vervolgens in OpenCPN worden ingeladen. De gebieden zijn aan te passen door het bestand bounds.geojson te bewerken op bijvoorbeeld http://geojson.io/. Het voor de output gebruikte bounds-bestand wordt naar de output-map gekopieerd.
+Schrijft verschillende `.gpx`-bestanden naar `output/`. Deze bestanden kunnen dan vervolgens in OpenCPN worden ingeladen. De gebieden zijn aan te passen door het bestand `bounds.geojson` te bewerken op bijvoorbeeld http://geojson.io/. Het voor de output gebruikte bounds-bestand wordt naar de output-map gekopieerd.
 
 ## Toevoegen aan OpenCPN
 

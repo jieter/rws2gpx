@@ -38,11 +38,25 @@
         var gpxLayer = function () {
             return L.geoJson(null, {
                 pointToLayer: function (feature, latlng) {
-                    feature.properties.desc = feature.properties.desc.replace(/\n/g, '<br />');
+                    description = feature.properties.desc.replace(/\n/g, '<br />');
 
+                    // default color
+                    var color = '#03f';
+                    var kleur = L.Util.trim(description.split('<br />')[1].split(':')[1]);
+                    switch (kleur) {
+                        case 'Geel': color = '#ee0'; break;
+                        case 'Rood': color = '#f00'; break;
+                        case 'Groen': color = '#080'; break;
+                    }
+                    console.log(feature, kleur, color);
                     var circle = L.circleMarker(latlng, {
+                        color: color,
                         radius: 2
-                    }).bindPopup(L.Util.template('<h2>{name}</h2><p>{desc}</p>', feature.properties));
+                    }).bindPopup(L.Util.template('<h2>{name}</h2><p>{description}<br />{icon}</p>', {
+                        name: feature.properties.name,
+                        description: description,
+                        icon: '<img src="UserIcons/'+ feature.properties.sym + '.png" />'
+                    }));
 
                     return circle;
                 }

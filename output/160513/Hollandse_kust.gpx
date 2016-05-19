@@ -3,12 +3,13 @@
 <metadata>
 <desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
 source filename: input/160513.csv</desc>
-<time>2016-05-19T10:01:13Z</time>'
+<time>2016-05-19T10:06:23Z</time>'
 </metadata>
 <wpt lat="51.947256" lon="4.078269">
 	<type>WPT</type>
 	<name>B 9</name>
 	<desc>Vaarwater: BEERKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -17,6 +18,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>B 7</name>
 	<desc>Vaarwater: BEERKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -25,6 +27,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>B 4</name>
 	<desc>Vaarwater: BEERKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -33,6 +36,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>B 3</name>
 	<desc>Vaarwater: BEERKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -41,6 +45,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>B 1</name>
 	<desc>Vaarwater: BEERKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -49,6 +54,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>B 5</name>
 	<desc>Vaarwater: BEERKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -57,6 +63,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>BD 1</name>
 	<desc>Vaarwater: BREEDDIEP
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -65,6 +72,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>EK 3</name>
 	<desc>Vaarwater: CALANDKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -73,6 +81,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>EK 1</name>
 	<desc>Vaarwater: CALANDKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -81,6 +90,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>CA 4</name>
 	<desc>Vaarwater: CALANDKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -89,6 +99,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>CA 6</name>
 	<desc>Vaarwater: CALANDKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -97,6 +108,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>CA 8</name>
 	<desc>Vaarwater: CALANDKANAAL
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -105,6 +117,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>E 11</name>
 	<desc>Vaarwater: EUROGEUL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -113,6 +126,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>E 13</name>
 	<desc>Vaarwater: EUROGEUL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -121,6 +135,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>E 1</name>
 	<desc>Vaarwater: EUROPAHAVEN
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -128,25 +143,29 @@ Lichtkleur: Groen</desc>
 <wpt lat="52.984436" lon="4.829922">
 	<type>WPT</type>
 	<name>WRAK STIER</name>
-	<desc>Vaarwater: GAT VAN DE STIER</desc>
+	<desc>Vaarwater: GAT VAN DE STIER
+Kleur: Geel/zwart/geel</desc>
 	<sym>Beacon_Yellow_Black_Yellow</sym>
 </wpt>
 <wpt lat="52.985603" lon="4.825283">
 	<type>WPT</type>
 	<name>GVS-KL-E</name>
-	<desc>Vaarwater: GAT VAN DE STIER</desc>
+	<desc>Vaarwater: GAT VAN DE STIER
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.997381" lon="4.827142">
 	<type>WPT</type>
 	<name>GVS-KL-D</name>
-	<desc>Vaarwater: GAT VAN DE STIER</desc>
+	<desc>Vaarwater: GAT VAN DE STIER
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="51.939867" lon="4.079367">
 	<type>WPT</type>
 	<name>HK 1-M 2</name>
 	<desc>Vaarwater: HARTELHAVEN
+Kleur: Groen/rood
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Sphere_Green_Red</sym>
@@ -155,6 +174,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>HK 0</name>
 	<desc>Vaarwater: HARTELKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -163,6 +183,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>NK 1-ZK 2</name>
 	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Groen/rood
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Sphere_Green_Red</sym>
@@ -171,6 +192,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NK 2</name>
 	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -179,6 +201,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>NK 7</name>
 	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -187,6 +210,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>NK 3</name>
 	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -195,6 +219,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NK 5</name>
 	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -203,6 +228,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>IJM 1</name>
 	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -210,43 +236,50 @@ Lichtkleur: Groen</desc>
 <wpt lat="52.462461" lon="4.561222">
 	<type>WPT</type>
 	<name>IJM 3-SPM 2</name>
-	<desc>Vaarwater: HAVEN IJMUIDEN</desc>
+	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Groen/rood</desc>
 	<sym>Beacon_Green_Red</sym>
 </wpt>
 <wpt lat="52.461731" lon="4.560381">
 	<type>WPT</type>
 	<name>SPM 4</name>
-	<desc>Vaarwater: HAVEN IJMUIDEN</desc>
+	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="52.461908" lon="4.559394">
 	<type>WPT</type>
 	<name>SPM 1</name>
-	<desc>Vaarwater: HAVEN IJMUIDEN</desc>
+	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="52.4625" lon="4.562414">
 	<type>WPT</type>
 	<name>DAM A</name>
-	<desc>Vaarwater: HAVEN IJMUIDEN</desc>
+	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="52.461564" lon="4.561753">
 	<type>WPT</type>
 	<name>DAM B</name>
-	<desc>Vaarwater: HAVEN IJMUIDEN</desc>
+	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="52.460842" lon="4.561178">
 	<type>WPT</type>
 	<name>DAM C</name>
-	<desc>Vaarwater: HAVEN IJMUIDEN</desc>
+	<desc>Vaarwater: HAVEN IJMUIDEN
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="52.466611" lon="4.463733">
 	<type>WPT</type>
 	<name>IJ 15</name>
 	<desc>Vaarwater: IJ-GEUL (NZ)
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -255,6 +288,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>IJM-C</name>
 	<desc>Vaarwater: IJ-GEUL (NZ)
+Kleur: Rood/wit
 Lichtkarakter: Mo (morse)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Sphere_Red_White</sym>
@@ -263,6 +297,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>IJ 13</name>
 	<desc>Vaarwater: IJ-GEUL (NZ)
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -271,6 +306,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>IJ 11</name>
 	<desc>Vaarwater: IJ-GEUL (NZ)
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -279,6 +315,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>IJ 7</name>
 	<desc>Vaarwater: IJ-GEUL (NZ)
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -287,6 +324,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>IJ 9</name>
 	<desc>Vaarwater: IJ-GEUL (NZ)
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -295,6 +333,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>NH 1</name>
 	<desc>Vaarwater: KLEIN BEERKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -303,6 +342,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>NH 2</name>
 	<desc>Vaarwater: KLEIN BEERKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -311,6 +351,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>NH 3</name>
 	<desc>Vaarwater: KLEIN BEERKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -319,6 +360,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>NH 4</name>
 	<desc>Vaarwater: KLEIN BEERKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -327,6 +369,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>MAAS 5</name>
 	<desc>Vaarwater: MAASMOND
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -335,6 +378,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>CA 2-NW 1</name>
 	<desc>Vaarwater: MAASMOND
+Kleur: Rood/groen repeterend
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Red_Green_Red_Green</sym>
@@ -343,6 +387,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MAAS 3</name>
 	<desc>Vaarwater: MAASMOND
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -351,6 +396,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>MAAS 4</name>
 	<desc>Vaarwater: MAASMOND
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -359,6 +405,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>MAAS 2</name>
 	<desc>Vaarwater: MAASMOND
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -367,6 +414,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>MV</name>
 	<desc>Vaarwater: MAASVLAKTE-MAASGEUL (NZ)
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -375,6 +423,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MAAS 1</name>
 	<desc>Vaarwater: MAASVLAKTE-MAASGEUL (NZ)
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -383,6 +432,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>MV N</name>
 	<desc>Vaarwater: MAASVLAKTE-MAASGEUL (NZ)
+Kleur: Zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow</sym>
@@ -391,6 +441,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MV A</name>
 	<desc>Vaarwater: MAASVLAKTE-MAASGEUL (NZ)
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -399,6 +450,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MV B</name>
 	<desc>Vaarwater: MAASVLAKTE-MAASGEUL (NZ)
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -407,6 +459,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MV C</name>
 	<desc>Vaarwater: MAASVLAKTE-MAASGEUL (NZ)
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -414,31 +467,36 @@ Lichtkleur: Wit</desc>
 <wpt lat="52.942583" lon="4.793406">
 	<type>WPT</type>
 	<name>M-WRAK</name>
-	<desc>Vaarwater: MALZWIN</desc>
+	<desc>Vaarwater: MALZWIN
+Kleur: Geel/zwart/geel</desc>
 	<sym>Beacon_Yellow_Black_Yellow</sym>
 </wpt>
 <wpt lat="52.964378" lon="4.802869">
 	<type>WPT</type>
 	<name>M-ZINKER</name>
-	<desc>Vaarwater: MALZWIN</desc>
+	<desc>Vaarwater: MALZWIN
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.970803" lon="4.819322">
 	<type>WPT</type>
 	<name>M 3</name>
-	<desc>Vaarwater: MALZWIN</desc>
+	<desc>Vaarwater: MALZWIN
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="52.969989" lon="4.809361">
 	<type>WPT</type>
 	<name>M-KL-H</name>
-	<desc>Vaarwater: MALZWIN</desc>
+	<desc>Vaarwater: MALZWIN
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.973194" lon="4.830903">
 	<type>WPT</type>
 	<name>M 5</name>
 	<desc>Vaarwater: MALZWIN
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -446,19 +504,22 @@ Lichtkleur: Groen</desc>
 <wpt lat="52.974536" lon="4.811086">
 	<type>WPT</type>
 	<name>M 2</name>
-	<desc>Vaarwater: MALZWIN</desc>
+	<desc>Vaarwater: MALZWIN
+Kleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="52.976219" lon="4.824836">
 	<type>WPT</type>
 	<name>M-KL-G</name>
-	<desc>Vaarwater: MALZWIN</desc>
+	<desc>Vaarwater: MALZWIN
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.976739" lon="4.830189">
 	<type>WPT</type>
 	<name>M 4</name>
 	<desc>Vaarwater: MALZWIN
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -466,13 +527,15 @@ Lichtkleur: Rood</desc>
 <wpt lat="52.986733" lon="4.834333">
 	<type>WPT</type>
 	<name>M-MZI-G</name>
-	<desc>Vaarwater: MALZWIN</desc>
+	<desc>Vaarwater: MALZWIN
+Kleur: Zwart/geel</desc>
 	<sym>Beacon_Black_Yellow</sym>
 </wpt>
 <wpt lat="52.966417" lon="4.790139">
 	<type>WPT</type>
 	<name>MH 6</name>
 	<desc>Vaarwater: MARINEHAVEN
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Beacon_Red</sym>
@@ -481,6 +544,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>MH 4-M 1</name>
 	<desc>Vaarwater: MARINEHAVEN
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -489,6 +553,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MH 8</name>
 	<desc>Vaarwater: MARINEHAVEN
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Beacon_Red</sym>
@@ -497,6 +562,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>M 8</name>
 	<desc>Vaarwater: MISSISSIPPIEHAVEN
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -505,6 +571,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>M 6</name>
 	<desc>Vaarwater: MISSISSIPPIEHAVEN
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -513,6 +580,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>M 4</name>
 	<desc>Vaarwater: MISSISSIPPIEHAVEN
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -521,6 +589,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>M 3</name>
 	<desc>Vaarwater: MISSISSIPPIEHAVEN
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -529,6 +598,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>M 1</name>
 	<desc>Vaarwater: MISSISSIPPIEHAVEN
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -537,6 +607,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>VH 2</name>
 	<desc>Vaarwater: MOK
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -545,6 +616,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>MK 4</name>
 	<desc>Vaarwater: MOK
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -552,85 +624,99 @@ Lichtkleur: Rood</desc>
 <wpt lat="53.013561" lon="4.703303">
 	<type>WPT</type>
 	<name>BUNKER 1</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel/zwart/geel</desc>
 	<sym>Beacon_Yellow_Black_Yellow</sym>
 </wpt>
 <wpt lat="53.029708" lon="4.702967">
 	<type>WPT</type>
 	<name>BUNKER 2</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel/zwart/geel</desc>
 	<sym>Beacon_Yellow_Black_Yellow</sym>
 </wpt>
 <wpt lat="52.98295" lon="4.706667">
 	<type>WPT</type>
 	<name>NBW 1</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.979347" lon="4.708736">
 	<type>WPT</type>
 	<name>NBW 5</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.981442" lon="4.708106">
 	<type>WPT</type>
 	<name>NBW 3</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="53.042294" lon="4.698067">
 	<type>WPT</type>
 	<name>MG-A</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="53.033353" lon="4.701886">
 	<type>WPT</type>
 	<name>MG-B</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="53.024283" lon="4.702364">
 	<type>WPT</type>
 	<name>MG-C</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="53.014969" lon="4.700631">
 	<type>WPT</type>
 	<name>MG-D</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="53.005847" lon="4.701822">
 	<type>WPT</type>
 	<name>MG-E</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.996969" lon="4.705336">
 	<type>WPT</type>
 	<name>MG-F</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.988292" lon="4.709292">
 	<type>WPT</type>
 	<name>MG-G</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.981844" lon="4.71835">
 	<type>WPT</type>
 	<name>MG-H</name>
-	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)</desc>
+	<desc>Vaarwater: MOLENGAT (ZEEGAT DEN HELDER)
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="51.971147" lon="4.097294">
 	<type>WPT</type>
 	<name>CA 1-B 2</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen/rood
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Sphere_Green_Red</sym>
@@ -639,6 +725,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NW 17-BD 2</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen/rood
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Sphere_Green_Red</sym>
@@ -647,6 +734,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NW 15</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -655,6 +743,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NW 9</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -663,6 +752,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NW 3</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -671,6 +761,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NW 4</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -678,31 +769,36 @@ Lichtkleur: Rood</desc>
 <wpt lat="51.981006" lon="4.087647">
 	<type>WPT</type>
 	<name>NW 5</name>
-	<desc>Vaarwater: NIEUWE WATERWEG</desc>
+	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="51.979789" lon="4.093647">
 	<type>WPT</type>
 	<name>NW 7</name>
-	<desc>Vaarwater: NIEUWE WATERWEG</desc>
+	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="51.977614" lon="4.103478">
 	<type>WPT</type>
 	<name>NW 11</name>
-	<desc>Vaarwater: NIEUWE WATERWEG</desc>
+	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="51.976397" lon="4.108361">
 	<type>WPT</type>
 	<name>NW 13</name>
-	<desc>Vaarwater: NIEUWE WATERWEG</desc>
+	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="51.985603" lon="4.083981">
 	<type>WPT</type>
 	<name>NW 2</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -711,6 +807,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>NW 6</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -719,6 +816,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>NW 19</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -727,6 +825,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>NW 21</name>
 	<desc>Vaarwater: NIEUWE WATERWEG
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -734,31 +833,36 @@ Lichtkleur: Groen</desc>
 <wpt lat="51.991261" lon="4.093236">
 	<type>WPT</type>
 	<name>HVH 1</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="51.996981" lon="4.108961">
 	<type>WPT</type>
 	<name>KON JULIANA</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel</desc>
 	<sym>Beacon_Yellow_Black_Yellow</sym>
 </wpt>
 <wpt lat="52.000647" lon="4.112961">
 	<type>WPT</type>
 	<name>HVH 3</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.005942" lon="4.119311">
 	<type>WPT</type>
 	<name>HVH 5</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.018372" lon="3.969847">
 	<type>WPT</type>
 	<name>MAAS OOST</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood/wit
 Lichtkarakter: Mo (morse)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Sphere_Red_White</sym>
@@ -767,6 +871,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MAAS CENTER</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood/wit
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Sphere_Red_White</sym>
@@ -775,6 +880,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MN 1</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Groen
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -783,6 +889,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>INDUSBANK N</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow</sym>
@@ -791,6 +898,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MN 3</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -799,6 +907,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>IJMW 4</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -806,13 +915,15 @@ Lichtkleur: Rood</desc>
 <wpt lat="52.092542" lon="4.23035">
 	<type>WPT</type>
 	<name>S 1</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="52.118833" lon="3.744333">
 	<type>WPT</type>
 	<name>MN 2</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -821,6 +932,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>SCH</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood/wit
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Sphere_Red_White</sym>
@@ -829,6 +941,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MN 4</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -837,6 +950,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>HOUTRUST</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -845,6 +959,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>NAM 22</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Sphere_Yellow</sym>
@@ -853,6 +968,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>MSP NW</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -861,6 +977,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>WRECK E'LINE</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -869,6 +986,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>A NE</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Geel</desc>
 	<sym>Sphere_Yellow</sym>
@@ -877,6 +995,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>WRECK B'RAN</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -885,6 +1004,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>BSP</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Sphere_Yellow</sym>
@@ -893,6 +1013,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>MSP</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -901,6 +1022,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>WK V.GORTHON/W</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -909,6 +1031,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>WK V.GORTHON/E</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel/zwart
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow_Black</sym>
@@ -917,6 +1040,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>PETTEN</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -925,6 +1049,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>ZH</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart
 Lichtkarakter: very quick-flash plus long- fl
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black</sym>
@@ -933,6 +1058,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MR</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -941,6 +1067,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>NH</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow</sym>
@@ -949,6 +1076,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>NAM A</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Sphere_Yellow</sym>
@@ -957,6 +1085,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>KNS</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -965,6 +1094,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>DRAIN W</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -973,6 +1103,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>DRAIN E</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel/zwart
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow_Black</sym>
@@ -980,61 +1111,71 @@ Lichtkleur: Wit</desc>
 <wpt lat="52.114869" lon="4.237372">
 	<type>WPT</type>
 	<name>DRAIN A</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.112461" lon="4.236556">
 	<type>WPT</type>
 	<name>DRAIN B</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.172383" lon="3.867408">
 	<type>WPT</type>
 	<name>P/15E-1</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.172128" lon="3.868997">
 	<type>WPT</type>
 	<name>P/15E-2</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.307483" lon="3.688917">
 	<type>WPT</type>
 	<name>P/15F-2</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.308267" lon="3.685683">
 	<type>WPT</type>
 	<name>P/15F-1</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.223153" lon="3.739172">
 	<type>WPT</type>
 	<name>P/15G-1</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.222642" lon="3.740939">
 	<type>WPT</type>
 	<name>P/15G-2</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.464497" lon="4.571656">
 	<type>WPT</type>
 	<name>ZK 4</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="52.446886" lon="4.302675">
 	<type>WPT</type>
 	<name>WRECK</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -1043,6 +1184,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>IJM</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood/wit
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Sphere_Red_White</sym>
@@ -1051,6 +1193,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>IJ 1</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1059,6 +1202,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>IJ 3</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1067,6 +1211,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>IJ 5</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1075,6 +1220,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>PIPE-W</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -1083,6 +1229,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MNW 2</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1091,6 +1238,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>MNW 3-MW 4</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel/zwart
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow_Black</sym>
@@ -1098,37 +1246,43 @@ Lichtkleur: Wit</desc>
 <wpt lat="51.913122" lon="3.991808">
 	<type>WPT</type>
 	<name>HP 15</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="51.905678" lon="4.026422">
 	<type>WPT</type>
 	<name>SV 6</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="51.906608" lon="4.030367">
 	<type>WPT</type>
 	<name>SV 8</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="51.907611" lon="4.034694">
 	<type>WPT</type>
 	<name>SV 10</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="51.908611" lon="4.039167">
 	<type>WPT</type>
 	<name>SV 12</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Can_Yellow</sym>
 </wpt>
 <wpt lat="52.055" lon="4.166389">
 	<type>WPT</type>
 	<name>ZM B</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -1137,6 +1291,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>ZM C</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -1145,6 +1300,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>MG</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood/wit
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Sphere_Red_White</sym>
@@ -1153,6 +1309,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>ZM A</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart
 Lichtkarakter: quick-flash plus long- flash
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black</sym>
@@ -1161,6 +1318,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>ZM D</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow</sym>
@@ -1168,19 +1326,22 @@ Lichtkleur: Wit</desc>
 <wpt lat="51.914292" lon="3.992769">
 	<type>WPT</type>
 	<name>HP 15A</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="51.911628" lon="3.990586">
 	<type>WPT</type>
 	<name>HP 13A</name>
-	<desc>Vaarwater: NOORDZEE</desc>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="52.2075" lon="3.857">
 	<type>WPT</type>
 	<name>MSP SE</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1189,6 +1350,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>IJMN 1-IJMW 2</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel/zwart
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow_Black</sym>
@@ -1197,6 +1359,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>IJMN 2</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1205,6 +1368,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>IJMW 3</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1213,6 +1377,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>IJMW 1</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1221,6 +1386,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>ODAS MV</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1229,6 +1395,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>SCH-N</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow</sym>
@@ -1237,6 +1404,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>TOC-N</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow</sym>
@@ -1245,6 +1413,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>TOC-E</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel/zwart
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow_Black</sym>
@@ -1253,6 +1422,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>TOC-S</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart
 Lichtkarakter: quick-flash plus long- flash
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black</sym>
@@ -1261,6 +1431,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>TOC-W</name>
 	<desc>Vaarwater: NOORDZEE
+Kleur: Geel/zwart/geel
 Lichtkarakter: VQ (very quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -1269,6 +1440,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>ZSE-A</name>
 	<desc>Vaarwater: NOORDZEEKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Sphere_Yellow</sym>
@@ -1276,19 +1448,22 @@ Lichtkleur: Geel</desc>
 <wpt lat="53.037944" lon="4.855786">
 	<type>WPT</type>
 	<name>OS 2</name>
-	<desc>Vaarwater: OUDE SCHILD</desc>
+	<desc>Vaarwater: OUDE SCHILD
+Kleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="53.038722" lon="4.856525">
 	<type>WPT</type>
 	<name>OS 3</name>
-	<desc>Vaarwater: OUDE SCHILD</desc>
+	<desc>Vaarwater: OUDE SCHILD
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="51.979333" lon="3.991667">
 	<type>WPT</type>
 	<name>AL-A</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1297,6 +1472,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-B</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1305,6 +1481,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-C</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1313,6 +1490,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-D</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1321,6 +1499,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-E</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1329,6 +1508,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-I</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1337,6 +1517,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-G</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1345,6 +1526,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-H</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1353,6 +1535,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-F</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1361,6 +1544,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AL-J</name>
 	<desc>Vaarwater: PRINSES ALEXIAHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1369,6 +1553,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>SG</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood/wit
 Lichtkarakter: Mo (morse)
 Lichtkleur: Wit</desc>
 	<sym>Sphere_Sphere_Red_White</sym>
@@ -1377,6 +1562,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>S 1</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1385,6 +1571,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>S 2</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1393,6 +1580,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>S 3</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1401,6 +1589,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>S 4</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1408,13 +1597,15 @@ Lichtkleur: Rood</desc>
 <wpt lat="52.912847" lon="4.687836">
 	<type>WPT</type>
 	<name>S PARANAGUA</name>
-	<desc>Vaarwater: SCHULPENGAT</desc>
+	<desc>Vaarwater: SCHULPENGAT
+Kleur: Zwart/geel/zwart</desc>
 	<sym>Can_Black_Yellow_Black</sym>
 </wpt>
 <wpt lat="52.922294" lon="4.670614">
 	<type>WPT</type>
 	<name>S 5</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1423,6 +1614,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>S 6</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1431,6 +1623,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>S 7</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Groen
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1439,6 +1632,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>S 6A</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1446,19 +1640,22 @@ Lichtkleur: Rood</desc>
 <wpt lat="52.947572" lon="4.701169">
 	<type>WPT</type>
 	<name>S 9</name>
-	<desc>Vaarwater: SCHULPENGAT</desc>
+	<desc>Vaarwater: SCHULPENGAT
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="52.951211" lon="4.683672">
 	<type>WPT</type>
 	<name>S 8</name>
-	<desc>Vaarwater: SCHULPENGAT</desc>
+	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="52.959183" lon="4.720947">
 	<type>WPT</type>
 	<name>S 11</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1467,6 +1664,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>S 10</name>
 	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1474,13 +1672,15 @@ Lichtkleur: Rood</desc>
 <wpt lat="52.969119" lon="4.709833">
 	<type>WPT</type>
 	<name>S 12</name>
-	<desc>Vaarwater: SCHULPENGAT</desc>
+	<desc>Vaarwater: SCHULPENGAT
+Kleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="52.724667" lon="4.152333">
 	<type>WPT</type>
 	<name>TX 1</name>
 	<desc>Vaarwater: TEXEL STELSEL (NZ)
+Kleur: Groen
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1489,6 +1689,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>TX 3</name>
 	<desc>Vaarwater: TEXEL STELSEL (NZ)
+Kleur: Groen
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1497,6 +1698,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>T 1</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Groen
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1504,13 +1706,15 @@ Lichtkleur: Groen</desc>
 <wpt lat="52.967017" lon="4.777836">
 	<type>WPT</type>
 	<name>T-WIERHOOFD</name>
-	<desc>Vaarwater: TEXELSTROOM/MARSDIEP</desc>
+	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Zwart/geel</desc>
 	<sym>Can_Black_Yellow</sym>
 </wpt>
 <wpt lat="52.96785" lon="4.773669">
 	<type>WPT</type>
 	<name>T 3</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1519,6 +1723,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>T 5-MH 2</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Groen/rood/groen
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green_Red_Green</sym>
@@ -1526,13 +1731,15 @@ Lichtkleur: Groen</desc>
 <wpt lat="52.979244" lon="4.801492">
 	<type>WPT</type>
 	<name>T 7</name>
-	<desc>Vaarwater: TEXELSTROOM/MARSDIEP</desc>
+	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="52.985639" lon="4.806733">
 	<type>WPT</type>
 	<name>T 9</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1541,6 +1748,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>T 2</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Rood
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1549,6 +1757,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>T 4</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1557,6 +1766,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>T 6-VH 1</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Rood/groen/rood
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Rood</desc>
 	<sym>Pillar_Red_Green_Red</sym>
@@ -1565,6 +1775,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>T 11-GVS 2</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Geel/zwart/geel
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black_Yellow</sym>
@@ -1573,6 +1784,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>T-KL-B</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1580,13 +1792,15 @@ Lichtkleur: Geel</desc>
 <wpt lat="53.027478" lon="4.842844">
 	<type>WPT</type>
 	<name>T 10</name>
-	<desc>Vaarwater: TEXELSTROOM/MARSDIEP</desc>
+	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Rood</desc>
 	<sym>Beacon_Red</sym>
 </wpt>
 <wpt lat="53.037167" lon="4.858783">
 	<type>WPT</type>
 	<name>T 12</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1595,6 +1809,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>T 8</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1603,6 +1818,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>T 13</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1610,31 +1826,36 @@ Lichtkleur: Groen</desc>
 <wpt lat="53.024667" lon="4.831833">
 	<type>WPT</type>
 	<name>STENEN OOST</name>
-	<desc>Vaarwater: TEXELSTROOM/MARSDIEP</desc>
+	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Zwart/geel/zwart</desc>
 	<sym>Beacon_Black_Yellow_Black</sym>
 </wpt>
 <wpt lat="53.022697" lon="4.8262">
 	<type>WPT</type>
 	<name>STENEN ZUID</name>
-	<desc>Vaarwater: TEXELSTROOM/MARSDIEP</desc>
+	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Geel/zwart</desc>
 	<sym>Beacon_Yellow_Black</sym>
 </wpt>
 <wpt lat="52.965283" lon="4.742467">
 	<type>WPT</type>
 	<name>T-KABEL 1</name>
-	<desc>Vaarwater: TEXELSTROOM/MARSDIEP</desc>
+	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.988333" lon="4.748333">
 	<type>WPT</type>
 	<name>T-KABEL 2</name>
-	<desc>Vaarwater: TEXELSTROOM/MARSDIEP</desc>
+	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.999794" lon="4.794378">
 	<type>WPT</type>
 	<name>T-BW-Z</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Geel/zwart
 Lichtkarakter: very quick-flash plus long- fl
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Yellow_Black</sym>
@@ -1643,6 +1864,7 @@ Lichtkleur: Wit</desc>
 	<type>WPT</type>
 	<name>T-BW-O</name>
 	<desc>Vaarwater: TEXELSTROOM/MARSDIEP
+Kleur: Zwart/geel/zwart
 Lichtkarakter: Q (quick-flashing)
 Lichtkleur: Wit</desc>
 	<sym>Pillar_Black_Yellow_Black</sym>
@@ -1650,31 +1872,36 @@ Lichtkleur: Wit</desc>
 <wpt lat="53.001811" lon="4.779486">
 	<type>WPT</type>
 	<name>WMK 3</name>
-	<desc>Vaarwater: [WANTIJ]MOK</desc>
+	<desc>Vaarwater: [WANTIJ]MOK
+Kleur: Groen</desc>
 	<sym>Beacon_Green</sym>
 </wpt>
 <wpt lat="53.001364" lon="4.779381">
 	<type>WPT</type>
 	<name>WMK 2</name>
-	<desc>Vaarwater: [WANTIJ]MOK</desc>
+	<desc>Vaarwater: [WANTIJ]MOK
+Kleur: Rood</desc>
 	<sym>Can_Red</sym>
 </wpt>
 <wpt lat="52.953064" lon="4.804467">
 	<type>WPT</type>
 	<name>NAP 1</name>
-	<desc>Vaarwater: [WANTIJ]NAPOLEONDAM</desc>
+	<desc>Vaarwater: [WANTIJ]NAPOLEONDAM
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="52.952856" lon="4.806089">
 	<type>WPT</type>
 	<name>NAP 2</name>
-	<desc>Vaarwater: [WANTIJ]NAPOLEONDAM</desc>
+	<desc>Vaarwater: [WANTIJ]NAPOLEONDAM
+Kleur: Geel</desc>
 	<sym>Beacon_Yellow</sym>
 </wpt>
 <wpt lat="51.969225" lon="4.05445">
 	<type>WPT</type>
 	<name>YK 1</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1683,6 +1910,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 3</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1691,6 +1919,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 5</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1699,6 +1928,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 2</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1707,6 +1937,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 4</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1715,6 +1946,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>GATE</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1723,6 +1955,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>YK 11</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1731,6 +1964,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 15</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1739,6 +1973,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 13</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1747,6 +1982,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 7</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1755,6 +1991,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 9</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1763,6 +2000,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK B</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
@@ -1771,6 +2009,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>AR 7</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1779,6 +2018,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>AM 1</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1787,6 +2027,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>AR 5</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1795,6 +2036,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>AR 3</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1803,6 +2045,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>AR 1</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1811,6 +2054,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 17</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Groen
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Groen</desc>
 	<sym>Cone_Green</sym>
@@ -1819,6 +2063,7 @@ Lichtkleur: Groen</desc>
 	<type>WPT</type>
 	<name>YK 12</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1827,6 +2072,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 8</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1835,6 +2081,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 14</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1843,6 +2090,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 6</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1851,6 +2099,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 10</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1859,6 +2108,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>AM 4</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1867,6 +2117,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>AM 6</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1875,6 +2126,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>AM 2</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1883,6 +2135,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>AR 4</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1891,6 +2144,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 22</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: Iso (isophased)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1899,6 +2153,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 24</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1907,6 +2162,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>AR 2</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1915,6 +2171,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 18</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1923,6 +2180,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 20</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1931,6 +2189,7 @@ Lichtkleur: Rood</desc>
 	<type>WPT</type>
 	<name>YK 16</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Rood
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Rood</desc>
 	<sym>Can_Red</sym>
@@ -1938,13 +2197,15 @@ Lichtkleur: Rood</desc>
 <wpt lat="51.977758" lon="4.019644">
 	<type>WPT</type>
 	<name>YK A</name>
-	<desc>Vaarwater: YANGTZEKANAAL</desc>
+	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Geel</desc>
 	<sym>Cone_Yellow</sym>
 </wpt>
 <wpt lat="51.961383" lon="4.006519">
 	<type>WPT</type>
 	<name>MH A</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1953,6 +2214,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>MH B</name>
 	<desc>Vaarwater: YANGTZEKANAAL
+Kleur: Geel
 Lichtkarakter: LFl (long-flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1961,6 +2223,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>YH-A</name>
 	<desc>Vaarwater: YUKONHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1969,6 +2232,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>YH-B</name>
 	<desc>Vaarwater: YUKONHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>
@@ -1977,6 +2241,7 @@ Lichtkleur: Geel</desc>
 	<type>WPT</type>
 	<name>YH-C</name>
 	<desc>Vaarwater: YUKONHAVEN
+Kleur: Geel
 Lichtkarakter: Fl (flashing)
 Lichtkleur: Geel</desc>
 	<sym>Can_Yellow</sym>

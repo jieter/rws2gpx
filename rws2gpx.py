@@ -248,6 +248,7 @@ def gpx_waypoint(data=None, type='WPT', **kwargs):
     description = []
     raw = data['raw']
     description.append('Vaarwater: %s' % raw['VAARWATER'])
+    description.append('Kleur: %s' % raw['OBJ_KLEUR'])
     if raw['SIGN_KAR'] != NOT_ASSIGNED:
         description.append('Lichtkarakter: %s' % raw['SIGN_KAR'])
         description.append('Lichtkleur: %s' % raw['LICHT_KLR'])
