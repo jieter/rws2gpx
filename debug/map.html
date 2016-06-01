@@ -9,17 +9,46 @@
     <style type="text/css">
         html, body { width: 100%; height: 100%; margin: 0; }
         #map { width: 100%; height: 100%; }
+        #info {
+            background: rgba(255, 255, 255, 0.85);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 55%;
+            max-width: 600px;
+            left: 45%;
+            margin-left: -300px;
+            padding: 6px 8px;
+
+            border-radius: 5px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+        }
+        #info h4:first-child {
+            margin: 0 0 5px;
+        }
     </style>
 </head>
 
 <body>
+    <div id="info">
+        <h4><a href="https://github.com/jieter/rws2gpx">rws2gpx conversiescript</a></h4>
+        <p>
+            Overzicht van de boeien uit het bestand van Rijkswaterstaat met datum
+            <strong id="date"></strong>, gedownload van
+            <a href="http://www.vaarweginformatie.nl/fdd/main/infra/downloads">
+                http://www.vaarweginformatie.nl/fdd/main/infra/downloads
+            </a>
+        </p>
+    </div>
     <div id="map"></div>
     <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
 
     <script type="text/javascript">
-        var basepath = '../output/160513/';
+        var date = '160527';
+        var basepath = '../output/' + date + '/';
 
         var map = L.map('map').setView([52.5, 4], 8);
+        L.hash(map);
 
         L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
             maxZoom: 19,
@@ -48,7 +77,7 @@
                         case 'Rood': color = '#f00'; break;
                         case 'Groen': color = '#080'; break;
                     }
-                    console.log(feature, kleur, color);
+                    // console.log(feature, kleur, color);
                     var circle = L.circleMarker(latlng, {
                         color: color,
                         radius: 2
@@ -81,6 +110,25 @@
                 layers.addOverlay(layer, name);
             });
         });
+
+
+        // info control
+        map.addControl(new (L.Control.extend({
+            options: {
+                position: 'topleft'
+            },
+            onAdd: function (map) {
+                var container = L.DomUtil.get('info');
+                L.DomEvent.disableClickPropagation(container);
+                L.DomUtil.get('date').innerHTML = L.Util.template('{year}-{month}-{day} ({date})', {
+                    date: date,
+                    year: '20' + date.substr(0, 2),
+                    month: date.substr(2, 2),
+                    day: date.substr(4, 2)
+                });
+                return container;
+            }
+        })));
     </script>
 </body>
 </html>
