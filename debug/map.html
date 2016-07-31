@@ -70,18 +70,40 @@
                     description = feature.properties.desc.replace(/\n/g, '<br />');
 
                     // default color, blue
-                    var color = '#03f';
+                    var color = {color: '#03f'};
                     var kleur = L.Util.trim(description.split('<br />')[1].split(':')[1]);
                     switch (kleur) {
-                        case 'Geel': color = '#ee0'; break;
-                        case 'Rood': color = '#f00'; break;
-                        case 'Groen': color = '#080'; break;
+                        case 'Geel': color = {color: '#ee0'}; break;
+                        case 'Rood': color = {color: '#f00'}; break;
+                        case 'Groen': color = {color: '#080'}; break;
+                        case 'Rood/wit repeterend':
+                            color = {
+                                color: '#f00',
+                                fillColor: '#fff',
+                                fillOpacity: 1,
+                                weight: 2
+                            };
+                        break;
+                        case 'Groen/wit repeterend':
+                            color = {
+                                color: '#080',
+                                fillColor: '#fff',
+                                fillOpacity: 1,
+                                weight: 2
+                            };
+                        break;
+                        case 'Groen/rood':
+                            color = {
+                                color: '#080',
+                                fillColor: '#f00',
+                                fillOpacity: 1,
+                                weight: 2
+                            };
+                        break;
                     }
                     // console.log(feature, kleur, color);
-                    var circle = L.circleMarker(latlng, {
-                        color: color,
-                        radius: 2
-                    }).bindPopup(L.Util.template('<h2>{name}</h2><p>{description}<br />{icon}</p>', {
+                    var circle = L.circleMarker(latlng, L.extend({radius: 3}, color));
+                    circle.bindPopup(L.Util.template('<h2>{name}</h2><p>{description}<br />{icon}</p>', {
                         name: feature.properties.name,
                         description: description,
                         icon: '<img src="UserIcons/'+ feature.properties.sym + '.png" />'
