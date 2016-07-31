@@ -44,7 +44,7 @@
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
 
     <script type="text/javascript">
-        var date = '160708';
+        var date = '160731';
         var basepath = '../output/' + date + '/';
 
         var map = L.map('map').setView([52.5, 4], 8);
@@ -69,7 +69,7 @@
                 pointToLayer: function (feature, latlng) {
                     description = feature.properties.desc.replace(/\n/g, '<br />');
 
-                    // default color
+                    // default color, blue
                     var color = '#03f';
                     var kleur = L.Util.trim(description.split('<br />')[1].split(':')[1]);
                     switch (kleur) {
