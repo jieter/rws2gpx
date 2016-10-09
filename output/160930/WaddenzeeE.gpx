@@ -1,0 +1,5597 @@
+<?xml version="1.0"?>
+<gpx version="1.0" creator="rws2gpx.py">
+<metadata>
+<desc>Created from Rijkswaterstaat data from http://www.vaarweginformatie.nl/fdd/main/infra/downloads,
+source filename: input/160930.csv</desc>
+<time>2016-10-09T16:28:38Z</time>'
+</metadata>
+<wpt lat="53.433567" lon="5.725533">
+	<type>WPT</type>
+	<name>BB 8</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434533" lon="5.722317">
+	<type>WPT</type>
+	<name>BB 12</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432567" lon="5.728433">
+	<type>WPT</type>
+	<name>BB 4</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431917" lon="5.731489">
+	<type>WPT</type>
+	<name>BB 2</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432453" lon="5.731133">
+	<type>WPT</type>
+	<name>BB 3</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.4331" lon="5.726733">
+	<type>WPT</type>
+	<name>BB 6</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.4339" lon="5.724117">
+	<type>WPT</type>
+	<name>BB 10</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.435017" lon="5.720833">
+	<type>WPT</type>
+	<name>BB 14</name>
+	<desc>Vaarwater: BALLUMERBOCHT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.410436" lon="5.587206">
+	<type>WPT</type>
+	<name>BB-NBW</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.427303" lon="5.602253">
+	<type>WPT</type>
+	<name>BB 16</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.412681" lon="5.588719">
+	<type>WPT</type>
+	<name>BB 1</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.429403" lon="5.604914">
+	<type>WPT</type>
+	<name>BB 18</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.415325" lon="5.591742">
+	<type>WPT</type>
+	<name>BB 6</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.419806" lon="5.598306">
+	<type>WPT</type>
+	<name>BB 10</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.422586" lon="5.601403">
+	<type>WPT</type>
+	<name>BB 12</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.429017" lon="5.60525">
+	<type>WPT</type>
+	<name>BB 5</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.417539" lon="5.595031">
+	<type>WPT</type>
+	<name>BB 8</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.4134" lon="5.587669">
+	<type>WPT</type>
+	<name>BB 4</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.424336" lon="5.603289">
+	<type>WPT</type>
+	<name>BB 14</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.427389" lon="5.603531">
+	<type>WPT</type>
+	<name>BB 3</name>
+	<desc>Vaarwater: BLAUWE BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.310289" lon="7.039031">
+	<type>WPT</type>
+	<name>D-TM</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Groen
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.317781" lon="7.036161">
+	<type>WPT</type>
+	<name>DO-REDE</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.328719" lon="6.963714">
+	<type>WPT</type>
+	<name>AKZO 3</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.330278" lon="6.961858">
+	<type>WPT</type>
+	<name>AKZO 2</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.330942" lon="6.957322">
+	<type>WPT</type>
+	<name>AKZO 1</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.332497" lon="6.946989">
+	<type>WPT</type>
+	<name>BDD</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.343711" lon="6.918706">
+	<type>WPT</type>
+	<name>RIOOL 2</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.347608" lon="6.911767">
+	<type>WPT</type>
+	<name>RIOOL 1</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.399397" lon="6.892058">
+	<type>WPT</type>
+	<name>PW</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.327278" lon="6.965775">
+	<type>WPT</type>
+	<name>AKZO 4</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.381925" lon="6.895131">
+	<type>WPT</type>
+	<name>BW-GAS 1</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.379081" lon="6.899839">
+	<type>WPT</type>
+	<name>BW-GAS 2</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.388864" lon="6.893494">
+	<type>WPT</type>
+	<name>BW-KB 1</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.386614" lon="6.896969">
+	<type>WPT</type>
+	<name>BW-KB 2</name>
+	<desc>Vaarwater: BOCHT VAN WATUM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.496167" lon="6.467828">
+	<type>WPT</type>
+	<name>B-NBW 1</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.503056" lon="6.468653">
+	<type>WPT</type>
+	<name>B-BW</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Geel/zwart/geel</desc>
+	<sym>Beacon_Yellow_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.519442" lon="6.470267">
+	<type>WPT</type>
+	<name>B 4</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.528819" lon="6.465703">
+	<type>WPT</type>
+	<name>B 2</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.482489" lon="6.471889">
+	<type>WPT</type>
+	<name>B-NBW 2</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.512022" lon="6.470689">
+	<type>WPT</type>
+	<name>B 6</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.517017" lon="6.464936">
+	<type>WPT</type>
+	<name>B 3</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.525964" lon="6.461178">
+	<type>WPT</type>
+	<name>B 1</name>
+	<desc>Vaarwater: BOSCHGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.434092" lon="5.571819">
+	<type>WPT</type>
+	<name>BG 10</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.441739" lon="5.574244">
+	<type>WPT</type>
+	<name>BG 8</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.441875" lon="5.573236">
+	<type>WPT</type>
+	<name>BG 5</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.446139" lon="5.5654">
+	<type>WPT</type>
+	<name>BG 6</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434994" lon="5.569264">
+	<type>WPT</type>
+	<name>BG 7</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.450197" lon="5.549381">
+	<type>WPT</type>
+	<name>BG 4</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.445244" lon="5.563289">
+	<type>WPT</type>
+	<name>BG 3</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.449769" lon="5.547564">
+	<type>WPT</type>
+	<name>BG 1</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.414314" lon="5.577375">
+	<type>WPT</type>
+	<name>BG 11</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.414986" lon="5.578806">
+	<type>WPT</type>
+	<name>BG 18</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.419036" lon="5.574689">
+	<type>WPT</type>
+	<name>BG 16</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.423489" lon="5.571022">
+	<type>WPT</type>
+	<name>BG 14</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.428794" lon="5.567736">
+	<type>WPT</type>
+	<name>BG 9</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.428431" lon="5.570439">
+	<type>WPT</type>
+	<name>BG 12</name>
+	<desc>Vaarwater: BOSCHGAT (TERSCHELLING)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.483186" lon="6.496114">
+	<type>WPT</type>
+	<name>BW 6</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.482969" lon="6.484186">
+	<type>WPT</type>
+	<name>BW 4</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.495361" lon="6.464994">
+	<type>WPT</type>
+	<name>BW 2</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.484931" lon="6.505478">
+	<type>WPT</type>
+	<name>BW 8</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.490672" lon="6.506383">
+	<type>WPT</type>
+	<name>BW 10</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.486242" lon="6.467772">
+	<type>WPT</type>
+	<name>BW 2A</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.501817" lon="6.525364">
+	<type>WPT</type>
+	<name>BW 14</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.495511" lon="6.517281">
+	<type>WPT</type>
+	<name>BW 12</name>
+	<desc>Vaarwater: BOSCHWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.393361" lon="5.676639">
+	<type>WPT</type>
+	<name>DG 1-VH 50</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.392231" lon="5.696453">
+	<type>WPT</type>
+	<name>DG 3</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.399417" lon="5.743267">
+	<type>WPT</type>
+	<name>DG-NBW</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.395306" lon="5.723178">
+	<type>WPT</type>
+	<name>DG 5</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.393761" lon="5.696708">
+	<type>WPT</type>
+	<name>DG 4</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.395064" lon="5.678378">
+	<type>WPT</type>
+	<name>DG 2</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.398953" lon="5.720425">
+	<type>WPT</type>
+	<name>DG 6</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.393336" lon="5.686636">
+	<type>WPT</type>
+	<name>DG 2A</name>
+	<desc>Vaarwater: DANTZIGGAT
+Kleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.259889" lon="7.164389">
+	<type>WPT</type>
+	<name>D 25</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.263028" lon="7.161669">
+	<type>WPT</type>
+	<name>D 23</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.269578" lon="7.163481">
+	<type>WPT</type>
+	<name>D 21</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.2749" lon="7.164181">
+	<type>WPT</type>
+	<name>D 19</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.281264" lon="7.162269">
+	<type>WPT</type>
+	<name>D 17</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.290611" lon="7.162356">
+	<type>WPT</type>
+	<name>D 15</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.300089" lon="7.0921">
+	<type>WPT</type>
+	<name>KR 7</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel/zwart</desc>
+	<sym>Beacon_Black_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.301931" lon="7.162594">
+	<type>WPT</type>
+	<name>D 13</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.307081" lon="7.101731">
+	<type>WPT</type>
+	<name>KR 5</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel/zwart</desc>
+	<sym>Beacon_Black_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.307547" lon="7.081514">
+	<type>WPT</type>
+	<name>KR 1</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.308311" lon="7.087997">
+	<type>WPT</type>
+	<name>KR 2</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.310358" lon="7.100739">
+	<type>WPT</type>
+	<name>KR 4</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.3103" lon="7.149586">
+	<type>WPT</type>
+	<name>D 11</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.309658" lon="7.094292">
+	<type>WPT</type>
+	<name>KR 3</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.316042" lon="7.133561">
+	<type>WPT</type>
+	<name>D 9</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.314422" lon="7.052819">
+	<type>WPT</type>
+	<name>D 1</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.314519" lon="7.077547">
+	<type>WPT</type>
+	<name>D 3</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.315786" lon="7.117228">
+	<type>WPT</type>
+	<name>D 7</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.315389" lon="7.096494">
+	<type>WPT</type>
+	<name>D 5</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.304122" lon="7.100111">
+	<type>WPT</type>
+	<name>KR 6</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel/zwart</desc>
+	<sym>Beacon_Black_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.308631" lon="7.102981">
+	<type>WPT</type>
+	<name>DO-NBW</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.2581" lon="7.16815">
+	<type>WPT</type>
+	<name>D 27</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.256786" lon="7.171319">
+	<type>WPT</type>
+	<name>D 29</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.313372" lon="7.137986">
+	<type>WPT</type>
+	<name>OBSTRUCTIE-N</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.312653" lon="7.137961">
+	<type>WPT</type>
+	<name>OBSTRUCTIE-Z</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Geel/zwart</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.255478" lon="7.173908">
+	<type>WPT</type>
+	<name>D 31</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.253772" lon="7.175469">
+	<type>WPT</type>
+	<name>D 33</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.251408" lon="7.175386">
+	<type>WPT</type>
+	<name>D 35</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.248681" lon="7.174072">
+	<type>WPT</type>
+	<name>D 37</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.246181" lon="7.173078">
+	<type>WPT</type>
+	<name>D 39</name>
+	<desc>Vaarwater: DOLLARD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.436233" lon="6.320256">
+	<type>WPT</type>
+	<name>EB 3</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.438636" lon="6.318331">
+	<type>WPT</type>
+	<name>EB 2</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.444425" lon="6.324475">
+	<type>WPT</type>
+	<name>EB 6</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.440472" lon="6.318242">
+	<type>WPT</type>
+	<name>EB 5</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.44565" lon="6.328364">
+	<type>WPT</type>
+	<name>EB 8</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.446722" lon="6.334889">
+	<type>WPT</type>
+	<name>EB 10</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.448969" lon="6.340328">
+	<type>WPT</type>
+	<name>EB 12</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.450806" lon="6.346914">
+	<type>WPT</type>
+	<name>EB 7</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.452764" lon="6.354486">
+	<type>WPT</type>
+	<name>EB 9</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.458989" lon="6.357186">
+	<type>WPT</type>
+	<name>EB 13</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.462583" lon="6.357039">
+	<type>WPT</type>
+	<name>EB 15</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.469544" lon="6.352078">
+	<type>WPT</type>
+	<name>EB 19</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.479092" lon="6.337758">
+	<type>WPT</type>
+	<name>EB 27</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.475583" lon="6.338281">
+	<type>WPT</type>
+	<name>EB 25</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.501267" lon="6.335506">
+	<type>WPT</type>
+	<name>EB 18</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.504736" lon="6.349931">
+	<type>WPT</type>
+	<name>EB 31</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.502958" lon="6.358783">
+	<type>WPT</type>
+	<name>EB 20</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.49395" lon="6.333567">
+	<type>WPT</type>
+	<name>EB 16</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.498347" lon="6.368022">
+	<type>WPT</type>
+	<name>EB 22</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.496681" lon="6.384711">
+	<type>WPT</type>
+	<name>EB 24</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.493875" lon="6.398056">
+	<type>WPT</type>
+	<name>EB 26</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.486417" lon="6.331744">
+	<type>WPT</type>
+	<name>EB 14</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.455797" lon="6.357264">
+	<type>WPT</type>
+	<name>EB 11</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.466097" lon="6.355839">
+	<type>WPT</type>
+	<name>EB 17</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.503847" lon="6.342978">
+	<type>WPT</type>
+	<name>EB 29</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.442747" lon="6.320397">
+	<type>WPT</type>
+	<name>EB 4</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.472369" lon="6.346944">
+	<type>WPT</type>
+	<name>EB 21</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.473364" lon="6.340492">
+	<type>WPT</type>
+	<name>EB 23</name>
+	<desc>Vaarwater: EILANDER BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.420997" lon="5.989686">
+	<type>WPT</type>
+	<name>FW 13</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421153" lon="5.9857">
+	<type>WPT</type>
+	<name>FW 11</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421903" lon="5.979619">
+	<type>WPT</type>
+	<name>FW 9</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.425158" lon="5.975303">
+	<type>WPT</type>
+	<name>FW 7</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.429703" lon="5.964381">
+	<type>WPT</type>
+	<name>FW 1</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.427706" lon="5.968567">
+	<type>WPT</type>
+	<name>FW 3</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.426931" lon="5.971414">
+	<type>WPT</type>
+	<name>FW 5</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421386" lon="5.993375">
+	<type>WPT</type>
+	<name>WW 1</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.419781" lon="5.999369">
+	<type>WPT</type>
+	<name>WW 3</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.416928" lon="6.003839">
+	<type>WPT</type>
+	<name>WW 5</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.416817" lon="6.00835">
+	<type>WPT</type>
+	<name>WW 7</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.418078" lon="6.016114">
+	<type>WPT</type>
+	<name>WW 9</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.420156" lon="6.022914">
+	<type>WPT</type>
+	<name>WW 11</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.420794" lon="6.029467">
+	<type>WPT</type>
+	<name>WW 13</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421358" lon="6.032936">
+	<type>WPT</type>
+	<name>WW 15</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421206" lon="6.039525">
+	<type>WPT</type>
+	<name>WW 17</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.422297" lon="6.042047">
+	<type>WPT</type>
+	<name>WW 19</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.42305" lon="6.044242">
+	<type>WPT</type>
+	<name>WW 21</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.423897" lon="6.045533">
+	<type>WPT</type>
+	<name>WW 23</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.435253" lon="5.959792">
+	<type>WPT</type>
+	<name>FW 6</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.419944" lon="6.020353">
+	<type>WPT</type>
+	<name>WW 9A</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.440367" lon="5.95255">
+	<type>WPT</type>
+	<name>FW 2</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.438283" lon="5.956267">
+	<type>WPT</type>
+	<name>FW 4-HB 1</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.432814" lon="5.962392">
+	<type>WPT</type>
+	<name>FW 8</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.420531" lon="6.036456">
+	<type>WPT</type>
+	<name>WW 15A</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.417019" lon="6.012714">
+	<type>WPT</type>
+	<name>WW 7A</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.424103" lon="6.049072">
+	<type>WPT</type>
+	<name>WW 25</name>
+	<desc>Vaarwater: FRIESCHE WAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.438406" lon="6.114781">
+	<type>WPT</type>
+	<name>GVS 2</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.439925" lon="6.120269">
+	<type>WPT</type>
+	<name>GVS 4</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.440778" lon="6.124722">
+	<type>WPT</type>
+	<name>GVS 3</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.44475" lon="6.155067">
+	<type>WPT</type>
+	<name>GVS-KL 1</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.442686" lon="6.130022">
+	<type>WPT</type>
+	<name>GVS 6</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.447256" lon="6.166072">
+	<type>WPT</type>
+	<name>GL 15-BZ 2</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.442139" lon="6.137144">
+	<type>WPT</type>
+	<name>GVS 8</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.445383" lon="6.171744">
+	<type>WPT</type>
+	<name>GVS-KL 3</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.443522" lon="6.142961">
+	<type>WPT</type>
+	<name>GVS 10</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.448333" lon="6.154833">
+	<type>WPT</type>
+	<name>GVS-KL 2</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.445575" lon="6.147978">
+	<type>WPT</type>
+	<name>GVS 12</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.447553" lon="6.153794">
+	<type>WPT</type>
+	<name>GVS 14</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.458714" lon="6.179678">
+	<type>WPT</type>
+	<name>GS 4A-R 1</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.448761" lon="6.161572">
+	<type>WPT</type>
+	<name>GVS 16</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.438978" lon="6.117919">
+	<type>WPT</type>
+	<name>GVS 2A</name>
+	<desc>Vaarwater: GAT VAN SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431531" lon="6.193547">
+	<type>WPT</type>
+	<name>BZ 13</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.433897" lon="6.195997">
+	<type>WPT</type>
+	<name>BZ 11</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.444144" lon="6.188589">
+	<type>WPT</type>
+	<name>BZ 1</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.4459" lon="6.189467">
+	<type>WPT</type>
+	<name>BZ-NBW 1</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.446306" lon="6.173789">
+	<type>WPT</type>
+	<name>BZ 4</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.462678" lon="6.227711">
+	<type>WPT</type>
+	<name>BZ-NBW 2</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.441489" lon="6.189144">
+	<type>WPT</type>
+	<name>BZ 3</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.439853" lon="6.192272">
+	<type>WPT</type>
+	<name>BZ 5</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.438092" lon="6.193444">
+	<type>WPT</type>
+	<name>BZ 7</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.436064" lon="6.194608">
+	<type>WPT</type>
+	<name>BZ 9</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.429633" lon="6.188619">
+	<type>WPT</type>
+	<name>BZ 15</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.4276" lon="6.183694">
+	<type>WPT</type>
+	<name>BZ 17</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.4456" lon="6.179211">
+	<type>WPT</type>
+	<name>BZ 6</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.445378" lon="6.185378">
+	<type>WPT</type>
+	<name>BZ 8</name>
+	<desc>Vaarwater: GEUL VAN BRAKZAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.435803" lon="6.144797">
+	<type>WPT</type>
+	<name>GL 3</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.439614" lon="6.152781">
+	<type>WPT</type>
+	<name>GL 7</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.438167" lon="6.148753">
+	<type>WPT</type>
+	<name>GL 5</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.443411" lon="6.158581">
+	<type>WPT</type>
+	<name>GL 11</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.441261" lon="6.155278">
+	<type>WPT</type>
+	<name>GL 2</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.440797" lon="6.155961">
+	<type>WPT</type>
+	<name>GL 9</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.445094" lon="6.160089">
+	<type>WPT</type>
+	<name>GL 13</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.446153" lon="6.159128">
+	<type>WPT</type>
+	<name>GL 4-GVS 5</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Rood/groen/rood
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.444164" lon="6.158039">
+	<type>WPT</type>
+	<name>GL 2A</name>
+	<desc>Vaarwater: GLINDER
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.424978" lon="6.251186">
+	<type>WPT</type>
+	<name>GB 2</name>
+	<desc>Vaarwater: GRONINGERBALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.424631" lon="6.273972">
+	<type>WPT</type>
+	<name>GB 4</name>
+	<desc>Vaarwater: GRONINGERBALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.424953" lon="6.285186">
+	<type>WPT</type>
+	<name>GB 6</name>
+	<desc>Vaarwater: GRONINGERBALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.426669" lon="6.295903">
+	<type>WPT</type>
+	<name>GB 8</name>
+	<desc>Vaarwater: GRONINGERBALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.428786" lon="6.301439">
+	<type>WPT</type>
+	<name>GB 10</name>
+	<desc>Vaarwater: GRONINGERBALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.424606" lon="6.262914">
+	<type>WPT</type>
+	<name>GB</name>
+	<desc>Vaarwater: GRONINGERBALG
+Kleur: Geel/zwart</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.43095" lon="6.306225">
+	<type>WPT</type>
+	<name>GB 12</name>
+	<desc>Vaarwater: GRONINGERBALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.448619" lon="6.170611">
+	<type>WPT</type>
+	<name>GS 1</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.450283" lon="6.1708">
+	<type>WPT</type>
+	<name>GS 2</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.450386" lon="6.175386">
+	<type>WPT</type>
+	<name>GS 3</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.451511" lon="6.171031">
+	<type>WPT</type>
+	<name>GS-KL 2</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.451831" lon="6.174133">
+	<type>WPT</type>
+	<name>GS 2A</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.453919" lon="6.177931">
+	<type>WPT</type>
+	<name>GS 5</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.457408" lon="6.1803">
+	<type>WPT</type>
+	<name>GS 7</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.456944" lon="6.178547">
+	<type>WPT</type>
+	<name>GS 4</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.459728" lon="6.182886">
+	<type>WPT</type>
+	<name>GS 9</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.459925" lon="6.181386">
+	<type>WPT</type>
+	<name>GS 6</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.461439" lon="6.18605">
+	<type>WPT</type>
+	<name>GS 11</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.462264" lon="6.186325">
+	<type>WPT</type>
+	<name>GS 8</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.464128" lon="6.193961">
+	<type>WPT</type>
+	<name>GS 10</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.465831" lon="6.197778">
+	<type>WPT</type>
+	<name>GS 15</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.466647" lon="6.197961">
+	<type>WPT</type>
+	<name>GS 12</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.467814" lon="6.201203">
+	<type>WPT</type>
+	<name>GS 14</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.463028" lon="6.193236">
+	<type>WPT</type>
+	<name>GS 13</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.454694" lon="6.176322">
+	<type>WPT</type>
+	<name>GS 2B</name>
+	<desc>Vaarwater: GROOTE SIEGE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.439575" lon="5.947961">
+	<type>WPT</type>
+	<name>PG 18</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.423031" lon="5.930747">
+	<type>WPT</type>
+	<name>PG 2</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.425461" lon="5.939806">
+	<type>WPT</type>
+	<name>PG 6</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.424489" lon="5.936256">
+	<type>WPT</type>
+	<name>PG 4</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.426889" lon="5.941928">
+	<type>WPT</type>
+	<name>PG 8</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.428592" lon="5.943003">
+	<type>WPT</type>
+	<name>PG 10</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.441847" lon="5.961836">
+	<type>WPT</type>
+	<name>HB 3</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431644" lon="5.943344">
+	<type>WPT</type>
+	<name>PG 12</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434825" lon="5.945417">
+	<type>WPT</type>
+	<name>PG 14</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.443797" lon="5.966978">
+	<type>WPT</type>
+	<name>HB 5</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.447069" lon="6.00465">
+	<type>WPT</type>
+	<name>HB 17</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.448247" lon="6.011514">
+	<type>WPT</type>
+	<name>HB 19</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.444019" lon="5.977139">
+	<type>WPT</type>
+	<name>HB 9</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.451556" lon="6.014875">
+	<type>WPT</type>
+	<name>HB 21</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.445464" lon="5.984611">
+	<type>WPT</type>
+	<name>HB 11</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.447147" lon="5.998256">
+	<type>WPT</type>
+	<name>HB 15</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.455911" lon="6.014936">
+	<type>WPT</type>
+	<name>HB 23</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.437064" lon="5.947178">
+	<type>WPT</type>
+	<name>PG 16</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.445886" lon="5.990261">
+	<type>WPT</type>
+	<name>HB 13</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.446986" lon="5.976578">
+	<type>WPT</type>
+	<name>HB 7</name>
+	<desc>Vaarwater: HOLWERDERBALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.410886" lon="5.742847">
+	<type>WPT</type>
+	<name>KG 3</name>
+	<desc>Vaarwater: KIKKERTGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.411342" lon="5.740294">
+	<type>WPT</type>
+	<name>KG 4</name>
+	<desc>Vaarwater: KIKKERTGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.416633" lon="5.743419">
+	<type>WPT</type>
+	<name>KG 6</name>
+	<desc>Vaarwater: KIKKERTGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.421006" lon="5.745017">
+	<type>WPT</type>
+	<name>KG 8</name>
+	<desc>Vaarwater: KIKKERTGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.425292" lon="5.748006">
+	<type>WPT</type>
+	<name>KG 10</name>
+	<desc>Vaarwater: KIKKERTGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.427931" lon="5.751639">
+	<type>WPT</type>
+	<name>KG 12</name>
+	<desc>Vaarwater: KIKKERTGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.406503" lon="5.736194">
+	<type>WPT</type>
+	<name>KG 2</name>
+	<desc>Vaarwater: KIKKERTGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.368681" lon="5.622314">
+	<type>WPT</type>
+	<name>KB 3</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.374081" lon="5.617989">
+	<type>WPT</type>
+	<name>KB 5</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.380014" lon="5.615914">
+	<type>WPT</type>
+	<name>KB 7</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.382969" lon="5.622394">
+	<type>WPT</type>
+	<name>KB 9</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.384933" lon="5.628719">
+	<type>WPT</type>
+	<name>KB 11</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.395044" lon="5.648014">
+	<type>WPT</type>
+	<name>KB 17</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.362486" lon="5.620781">
+	<type>WPT</type>
+	<name>KB 2</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.366975" lon="5.622156">
+	<type>WPT</type>
+	<name>KB 4</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.387072" lon="5.635642">
+	<type>WPT</type>
+	<name>KB 13</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.389128" lon="5.641514">
+	<type>WPT</type>
+	<name>KB 15</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.402139" lon="5.650311">
+	<type>WPT</type>
+	<name>KB 19</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.409689" lon="5.648103">
+	<type>WPT</type>
+	<name>KB 21</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.409603" lon="5.646297">
+	<type>WPT</type>
+	<name>KB 6</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.360231" lon="5.625122">
+	<type>WPT</type>
+	<name>KB 1-VH 18</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.409767" lon="5.63675">
+	<type>WPT</type>
+	<name>KB-NBW</name>
+	<desc>Vaarwater: KROMME BALG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.532286" lon="6.305681">
+	<type>WPT</type>
+	<name>REGULUS</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.546719" lon="6.423139">
+	<type>WPT</type>
+	<name>L 8</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.542156" lon="6.383503">
+	<type>WPT</type>
+	<name>L 7</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.546647" lon="6.405186">
+	<type>WPT</type>
+	<name>L 6</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.543231" lon="6.362106">
+	<type>WPT</type>
+	<name>L 5</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.553167" lon="6.244167">
+	<type>WPT</type>
+	<name>L</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Rood/wit</desc>
+	<sym>Beacon_Sphere_Red_White</sym>
+</wpt>
+<wpt lat="53.546914" lon="6.383914">
+	<type>WPT</type>
+	<name>L 4</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.547881" lon="6.362506">
+	<type>WPT</type>
+	<name>L 2</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.542069" lon="6.404622">
+	<type>WPT</type>
+	<name>L 9</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.536447" lon="6.450975">
+	<type>WPT</type>
+	<name>L 15</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.544156" lon="6.423378">
+	<type>WPT</type>
+	<name>L 11-SP 22</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.541511" lon="6.43855">
+	<type>WPT</type>
+	<name>L 13</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.544467" lon="6.439528">
+	<type>WPT</type>
+	<name>L 10</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.55" lon="6.284594">
+	<type>WPT</type>
+	<name>L 1</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.546667" lon="6.323342">
+	<type>WPT</type>
+	<name>L 3</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.538644" lon="6.458089">
+	<type>WPT</type>
+	<name>L 12</name>
+	<desc>Vaarwater: LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.408617" lon="6.163533">
+	<type>WPT</type>
+	<name>KITE-LA DAM</name>
+	<desc>Vaarwater: LAUWERSMEER
+Kleur: Geel</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.433075" lon="6.304464">
+	<type>WPT</type>
+	<name>LW 6</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432314" lon="6.29805">
+	<type>WPT</type>
+	<name>LW 4</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431744" lon="6.290289">
+	<type>WPT</type>
+	<name>LW 2</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432431" lon="6.346581">
+	<type>WPT</type>
+	<name>LW 5</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432669" lon="6.333569">
+	<type>WPT</type>
+	<name>LW 1</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.43365" lon="6.311397">
+	<type>WPT</type>
+	<name>LW 8</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434403" lon="6.330372">
+	<type>WPT</type>
+	<name>LW 16</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434136" lon="6.341353">
+	<type>WPT</type>
+	<name>LW 3</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.434211" lon="6.326081">
+	<type>WPT</type>
+	<name>LW 14</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434281" lon="6.334203">
+	<type>WPT</type>
+	<name>LW 18</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434336" lon="6.321719">
+	<type>WPT</type>
+	<name>LW 12-EB 1</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.434044" lon="6.318553">
+	<type>WPT</type>
+	<name>LW 10</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434978" lon="6.337231">
+	<type>WPT</type>
+	<name>LW 20</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432211" lon="6.351842">
+	<type>WPT</type>
+	<name>LW 22</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.433264" lon="6.354797">
+	<type>WPT</type>
+	<name>LW 24</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434181" lon="6.358131">
+	<type>WPT</type>
+	<name>LW 26</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.435536" lon="6.36275">
+	<type>WPT</type>
+	<name>LW 28</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.436247" lon="6.369161">
+	<type>WPT</type>
+	<name>LW 30</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.438006" lon="6.373867">
+	<type>WPT</type>
+	<name>LW 32</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.439781" lon="6.382108">
+	<type>WPT</type>
+	<name>LW 34</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.438533" lon="6.387133">
+	<type>WPT</type>
+	<name>LW 36</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.441042" lon="6.392672">
+	<type>WPT</type>
+	<name>LW 38</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.438894" lon="6.391419">
+	<type>WPT</type>
+	<name>LW 7</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432853" lon="6.309953">
+	<type>WPT</type>
+	<name>GB-LW</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.429872" lon="6.317636">
+	<type>WPT</type>
+	<name>LW-A3</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.430139" lon="6.324111">
+	<type>WPT</type>
+	<name>LW-A5</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.430897" lon="6.330447">
+	<type>WPT</type>
+	<name>LW-A7</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.431267" lon="6.311722">
+	<type>WPT</type>
+	<name>LW-A1</name>
+	<desc>Vaarwater: LUTJEWAD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.402247" lon="5.681133">
+	<type>WPT</type>
+	<name>MG 2</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.406511" lon="5.699958">
+	<type>WPT</type>
+	<name>MG 6</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.401392" lon="5.681581">
+	<type>WPT</type>
+	<name>MG 1A</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.403008" lon="5.693656">
+	<type>WPT</type>
+	<name>MG 4</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.411972" lon="5.707819">
+	<type>WPT</type>
+	<name>MG 8</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.416175" lon="5.715672">
+	<type>WPT</type>
+	<name>MG 10</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.423306" lon="5.725075">
+	<type>WPT</type>
+	<name>MG 12</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.429581" lon="5.755119">
+	<type>WPT</type>
+	<name>MG 15-KG 14</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.427442" lon="5.731639">
+	<type>WPT</type>
+	<name>MG 5</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.429603" lon="5.759619">
+	<type>WPT</type>
+	<name>MG 18</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.422433" lon="5.726547">
+	<type>WPT</type>
+	<name>MG 3</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432694" lon="5.750853">
+	<type>WPT</type>
+	<name>MG 16</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.4315" lon="5.750578">
+	<type>WPT</type>
+	<name>MG 13</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431072" lon="5.734039">
+	<type>WPT</type>
+	<name>MG 7</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431989" lon="5.73355">
+	<type>WPT</type>
+	<name>MG 14-BB 1</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.432481" lon="5.744008">
+	<type>WPT</type>
+	<name>MG 11</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.433003" lon="5.737614">
+	<type>WPT</type>
+	<name>MG 9</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.434172" lon="5.737397">
+	<type>WPT</type>
+	<name>MG 14A</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.401508" lon="5.689097">
+	<type>WPT</type>
+	<name>MG 2A</name>
+	<desc>Vaarwater: MOLENGAT (ONDER AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.521411" lon="5.924244">
+	<type>WPT</type>
+	<name>NAM 21</name>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Geel</desc>
+	<sym>Sphere_Yellow</sym>
+</wpt>
+<wpt lat="53.57175" lon="6.632483">
+	<type>WPT</type>
+	<name>MEET</name>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Geel
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Geel</desc>
+	<sym>Sphere_Yellow</sym>
+</wpt>
+<wpt lat="53.476278" lon="5.773169">
+	<type>WPT</type>
+	<name>PIPE-N 1</name>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Wit</desc>
+	<sym>Pillar_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.481614" lon="5.822206">
+	<type>WPT</type>
+	<name>PIPE-N 2</name>
+	<desc>Vaarwater: NOORDZEE
+Kleur: Zwart/geel
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Wit</desc>
+	<sym>Pillar_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.413389" lon="6.218847">
+	<type>WPT</type>
+	<name>O 1</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.419919" lon="6.229653">
+	<type>WPT</type>
+	<name>O 4</name>
+	<desc>Vaarwater: OORT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.416714" lon="6.218611">
+	<type>WPT</type>
+	<name>O 2</name>
+	<desc>Vaarwater: OORT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.416339" lon="6.234094">
+	<type>WPT</type>
+	<name>O 3</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.42285" lon="6.240842">
+	<type>WPT</type>
+	<name>O 5</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.429089" lon="6.248108">
+	<type>WPT</type>
+	<name>O 7</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432936" lon="6.281064">
+	<type>WPT</type>
+	<name>O 19</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.433664" lon="6.273556">
+	<type>WPT</type>
+	<name>O 17</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432781" lon="6.253003">
+	<type>WPT</type>
+	<name>O 9</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.434447" lon="6.264847">
+	<type>WPT</type>
+	<name>O 15</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.437089" lon="6.259936">
+	<type>WPT</type>
+	<name>O 13</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.435675" lon="6.256744">
+	<type>WPT</type>
+	<name>O 11</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.416297" lon="6.206747">
+	<type>WPT</type>
+	<name>SURF VERBOD</name>
+	<desc>Vaarwater: OORT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.412494" lon="6.218453">
+	<type>WPT</type>
+	<name>O-KB 1</name>
+	<desc>Vaarwater: OORT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.417781" lon="6.220436">
+	<type>WPT</type>
+	<name>O-KB 2</name>
+	<desc>Vaarwater: OORT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.430539" lon="6.289064">
+	<type>WPT</type>
+	<name>O 21</name>
+	<desc>Vaarwater: OORT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.389242" lon="5.513911">
+	<type>WPT</type>
+	<name>O 64</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.391661" lon="5.520531">
+	<type>WPT</type>
+	<name>O 66</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.394347" lon="5.528206">
+	<type>WPT</type>
+	<name>O 68</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.396844" lon="5.535722">
+	<type>WPT</type>
+	<name>O 70</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.398011" lon="5.544756">
+	<type>WPT</type>
+	<name>O 72</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.398625" lon="5.554228">
+	<type>WPT</type>
+	<name>O 74</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.397158" lon="5.573914">
+	<type>WPT</type>
+	<name>O 19</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.397861" lon="5.584592">
+	<type>WPT</type>
+	<name>O 21</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.401628" lon="5.587917">
+	<type>WPT</type>
+	<name>O 23</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.405403" lon="5.588686">
+	<type>WPT</type>
+	<name>O 25</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.398117" lon="5.564297">
+	<type>WPT</type>
+	<name>O 76</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.398506" lon="5.574072">
+	<type>WPT</type>
+	<name>O 78</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.394283" lon="5.567883">
+	<type>WPT</type>
+	<name>O-NBW</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.398583" lon="5.582447">
+	<type>WPT</type>
+	<name>O 80</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.402019" lon="5.585664">
+	<type>WPT</type>
+	<name>O 82</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.405272" lon="5.586281">
+	<type>WPT</type>
+	<name>O 84</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.411611" lon="5.583603">
+	<type>WPT</type>
+	<name>O 27-BB 2</name>
+	<desc>Vaarwater: OOSTEROM
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.494283" lon="6.413586">
+	<type>WPT</type>
+	<name>EB 28</name>
+	<desc>Vaarwater: OPHEF LOCATIE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.518333" lon="6.667494">
+	<type>WPT</type>
+	<name>OWE-NBW</name>
+	<desc>Vaarwater: OUDE WESTEEMS
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.5118" lon="6.029003">
+	<type>WPT</type>
+	<name>WRAK-OW-Z</name>
+	<desc>Vaarwater: OUDE WESTGAT
+Kleur: Geel/zwart</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.514897" lon="6.032231">
+	<type>WPT</type>
+	<name>WRAK-OW-N</name>
+	<desc>Vaarwater: OUDE WESTGAT
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.319186" lon="7.017511">
+	<type>WPT</type>
+	<name>PS-O/REDE</name>
+	<desc>Vaarwater: PAAP SAND
+Kleur: Geel
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.320531" lon="7.00565">
+	<type>WPT</type>
+	<name>PS 3</name>
+	<desc>Vaarwater: PAAP SAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.424486" lon="6.052914">
+	<type>WPT</type>
+	<name>PR 1</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.425853" lon="6.057297">
+	<type>WPT</type>
+	<name>PR 3</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.427261" lon="6.062811">
+	<type>WPT</type>
+	<name>PR 5</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.430017" lon="6.075942">
+	<type>WPT</type>
+	<name>PR 2</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432617" lon="6.076317">
+	<type>WPT</type>
+	<name>PR 4</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.427453" lon="6.068681">
+	<type>WPT</type>
+	<name>PR 7</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.435631" lon="6.076031">
+	<type>WPT</type>
+	<name>PR 6</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.427647" lon="6.073947">
+	<type>WPT</type>
+	<name>PR 9</name>
+	<desc>Vaarwater: PAESENSREDE
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.465519" lon="6.440678">
+	<type>WPT</type>
+	<name>PW 4</name>
+	<desc>Vaarwater: PIETERBUREN WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.463189" lon="6.445214">
+	<type>WPT</type>
+	<name>PW 6</name>
+	<desc>Vaarwater: PIETERBUREN WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.460244" lon="6.448153">
+	<type>WPT</type>
+	<name>PW 8</name>
+	<desc>Vaarwater: PIETERBUREN WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.458686" lon="6.451575">
+	<type>WPT</type>
+	<name>PW 10</name>
+	<desc>Vaarwater: PIETERBUREN WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.459317" lon="6.45575">
+	<type>WPT</type>
+	<name>PW 12</name>
+	<desc>Vaarwater: PIETERBUREN WAD
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.492697" lon="6.664272">
+	<type>WPT</type>
+	<name>R 10</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.494539" lon="6.668394">
+	<type>WPT</type>
+	<name>R 12</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.495097" lon="6.675117">
+	<type>WPT</type>
+	<name>R 14</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.494594" lon="6.6803">
+	<type>WPT</type>
+	<name>R 16</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.501642" lon="6.697394">
+	<type>WPT</type>
+	<name>R 1</name>
+	<desc>Vaarwater: RA
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.494528" lon="6.686403">
+	<type>WPT</type>
+	<name>R 18</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.495011" lon="6.691436">
+	<type>WPT</type>
+	<name>R 20</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.504156" lon="6.697228">
+	<type>WPT</type>
+	<name>V-R</name>
+	<desc>Vaarwater: RA
+Kleur: Rood/wit</desc>
+	<sym>Beacon_Sphere_Red_White</sym>
+</wpt>
+<wpt lat="53.481803" lon="6.649411">
+	<type>WPT</type>
+	<name>R 2</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.483133" lon="6.6564">
+	<type>WPT</type>
+	<name>R 4</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.486767" lon="6.658083">
+	<type>WPT</type>
+	<name>R 6</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.489939" lon="6.661628">
+	<type>WPT</type>
+	<name>R 8</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.497686" lon="6.694531">
+	<type>WPT</type>
+	<name>R 22</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.501539" lon="6.695889">
+	<type>WPT</type>
+	<name>R 24</name>
+	<desc>Vaarwater: RA
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.460203" lon="6.178953">
+	<type>WPT</type>
+	<name>R 3</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.459436" lon="6.179089">
+	<type>WPT</type>
+	<name>R 2</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.460947" lon="6.175128">
+	<type>WPT</type>
+	<name>R 4</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.462631" lon="6.171803">
+	<type>WPT</type>
+	<name>R 6</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.463814" lon="6.171422">
+	<type>WPT</type>
+	<name>R 8</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.461022" lon="6.177161">
+	<type>WPT</type>
+	<name>R 5</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.461297" lon="6.173706">
+	<type>WPT</type>
+	<name>R 7</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.461681" lon="6.172689">
+	<type>WPT</type>
+	<name>R 9</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.464289" lon="6.172253">
+	<type>WPT</type>
+	<name>R 10</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.465186" lon="6.172572">
+	<type>WPT</type>
+	<name>R 12</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.466086" lon="6.172511">
+	<type>WPT</type>
+	<name>R 14</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.466628" lon="6.172144">
+	<type>WPT</type>
+	<name>R 16</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.4669" lon="6.171397">
+	<type>WPT</type>
+	<name>R 18</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.466728" lon="6.170189">
+	<type>WPT</type>
+	<name>R 20</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.466692" lon="6.168986">
+	<type>WPT</type>
+	<name>R 22</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.467014" lon="6.167936">
+	<type>WPT</type>
+	<name>R 24</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.467217" lon="6.167483">
+	<type>WPT</type>
+	<name>R 26</name>
+	<desc>Vaarwater: REDE SCHIERMONNIKOOG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.429867" lon="5.7658">
+	<type>WPT</type>
+	<name>R 3</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431147" lon="5.767167">
+	<type>WPT</type>
+	<name>R 5</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431678" lon="5.769858">
+	<type>WPT</type>
+	<name>R 7</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432494" lon="5.771614">
+	<type>WPT</type>
+	<name>R 8</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.432281" lon="5.768603">
+	<type>WPT</type>
+	<name>R 6</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431883" lon="5.7668">
+	<type>WPT</type>
+	<name>R 4</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431656" lon="5.773167">
+	<type>WPT</type>
+	<name>RG-SB 1</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.432156" lon="5.776986">
+	<type>WPT</type>
+	<name>RG-SB 3</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.434017" lon="5.777153">
+	<type>WPT</type>
+	<name>RG-SB 5</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.432839" lon="5.759444">
+	<type>WPT</type>
+	<name>KITE-AML</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Geel</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.440278" lon="5.759511">
+	<type>WPT</type>
+	<name>KITE-AML1</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Geel</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.436136" lon="5.773739">
+	<type>WPT</type>
+	<name>KITE-AML2</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Geel</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.438789" lon="5.773747">
+	<type>WPT</type>
+	<name>KITE-AML3</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Geel</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.429817" lon="5.764217">
+	<type>WPT</type>
+	<name>R 2</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.430714" lon="5.766256">
+	<type>WPT</type>
+	<name>R 3A</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.431033" lon="5.764983">
+	<type>WPT</type>
+	<name>R 2A</name>
+	<desc>Vaarwater: REEGEUL
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.460067" lon="6.458717">
+	<type>WPT</type>
+	<name>RG 2</name>
+	<desc>Vaarwater: ROBBENGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.461881" lon="6.462669">
+	<type>WPT</type>
+	<name>RG 4</name>
+	<desc>Vaarwater: ROBBENGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.403614" lon="5.740531">
+	<type>WPT</type>
+	<name>SCH 1</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.405419" lon="5.738142">
+	<type>WPT</type>
+	<name>SCH 2-KG 1</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Geel/zwart</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.409689" lon="5.751711">
+	<type>WPT</type>
+	<name>SCH 3</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.411403" lon="5.749919">
+	<type>WPT</type>
+	<name>SCH 4</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.419175" lon="5.76465">
+	<type>WPT</type>
+	<name>SCH 5</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.419897" lon="5.763528">
+	<type>WPT</type>
+	<name>SCH 6</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.420878" lon="5.770606">
+	<type>WPT</type>
+	<name>SCH 7</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421944" lon="5.769714">
+	<type>WPT</type>
+	<name>SCH 8</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.421764" lon="5.778503">
+	<type>WPT</type>
+	<name>SCH 9</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.413453" lon="5.755803">
+	<type>WPT</type>
+	<name>SCH 4A</name>
+	<desc>Vaarwater: SCHEEPSGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.504256" lon="6.538014">
+	<type>WPT</type>
+	<name>S 2</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.520528" lon="6.536567">
+	<type>WPT</type>
+	<name>S 1</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.526667" lon="6.537142">
+	<type>WPT</type>
+	<name>S 3</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.534336" lon="6.540406">
+	<type>WPT</type>
+	<name>S 5</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.544164" lon="6.538494">
+	<type>WPT</type>
+	<name>S-NBW 2</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.512922" lon="6.538692">
+	<type>WPT</type>
+	<name>S 4</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.542997" lon="6.519614">
+	<type>WPT</type>
+	<name>S-NBW 1</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.5258" lon="6.556467">
+	<type>WPT</type>
+	<name>S-NBW 3</name>
+	<desc>Vaarwater: SCHILD
+Kleur: Geel</desc>
+	<sym>Can_Yellow</sym>
+</wpt>
+<wpt lat="53.452825" lon="6.029569">
+	<type>WPT</type>
+	<name>SG 7</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.456436" lon="6.026236">
+	<type>WPT</type>
+	<name>SG 5</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.458036" lon="6.020992">
+	<type>WPT</type>
+	<name>SG 3</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.458789" lon="6.014378">
+	<type>WPT</type>
+	<name>SG 1</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.448564" lon="6.031733">
+	<type>WPT</type>
+	<name>SG 9</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.459128" lon="6.0189">
+	<type>WPT</type>
+	<name>SG 2</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.444461" lon="6.030797">
+	<type>WPT</type>
+	<name>SG 11</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.441794" lon="6.028728">
+	<type>WPT</type>
+	<name>SG 13</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.439356" lon="6.027036">
+	<type>WPT</type>
+	<name>SG 15</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.436428" lon="6.020972">
+	<type>WPT</type>
+	<name>SG 17</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.427136" lon="6.027906">
+	<type>WPT</type>
+	<name>SG 27</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.429486" lon="6.025233">
+	<type>WPT</type>
+	<name>SG 25</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.435997" lon="6.017431">
+	<type>WPT</type>
+	<name>SG 19</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.430722" lon="6.020964">
+	<type>WPT</type>
+	<name>SG 23</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.433031" lon="6.017914">
+	<type>WPT</type>
+	<name>SG 21</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.423708" lon="6.030489">
+	<type>WPT</type>
+	<name>SG-WW</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Zwart/geel/zwart</desc>
+	<sym>Beacon_Black_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.4646" lon="6.062233">
+	<type>WPT</type>
+	<name>SG-NBW</name>
+	<desc>Vaarwater: SMERIGGAT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.548664" lon="6.623661">
+	<type>WPT</type>
+	<name>SPA-NBW</name>
+	<desc>Vaarwater: SPARREGAT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.443036" lon="6.397081">
+	<type>WPT</type>
+	<name>SP 2</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.443211" lon="6.401678">
+	<type>WPT</type>
+	<name>SP 1</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.444928" lon="6.406083">
+	<type>WPT</type>
+	<name>SP 3</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.450658" lon="6.408478">
+	<type>WPT</type>
+	<name>SP 5</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.453058" lon="6.416739">
+	<type>WPT</type>
+	<name>SP 4</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.455339" lon="6.423267">
+	<type>WPT</type>
+	<name>SP 6</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.456856" lon="6.4297">
+	<type>WPT</type>
+	<name>SP 8</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.458783" lon="6.435319">
+	<type>WPT</type>
+	<name>SP 10</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.470536" lon="6.432292">
+	<type>WPT</type>
+	<name>SP 12</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.527736" lon="6.431275">
+	<type>WPT</type>
+	<name>SP 18</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.452289" lon="6.417397">
+	<type>WPT</type>
+	<name>SP 7</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.456481" lon="6.431497">
+	<type>WPT</type>
+	<name>SP 9</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.465961" lon="6.436697">
+	<type>WPT</type>
+	<name>SP 11-PW 2</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.484097" lon="6.427653">
+	<type>WPT</type>
+	<name>SP 13</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.493836" lon="6.423819">
+	<type>WPT</type>
+	<name>SP 15</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.500483" lon="6.424053">
+	<type>WPT</type>
+	<name>SP 17</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.508264" lon="6.428089">
+	<type>WPT</type>
+	<name>SP 19</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.515281" lon="6.432631">
+	<type>WPT</type>
+	<name>SP 21</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.477036" lon="6.428911">
+	<type>WPT</type>
+	<name>SP 14</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.519814" lon="6.427917">
+	<type>WPT</type>
+	<name>SP 16</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.53455" lon="6.4331">
+	<type>WPT</type>
+	<name>SP 20</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.491558" lon="6.416986">
+	<type>WPT</type>
+	<name>SP 14A-EB 33</name>
+	<desc>Vaarwater: SPRUIT
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.331281" lon="5.584286">
+	<type>WPT</type>
+	<name>VH 2</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.331206" lon="5.575131">
+	<type>WPT</type>
+	<name>VH 1</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.336633" lon="5.586956">
+	<type>WPT</type>
+	<name>VH 4</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.330931" lon="5.579781">
+	<type>WPT</type>
+	<name>VH 3</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.339808" lon="5.589731">
+	<type>WPT</type>
+	<name>VH 6</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.342139" lon="5.594756">
+	<type>WPT</type>
+	<name>VH 8</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.343744" lon="5.602628">
+	<type>WPT</type>
+	<name>VH 10</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.349372" lon="5.617253">
+	<type>WPT</type>
+	<name>VH 5</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.345694" lon="5.614831">
+	<type>WPT</type>
+	<name>VH 14</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.357472" lon="5.654694">
+	<type>WPT</type>
+	<name>VH 26</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.36015" lon="5.620317">
+	<type>WPT</type>
+	<name>VH 16</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.354733" lon="5.632903">
+	<type>WPT</type>
+	<name>VH 20</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.356244" lon="5.640719">
+	<type>WPT</type>
+	<name>VH 22</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.3565" lon="5.647181">
+	<type>WPT</type>
+	<name>VH 24</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.357458" lon="5.660853">
+	<type>WPT</type>
+	<name>VH 7</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.358178" lon="5.660706">
+	<type>WPT</type>
+	<name>VH 28</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.360853" lon="5.670186">
+	<type>WPT</type>
+	<name>VH 30</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.359244" lon="5.666272">
+	<type>WPT</type>
+	<name>VH 9</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.362456" lon="5.675606">
+	<type>WPT</type>
+	<name>VH 32</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.366353" lon="5.679986">
+	<type>WPT</type>
+	<name>VH 34</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.368356" lon="5.688264">
+	<type>WPT</type>
+	<name>VH 36</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.36665" lon="5.68705">
+	<type>WPT</type>
+	<name>VH 11</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.369414" lon="5.695031">
+	<type>WPT</type>
+	<name>VH 38</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.372464" lon="5.697156">
+	<type>WPT</type>
+	<name>VH 40</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.376236" lon="5.698836">
+	<type>WPT</type>
+	<name>VH 13</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.374803" lon="5.696872">
+	<type>WPT</type>
+	<name>VH 42</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.382464" lon="5.687611">
+	<type>WPT</type>
+	<name>VH 44</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.385261" lon="5.682972">
+	<type>WPT</type>
+	<name>VH 46</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.386689" lon="5.686889">
+	<type>WPT</type>
+	<name>VH 15</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.388869" lon="5.676986">
+	<type>WPT</type>
+	<name>VH 48</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.390925" lon="5.681356">
+	<type>WPT</type>
+	<name>VH 17</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.344439" lon="5.612481">
+	<type>WPT</type>
+	<name>VH 12</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.369806" lon="5.703072">
+	<type>WPT</type>
+	<name>VH-NBW</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.355389" lon="5.619539">
+	<type>WPT</type>
+	<name>VH 5A</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.3534" lon="5.625386">
+	<type>WPT</type>
+	<name>VH 18A</name>
+	<desc>Vaarwater: VAARWATER VAN DE ZWARTE HAAN
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.429097" lon="5.766394">
+	<type>WPT</type>
+	<name>VA 2-R 1</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Geel/zwart
+Lichtkarakter: quick-flash plus long- flash
+Lichtkleur: Wit</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.427892" lon="5.76435">
+	<type>WPT</type>
+	<name>VA 1</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.426067" lon="5.7711">
+	<type>WPT</type>
+	<name>VA 3</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.421083" lon="5.78625">
+	<type>WPT</type>
+	<name>VA 7</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.426114" lon="5.774656">
+	<type>WPT</type>
+	<name>VA 4</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.423411" lon="5.777578">
+	<type>WPT</type>
+	<name>VA 5-SCH 10</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen/rood/groen
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.403356" lon="5.806761">
+	<type>WPT</type>
+	<name>VA 12B</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.403806" lon="5.819317">
+	<type>WPT</type>
+	<name>VA 21</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.423533" lon="5.7792">
+	<type>WPT</type>
+	<name>VA 6</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.414617" lon="5.7974">
+	<type>WPT</type>
+	<name>VA 11</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.420289" lon="5.794817">
+	<type>WPT</type>
+	<name>VA 8-ZS 1</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Geel/zwart/geel
+Lichtkarakter: VQ (very quick-flashing)
+Lichtkleur: Niet toegewezen</desc>
+	<sym>Beacon_Yellow_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.40845" lon="5.800867">
+	<type>WPT</type>
+	<name>VA 13</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.409108" lon="5.802539">
+	<type>WPT</type>
+	<name>VA 12</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.404794" lon="5.844061">
+	<type>WPT</type>
+	<name>VA 24</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.404669" lon="5.803436">
+	<type>WPT</type>
+	<name>VA 15</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.401497" lon="5.808594">
+	<type>WPT</type>
+	<name>VA 17</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.401456" lon="5.813597">
+	<type>WPT</type>
+	<name>VA 19</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.410514" lon="5.829622">
+	<type>WPT</type>
+	<name>VA 18</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.41935" lon="5.794367">
+	<type>WPT</type>
+	<name>VA 9</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.405217" lon="5.819558">
+	<type>WPT</type>
+	<name>VA 16</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.407197" lon="5.825847">
+	<type>WPT</type>
+	<name>VA 23</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.407767" lon="5.841167">
+	<type>WPT</type>
+	<name>VA 22</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.409206" lon="5.829222">
+	<type>WPT</type>
+	<name>VA 25</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.402953" lon="5.81465">
+	<type>WPT</type>
+	<name>VA 14</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.409542" lon="5.834861">
+	<type>WPT</type>
+	<name>VA 27</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.409853" lon="5.836672">
+	<type>WPT</type>
+	<name>VA 20</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.408133" lon="5.838317">
+	<type>WPT</type>
+	<name>VA 29</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.405783" lon="5.841917">
+	<type>WPT</type>
+	<name>VA 31</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.414931" lon="5.798678">
+	<type>WPT</type>
+	<name>VA 10</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.3986" lon="5.843017">
+	<type>WPT</type>
+	<name>VA 35</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.403061" lon="5.843661">
+	<type>WPT</type>
+	<name>VA 33</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.40155" lon="5.8444">
+	<type>WPT</type>
+	<name>VA 26</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.3957" lon="5.873283">
+	<type>WPT</type>
+	<name>VA 42</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.395533" lon="5.84585">
+	<type>WPT</type>
+	<name>VA 37</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.393" lon="5.850017">
+	<type>WPT</type>
+	<name>VA 39</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.3918" lon="5.859783">
+	<type>WPT</type>
+	<name>VA 43</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.39325" lon="5.867467">
+	<type>WPT</type>
+	<name>VA 45</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.391767" lon="5.855047">
+	<type>WPT</type>
+	<name>VA 41</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.399317" lon="5.844133">
+	<type>WPT</type>
+	<name>VA 28</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.397417" lon="5.845483">
+	<type>WPT</type>
+	<name>VA 30</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.395433" lon="5.8478">
+	<type>WPT</type>
+	<name>VA 32</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.393389" lon="5.851653">
+	<type>WPT</type>
+	<name>VA 34</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.392617" lon="5.855433">
+	<type>WPT</type>
+	<name>VA 36</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.3927" lon="5.860214">
+	<type>WPT</type>
+	<name>VA 38</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.393611" lon="5.865364">
+	<type>WPT</type>
+	<name>VA 40</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.405636" lon="5.804678">
+	<type>WPT</type>
+	<name>VA 12A</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.402386" lon="5.809756">
+	<type>WPT</type>
+	<name>VA 12C</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.409961" lon="5.831861">
+	<type>WPT</type>
+	<name>VA 25A</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.40085" lon="5.8429">
+	<type>WPT</type>
+	<name>VA 33A</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.407383" lon="5.823775">
+	<type>WPT</type>
+	<name>VA 16A</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.417683" lon="5.795917">
+	<type>WPT</type>
+	<name>VA 9A</name>
+	<desc>Vaarwater: VEERBOOT ROUTE AMELAND
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.410958" lon="6.273919">
+	<type>WPT</type>
+	<name>WN</name>
+	<desc>Vaarwater: VIERHUIZERGAT
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.414667" lon="6.265">
+	<type>WPT</type>
+	<name>VHG-NBW</name>
+	<desc>Vaarwater: VIERHUIZERGAT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.319056" lon="5.558269">
+	<type>WPT</type>
+	<name>V-KL 3</name>
+	<desc>Vaarwater: VINGEGAT
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.321928" lon="5.560683">
+	<type>WPT</type>
+	<name>V 27</name>
+	<desc>Vaarwater: VINGEGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.326456" lon="5.566856">
+	<type>WPT</type>
+	<name>V 29</name>
+	<desc>Vaarwater: VINGEGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.330044" lon="5.571822">
+	<type>WPT</type>
+	<name>ABT</name>
+	<desc>Vaarwater: VINGEGAT
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.353642" lon="5.543014">
+	<type>WPT</type>
+	<name>WG-L</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.354375" lon="5.551947">
+	<type>WPT</type>
+	<name>WG-M</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.354878" lon="5.560869">
+	<type>WPT</type>
+	<name>WG-N</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.358433" lon="5.567653">
+	<type>WPT</type>
+	<name>WG-O</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.361628" lon="5.574997">
+	<type>WPT</type>
+	<name>WG-P</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.363758" lon="5.583439">
+	<type>WPT</type>
+	<name>WG-Q</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.364667" lon="5.592567">
+	<type>WPT</type>
+	<name>WG-R</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.36965" lon="5.597483">
+	<type>WPT</type>
+	<name>WG-S</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.375325" lon="5.601311">
+	<type>WPT</type>
+	<name>WG-T</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.379133" lon="5.607917">
+	<type>WPT</type>
+	<name>WG-U</name>
+	<desc>Vaarwater: WAARDGRONDEN
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.236522" lon="7.174297">
+	<type>WPT</type>
+	<name>WDO 1</name>
+	<desc>Vaarwater: [WANTIJ]DOLLARD
+Kleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.455144" lon="6.570786">
+	<type>WPT</type>
+	<name>WNP 1</name>
+	<desc>Vaarwater: [WANTIJ]NOORDPOLDERZIJL
+Kleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.401644" lon="5.657181">
+	<type>WPT</type>
+	<name>WA 25</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.457189" lon="5.566347">
+	<type>WPT</type>
+	<name>WA 8</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.401506" lon="5.671206">
+	<type>WPT</type>
+	<name>WA 24-MG 1</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.422664" lon="5.632392">
+	<type>WPT</type>
+	<name>WA 21-KB 8</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.419756" lon="5.646961">
+	<type>WPT</type>
+	<name>WA 20</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.416978" lon="5.644236">
+	<type>WPT</type>
+	<name>WA 23</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.424772" lon="5.634361">
+	<type>WPT</type>
+	<name>WA 18</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.429264" lon="5.611331">
+	<type>WPT</type>
+	<name>WA 19-BB 20</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.432042" lon="5.620839">
+	<type>WPT</type>
+	<name>WA 16</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.438719" lon="5.598622">
+	<type>WPT</type>
+	<name>WA 17</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.441158" lon="5.607494">
+	<type>WPT</type>
+	<name>WA 14</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.450144" lon="5.590403">
+	<type>WPT</type>
+	<name>WA 15</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.455681" lon="5.552794">
+	<type>WPT</type>
+	<name>WA 9</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.455964" lon="5.543914">
+	<type>WPT</type>
+	<name>WA 7-BG 2</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.455125" lon="5.565736">
+	<type>WPT</type>
+	<name>WA 11</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.463281" lon="5.507956">
+	<type>WPT</type>
+	<name>WA 3</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.452678" lon="5.580103">
+	<type>WPT</type>
+	<name>WA 13</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.460206" lon="5.526917">
+	<type>WPT</type>
+	<name>WA 2</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.451122" lon="5.596728">
+	<type>WPT</type>
+	<name>WA 12</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.454739" lon="5.581389">
+	<type>WPT</type>
+	<name>WA 10</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.431433" lon="5.60755">
+	<type>WPT</type>
+	<name>WA-NBW</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.458825" lon="5.554311">
+	<type>WPT</type>
+	<name>WA 6</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.457875" lon="5.523297">
+	<type>WPT</type>
+	<name>WA 5</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.458389" lon="5.543019">
+	<type>WPT</type>
+	<name>WA 4</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.425967" lon="5.614">
+	<type>WPT</type>
+	<name>WA ANKER NOORD</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.4208" lon="5.620217">
+	<type>WPT</type>
+	<name>WA ANKER ZUID</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.411644" lon="5.657889">
+	<type>WPT</type>
+	<name>WA 22</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.405564" lon="5.664617">
+	<type>WPT</type>
+	<name>WA 22A</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.425347" lon="5.637519">
+	<type>WPT</type>
+	<name>WA-WEST</name>
+	<desc>Vaarwater: WESTGAT (AMELAND)
+Kleur: Geel/zwart/geel</desc>
+	<sym>Beacon_Yellow_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.466906" lon="6.067047">
+	<type>WPT</type>
+	<name>WG 15</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.466883" lon="6.070961">
+	<type>WPT</type>
+	<name>WG 16</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.470967" lon="6.085308">
+	<type>WPT</type>
+	<name>WK INGA</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Geel/zwart/geel</desc>
+	<sym>Beacon_Yellow_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.501536" lon="6.076186">
+	<type>WPT</type>
+	<name>WG 9</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.515933" lon="6.056517">
+	<type>WPT</type>
+	<name>WG 8</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.51415" lon="6.054233">
+	<type>WPT</type>
+	<name>WG 7</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.516644" lon="6.068783">
+	<type>WPT</type>
+	<name>KAI</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.5196" lon="6.051533">
+	<type>WPT</type>
+	<name>WG 6</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.51805" lon="6.048633">
+	<type>WPT</type>
+	<name>WG 5</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.523083" lon="6.046833">
+	<type>WPT</type>
+	<name>WG 4</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.521483" lon="6.043567">
+	<type>WPT</type>
+	<name>WG 3</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.5326" lon="6.030683">
+	<type>WPT</type>
+	<name>WG</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood/wit
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Wit</desc>
+	<sym>Sphere_Sphere_Red_White</sym>
+</wpt>
+<wpt lat="53.502944" lon="6.081483">
+	<type>WPT</type>
+	<name>WG 10</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.524483" lon="6.0378">
+	<type>WPT</type>
+	<name>WG 1</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: VQ (very quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.526883" lon="6.04275">
+	<type>WPT</type>
+	<name>WG 2</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: VQ (very quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.478269" lon="6.075511">
+	<type>WPT</type>
+	<name>WG 14</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.479189" lon="6.071611">
+	<type>WPT</type>
+	<name>WG 13</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.490156" lon="6.078867">
+	<type>WPT</type>
+	<name>WG 11</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.4915" lon="6.085967">
+	<type>WPT</type>
+	<name>WG 12</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.456308" lon="6.065822">
+	<type>WPT</type>
+	<name>WG 17</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.456283" lon="6.070644">
+	<type>WPT</type>
+	<name>WG 18</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.512214" lon="6.067256">
+	<type>WPT</type>
+	<name>WG 7A</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.513692" lon="6.071408">
+	<type>WPT</type>
+	<name>WG 8A</name>
+	<desc>Vaarwater: WESTGAT (FRIESCHE ZEEGAT)
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.414858" lon="6.194361">
+	<type>WPT</type>
+	<name>Z 15</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.418483" lon="6.163106">
+	<type>WPT</type>
+	<name>Z-KL 3</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.418308" lon="6.189236">
+	<type>WPT</type>
+	<name>Z 13</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.42005" lon="6.190697">
+	<type>WPT</type>
+	<name>Z 16</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood
+Lichtkarakter: Iso (isophased)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.423967" lon="6.169417">
+	<type>WPT</type>
+	<name>Z 11</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.425794" lon="6.171097">
+	<type>WPT</type>
+	<name>Z 12</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.427203" lon="6.166453">
+	<type>WPT</type>
+	<name>Z-KL 4</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.429933" lon="6.149517">
+	<type>WPT</type>
+	<name>Z 9</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.422833" lon="6.146331">
+	<type>WPT</type>
+	<name>Z-KL 1</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.429547" lon="6.125356">
+	<type>WPT</type>
+	<name>Z-W</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.43145" lon="6.1512">
+	<type>WPT</type>
+	<name>Z 10</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood
+Lichtkarakter: Q (quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.431056" lon="6.128169">
+	<type>WPT</type>
+	<name>Z 7</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.432167" lon="6.153081">
+	<type>WPT</type>
+	<name>Z-KL 2</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.435508" lon="6.089875">
+	<type>WPT</type>
+	<name>Z 5</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.433528" lon="6.140883">
+	<type>WPT</type>
+	<name>Z 8-GL 1</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood/groen/rood
+Lichtkarakter: Fl (flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.437167" lon="6.113225">
+	<type>WPT</type>
+	<name>Z 6-GVS 1</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.439081" lon="6.093697">
+	<type>WPT</type>
+	<name>Z 4</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.439153" lon="6.081058">
+	<type>WPT</type>
+	<name>Z 3-PR 8</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.445492" lon="6.072731">
+	<type>WPT</type>
+	<name>Z 1</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen
+Lichtkarakter: VQ (very quick-flashing)
+Lichtkleur: Groen</desc>
+	<sym>Cone_Green</sym>
+</wpt>
+<wpt lat="53.446717" lon="6.077864">
+	<type>WPT</type>
+	<name>Z 2</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood
+Lichtkarakter: VQ (very quick-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.424344" lon="6.180097">
+	<type>WPT</type>
+	<name>Z 14-BZ 19</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood/groen/rood</desc>
+	<sym>Beacon_Red_Green_Red</sym>
+</wpt>
+<wpt lat="53.417394" lon="6.201164">
+	<type>WPT</type>
+	<name>Z 18</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood
+Lichtkarakter: LFl (long-flashing)
+Lichtkleur: Rood</desc>
+	<sym>Can_Red</sym>
+</wpt>
+<wpt lat="53.435636" lon="6.1287">
+	<type>WPT</type>
+	<name>Z 6A</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.418372" lon="6.160089">
+	<type>WPT</type>
+	<name>KITE-HVB</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.414458" lon="6.176231">
+	<type>WPT</type>
+	<name>KITE-HVBO</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Cone_Yellow</sym>
+</wpt>
+<wpt lat="53.417381" lon="6.164147">
+	<type>WPT</type>
+	<name>KITE-HVB 1</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Cone_Yellow</sym>
+</wpt>
+<wpt lat="53.416372" lon="6.168436">
+	<type>WPT</type>
+	<name>KITE-HVB 2</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Cone_Yellow</sym>
+</wpt>
+<wpt lat="53.415536" lon="6.172147">
+	<type>WPT</type>
+	<name>KITE-HVB 3</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Cone_Yellow</sym>
+</wpt>
+<wpt lat="53.416189" lon="6.159114">
+	<type>WPT</type>
+	<name>KITE-HVB 4</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Cone_Yellow</sym>
+</wpt>
+<wpt lat="53.413881" lon="6.158294">
+	<type>WPT</type>
+	<name>KITE-HVB 5</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Cone_Yellow</sym>
+</wpt>
+<wpt lat="53.411531" lon="6.157536">
+	<type>WPT</type>
+	<name>KITE-HVB 6</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Geel</desc>
+	<sym>Cone_Yellow</sym>
+</wpt>
+<wpt lat="53.43225" lon="6.108622">
+	<type>WPT</type>
+	<name>Z 5A</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.425692" lon="6.142986">
+	<type>WPT</type>
+	<name>Z-OBSTR</name>
+	<desc>Vaarwater: ZOUTKAMPERLAAG
+Kleur: Zwart/geel</desc>
+	<sym>Beacon_Black_Yellow</sym>
+</wpt>
+<wpt lat="53.418386" lon="5.880542">
+	<type>WPT</type>
+	<name>ZS-KL 3</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.420544" lon="5.882511">
+	<type>WPT</type>
+	<name>ZS 18</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.419072" lon="5.879936">
+	<type>WPT</type>
+	<name>ZS-KL 4</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.418181" lon="5.878194">
+	<type>WPT</type>
+	<name>ZS 16</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.422372" lon="5.886064">
+	<type>WPT</type>
+	<name>ZS 20</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.424881" lon="5.898278">
+	<type>WPT</type>
+	<name>ZS 26</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.423511" lon="5.893147">
+	<type>WPT</type>
+	<name>ZS 24</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.417714" lon="5.871422">
+	<type>WPT</type>
+	<name>ZS 27</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421828" lon="5.804911">
+	<type>WPT</type>
+	<name>ZS 3</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.422853" lon="5.889081">
+	<type>WPT</type>
+	<name>ZS 22</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.415542" lon="5.852747">
+	<type>WPT</type>
+	<name>ZS 17</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.422419" lon="5.814994">
+	<type>WPT</type>
+	<name>ZS 5</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.414258" lon="5.847547">
+	<type>WPT</type>
+	<name>ZS 15</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.418047" lon="5.855592">
+	<type>WPT</type>
+	<name>ZS 12</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.422664" lon="5.796794">
+	<type>WPT</type>
+	<name>ZS 2</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.420794" lon="5.817383">
+	<type>WPT</type>
+	<name>ZS 7</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.417369" lon="5.856078">
+	<type>WPT</type>
+	<name>ZS 19</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.42045" lon="5.86115">
+	<type>WPT</type>
+	<name>ZS 14</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.414786" lon="5.851011">
+	<type>WPT</type>
+	<name>ZS-KL 1</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.418942" lon="5.867978">
+	<type>WPT</type>
+	<name>ZS 25</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.416281" lon="5.835386">
+	<type>WPT</type>
+	<name>ZS 8</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.414156" lon="5.839122">
+	<type>WPT</type>
+	<name>ZS 13</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.414625" lon="5.845897">
+	<type>WPT</type>
+	<name>ZS 10</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.415736" lon="5.849067">
+	<type>WPT</type>
+	<name>ZS-KL 2</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.415617" lon="5.833047">
+	<type>WPT</type>
+	<name>ZS 11</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.419111" lon="5.858881">
+	<type>WPT</type>
+	<name>ZS 21</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.420442" lon="5.863406">
+	<type>WPT</type>
+	<name>ZS 23</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.421672" lon="5.817794">
+	<type>WPT</type>
+	<name>ZS 6</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.418389" lon="5.824278">
+	<type>WPT</type>
+	<name>ZS 9</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.423464" lon="5.812219">
+	<type>WPT</type>
+	<name>ZS 4</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.429439" lon="5.835617">
+	<type>WPT</type>
+	<name>NSA-DAM</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.423356" lon="5.908339">
+	<type>WPT</type>
+	<name>ZS 28</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.422344" lon="5.913442">
+	<type>WPT</type>
+	<name>ZS 30</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.421522" lon="5.916814">
+	<type>WPT</type>
+	<name>ZS 32</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.423356" lon="5.804172">
+	<type>WPT</type>
+	<name>ZS 2A</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.420072" lon="5.919431">
+	<type>WPT</type>
+	<name>ZS 34</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.418894" lon="5.921747">
+	<type>WPT</type>
+	<name>ZS 36</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.434661" lon="5.847356">
+	<type>WPT</type>
+	<name>NSA-GAS 2</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.422806" lon="5.864608">
+	<type>WPT</type>
+	<name>ZS-GAS 2</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.416219" lon="5.852006">
+	<type>WPT</type>
+	<name>ZS 10A</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.420764" lon="5.925681">
+	<type>WPT</type>
+	<name>ZS 38</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.41675" lon="5.876675">
+	<type>WPT</type>
+	<name>ZS 29</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.425489" lon="5.90295">
+	<type>WPT</type>
+	<name>ZS 31</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.425256" lon="5.905053">
+	<type>WPT</type>
+	<name>ZS 33</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.423906" lon="5.906164">
+	<type>WPT</type>
+	<name>ZS 35</name>
+	<desc>Vaarwater: ZUIDERSPRUIT AMELAND
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.452469" lon="6.526989">
+	<type>WPT</type>
+	<name>ZOL 18</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.447311" lon="6.506986">
+	<type>WPT</type>
+	<name>ZOL 15</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.455717" lon="6.538878">
+	<type>WPT</type>
+	<name>ZOL 20</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.451203" lon="6.494214">
+	<type>WPT</type>
+	<name>ZOL 13</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.455942" lon="6.496475">
+	<type>WPT</type>
+	<name>OBSTR ZUID</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Geel/zwart</desc>
+	<sym>Beacon_Yellow_Black</sym>
+</wpt>
+<wpt lat="53.50585" lon="6.462769">
+	<type>WPT</type>
+	<name>ZOL 2</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.471069" lon="6.582756">
+	<type>WPT</type>
+	<name>ZOL 30</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.464328" lon="6.564797">
+	<type>WPT</type>
+	<name>ZOL 17-VN 2</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.458606" lon="6.485447">
+	<type>WPT</type>
+	<name>ZOL 11</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.460236" lon="6.551014">
+	<type>WPT</type>
+	<name>ZOL 22</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.4501" lon="6.513664">
+	<type>WPT</type>
+	<name>ZOL 16</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.473442" lon="6.588092">
+	<type>WPT</type>
+	<name>ZOL 32</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.467978" lon="6.577247">
+	<type>WPT</type>
+	<name>ZOL 28</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.478286" lon="6.588831">
+	<type>WPT</type>
+	<name>ZOL 34</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.480639" lon="6.591606">
+	<type>WPT</type>
+	<name>ZOL 36</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.480431" lon="6.599133">
+	<type>WPT</type>
+	<name>ZOL 38</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.467078" lon="6.568186">
+	<type>WPT</type>
+	<name>ZOL 26</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.466081" lon="6.560628">
+	<type>WPT</type>
+	<name>ZOL 24</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.462183" lon="6.477411">
+	<type>WPT</type>
+	<name>ZOL 9</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.449522" lon="6.501022">
+	<type>WPT</type>
+	<name>ZOL 14</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.476972" lon="6.612139">
+	<type>WPT</type>
+	<name>ZOL 42</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.478525" lon="6.618661">
+	<type>WPT</type>
+	<name>ZOL 44</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.462039" lon="6.483578">
+	<type>WPT</type>
+	<name>ZOL 12</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.479533" lon="6.625544">
+	<type>WPT</type>
+	<name>ZOL 46</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.471789" lon="6.448286">
+	<type>WPT</type>
+	<name>ZOL 8</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.464358" lon="6.465419">
+	<type>WPT</type>
+	<name>ZOL 7-RG 6</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen/rood/groen</desc>
+	<sym>Beacon_Green_Red_Green</sym>
+</wpt>
+<wpt lat="53.478208" lon="6.605547">
+	<type>WPT</type>
+	<name>ZOL 40</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.484111" lon="6.441661">
+	<type>WPT</type>
+	<name>ZOL 6</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.498911" lon="6.449861">
+	<type>WPT</type>
+	<name>ZOL 4</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.491489" lon="6.440561">
+	<type>WPT</type>
+	<name>ZOL 5</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.506289" lon="6.459036">
+	<type>WPT</type>
+	<name>ZOL 3</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.511575" lon="6.465703">
+	<type>WPT</type>
+	<name>ZOL 1</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.456717" lon="6.501439">
+	<type>WPT</type>
+	<name>ZOL-NBW</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.467161" lon="6.455625">
+	<type>WPT</type>
+	<name>ZOL 10</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.462969" lon="6.565664">
+	<type>WPT</type>
+	<name>VN 1</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.47965" lon="6.631572">
+	<type>WPT</type>
+	<name>ZOL 48</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.479719" lon="6.637894">
+	<type>WPT</type>
+	<name>ZOL 50</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.479703" lon="6.644003">
+	<type>WPT</type>
+	<name>ZOL 52</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.479883" lon="6.646183">
+	<type>WPT</type>
+	<name>ZOL 54</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.4619" lon="6.56805">
+	<type>WPT</type>
+	<name>VN 3</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.460539" lon="6.571147">
+	<type>WPT</type>
+	<name>VN 5</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.478372" lon="6.443631">
+	<type>WPT</type>
+	<name>ZOL 6A</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.466203" lon="6.470133">
+	<type>WPT</type>
+	<name>ZOL 10A</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Rood</desc>
+	<sym>Beacon_Red</sym>
+</wpt>
+<wpt lat="53.479933" lon="6.629294">
+	<type>WPT</type>
+	<name>ZOL-GAS 2</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Geel</desc>
+	<sym>Beacon_Yellow</sym>
+</wpt>
+<wpt lat="53.459533" lon="6.571658">
+	<type>WPT</type>
+	<name>VN 7</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.4583" lon="6.573594">
+	<type>WPT</type>
+	<name>VN 9</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.456767" lon="6.575358">
+	<type>WPT</type>
+	<name>VN 11</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+<wpt lat="53.45505" lon="6.5764">
+	<type>WPT</type>
+	<name>VN 13</name>
+	<desc>Vaarwater: ZUID OOST LAUWERS
+Kleur: Groen</desc>
+	<sym>Beacon_Green</sym>
+</wpt>
+</gpx>
